@@ -19,8 +19,8 @@ const EDGE_COLORS = {
     CROSS_WITNESS: '#a855f7',
 };
 
-// SRT base path relative to web root
-const SRT_BASE = '../docs/output/Zain Hajahjah/سجن الرميلة/SRT-En/طلال الشويمي/';
+// SRT base path — real files copied into web/argus/srt/
+const SRT_BASE = 'srt/';
 
 let fkg = null, atoms = [];
 let nodes = [], edges = [];
@@ -643,11 +643,11 @@ function initFilters() {
     const tiers = ['CONVERGENT', 'CORROBORATED', 'SUPPORTED', 'UNCORROBORATED'];
     activeNodeTypes = new Set(nt); activeEdgeTypes = new Set(et); activeTiers = new Set(tiers);
     buildCB('node-type-filters', nt, activeNodeTypes, NODE_COLORS);
-    buildCB('edge-type-filters', et, activeEdgeTypes, EDGE_COLORS);
+    // Edge filters removed — always show all edges
     buildCB('corr-filters', tiers, activeTiers);
 }
 function buildCB(id, items, set, cm) {
-    const c = document.getElementById(id); c.innerHTML = '';
+    const c = document.getElementById(id); if (!c) return; c.innerHTML = '';
     for (const item of items) {
         const l = document.createElement('label');
         const cb = document.createElement('input');
