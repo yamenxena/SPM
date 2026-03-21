@@ -1,0 +1,284 @@
+{
+  "version": "1.0",
+  "sheet_mappings": [
+    {
+      "sheet_name": "منهجية العمل",
+      "actual_rows": 10,
+      "pairs": [
+        {
+          "ar_col": "B",
+          "ar_header": null,
+          "en_col": "C",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 8
+        },
+        {
+          "ar_col": "C",
+          "ar_header": null,
+          "en_col": "D",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 8
+        },
+        {
+          "ar_col": "G",
+          "ar_header": null,
+          "en_col": "H",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 5
+        },
+        {
+          "ar_col": "H",
+          "ar_header": null,
+          "en_col": "I",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 1
+        }
+      ]
+    },
+    {
+      "sheet_name": "معلومات الموديل  model informat",
+      "actual_rows": 13,
+      "pairs": [
+        {
+          "ar_col": "B",
+          "ar_header": "أمني",
+          "en_col": "C",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 8
+        }
+      ]
+    },
+    {
+      "sheet_name": "Aboutحول",
+      "actual_rows": 2,
+      "pairs": [
+        {
+          "ar_col": "B",
+          "ar_header": "حول السجن",
+          "en_col": "A",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 1
+        },
+        {
+          "ar_col": "C",
+          "ar_header": " بطاقة السجن  30 كلمة ",
+          "en_col": "D",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 1
+        }
+      ]
+    },
+    {
+      "sheet_name": "witnessesالشهود",
+      "actual_rows": 5,
+      "pairs": [
+        {
+          "ar_col": "D",
+          "ar_header": "النص باللغة العربية",
+          "en_col": "A",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 4
+        },
+        {
+          "ar_col": "E",
+          "ar_header": "نص بطاقة الشاهد (30 كلمة)",
+          "en_col": "F",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 4
+        }
+      ]
+    },
+    {
+      "sheet_name": "animationانميشن",
+      "actual_rows": 14,
+      "pairs": [
+        {
+          "ar_col": "A",
+          "ar_header": "معلومات عن الغرفة ",
+          "en_col": "N",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 12
+        },
+        {
+          "ar_col": "B",
+          "ar_header": "Brief explanation of the idea - شرح مختصر للفكرة\n",
+          "en_col": "N",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 12
+        },
+        {
+          "ar_col": "C",
+          "ar_header": "Prisoners - السجناء\n",
+          "en_col": "N",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 12
+        },
+        {
+          "ar_col": "D",
+          "ar_header": "وضعيات السجناء ",
+          "en_col": "N",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 12
+        },
+        {
+          "ar_col": "E",
+          "ar_header": "Torture tools أدوات التعذيب",
+          "en_col": "N",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 12
+        },
+        {
+          "ar_col": "F",
+          "ar_header": "Jailers - السجانين\n",
+          "en_col": "N",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 11
+        },
+        {
+          "ar_col": "G",
+          "ar_header": "Furniture - الأثاث\n",
+          "en_col": "N",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 10
+        },
+        {
+          "ar_col": "I",
+          "ar_header": "Special Tool 1 (Interaction) - أداة خاصة 1 (التفاعل)\n",
+          "en_col": "N",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 7
+        },
+        {
+          "ar_col": "J",
+          "ar_header": "Tool Text 1 (writing 100-word explanation of the tool) Arabic - نص الاداة ١ (كتابة 100 كلمة شرح الاداة) عربي\n",
+          "en_col": "N",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 7
+        }
+      ]
+    },
+    {
+      "sheet_name": "videosالفيديوهات",
+      "actual_rows": 79,
+      "pairs": [
+        {
+          "ar_col": "A",
+          "ar_header": "Name",
+          "en_col": "C",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 78
+        },
+        {
+          "ar_col": "B",
+          "ar_header": "Video title",
+          "en_col": "C",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 60
+        },
+        {
+          "ar_col": "D",
+          "ar_header": "whole subtitle lenght",
+          "en_col": "E",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 21
+        },
+        {
+          "ar_col": "I",
+          "ar_header": "Indoors\\ Outdoors",
+          "en_col": "C",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 20
+        },
+        {
+          "ar_col": "J",
+          "ar_header": "الوصف",
+          "en_col": "K",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 78
+        }
+      ]
+    },
+    {
+      "sheet_name": "Voice Over التسجيلات الصوتية",
+      "actual_rows": 14,
+      "pairs": [
+        {
+          "ar_col": "A",
+          "ar_header": "نصوص التسجيلات الصوتية  (قيد التطوير)",
+          "en_col": "B",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 13
+        }
+      ]
+    },
+    {
+      "sheet_name": "Rooms أسماء الغرف",
+      "actual_rows": 23,
+      "pairs": [
+        {
+          "ar_col": "B",
+          "ar_header": "اسم الغرفة الحالي",
+          "en_col": "C",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 20
+        },
+        {
+          "ar_col": "D",
+          "ar_header": "الاسم بعد التعديل ",
+          "en_col": "A",
+          "en_action": "FILL",
+          "content_type": "label",
+          "cell_count": 19
+        },
+        {
+          "ar_col": "E",
+          "ar_header": "نص ",
+          "en_col": "F",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 19
+        }
+      ]
+    },
+    {
+      "sheet_name": " Evaluationالتقييم",
+      "actual_rows": 5,
+      "pairs": [
+        {
+          "ar_col": "A",
+          "ar_header": null,
+          "en_col": "B",
+          "en_action": "FILL",
+          "content_type": "short_text",
+          "cell_count": 3
+        }
+      ]
+    }
+  ],
+  "source_file": "Al Maraya prison.xlsx"
+}

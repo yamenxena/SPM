@@ -1,0 +1,173 @@
+[
+  {
+    "id": "EDGE_005",
+    "type": "PERPETRATED",
+    "from_node": "Abu_Seif_Maqs",
+    "to_node": "EVT_TORTURE_BEATING_3DAYS",
+    "source_atoms": [
+      "ATOM_014"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  },
+  {
+    "id": "EDGE_006",
+    "type": "PERPETRATED",
+    "from_node": "Abu_Seif_Maqs",
+    "to_node": "EVT_SHABEH_18DAYS",
+    "source_atoms": [
+      "ATOM_014"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  },
+  {
+    "id": "EDGE_007",
+    "type": "PERPETRATED",
+    "from_node": "Abu_Seif_Maqs",
+    "to_node": "EVT_BEARD_DRAGGING_CHOKING",
+    "source_atoms": [
+      "ATOM_015"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  },
+  {
+    "id": "EDGE_008",
+    "type": "PERPETRATED",
+    "from_node": "Abu_Seif_Maqs",
+    "to_node": "EVT_RIB_BREAKING",
+    "source_atoms": [
+      "ATOM_016"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  },
+  {
+    "id": "EDGE_009",
+    "type": "PERPETRATED",
+    "from_node": "Abu_Hudhayfa_Shahada",
+    "to_node": "EVT_ASSAULT_WATER_DEPT",
+    "source_atoms": [
+      "ATOM_008"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  },
+  {
+    "id": "EDGE_009B",
+    "type": "PERPETRATED",
+    "from_node": "Abu_Abdurrahman_Sahou",
+    "to_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+    "source_atoms": [
+      "ATOM_026"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  },
+  {
+    "id": "EDGE_009C",
+    "type": "PERPETRATED",
+    "from_node": "Abu_Seif_Maqs",
+    "to_node": "EVT_ESCAPE_RECAPTURE",
+    "source_atoms": [
+      "ATOM_031"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  },
+  {
+    "id": "EDGE_009D",
+    "type": "PERPETRATED",
+    "from_node": "ISIS_SHARIA_JUDGE",
+    "to_node": "EVT_QISAS_SENTENCING",
+    "source_atoms": [
+      "ATOM_033"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  },
+  {
+    "id": "EDGE_013",
+    "type": "COMMANDED",
+    "from_node": "Abu_Hamza_al_Tunisi",
+    "to_node": "INVESTIGATION_SECTION_RAQQA",
+    "source_atoms": [
+      "ATOM_013"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  },
+  {
+    "id": "EDGE_021",
+    "type": "CROSS_REGIME_TRANSFER",
+    "from_node": "Abu_Hudhayfa_Shahada",
+    "to_node": "SEDNAYA_MILITARY_PRISON",
+    "source_atoms": [
+      "ATOM_009"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED",
+    "note": "Abu Hudhayfa detained in Assad Sednaya (~2000), released, became ISIS emir"
+  },
+  {
+    "id": "EDGE_022",
+    "type": "CROSS_REGIME_TRANSFER",
+    "from_node": "Abu_Humam",
+    "to_node": "POLITICAL_SECURITY_BRANCH",
+    "source_atoms": [
+      "ATOM_021"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED",
+    "note": "Abu Humam was Assad Political Security sergeant, then ISIS Hisba emir"
+  },
+  {
+    "id": "EDGE_041",
+    "type": "PERPETRATED",
+    "from_node": "AIR_FORCE_INTELLIGENCE",
+    "to_node": "EVT_REGIME_DISMISSAL",
+    "source_atoms": [
+      "ATOM_002"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  },
+  {
+    "id": "EDGE_042",
+    "type": "PERPETRATED",
+    "from_node": "ASSAD_REGIME",
+    "to_node": "EVT_SEDNAYA_DETENTION_6YRS",
+    "source_atoms": [
+      "ATOM_003"
+    ],
+    "requires_human_gate": true,
+    "human_approved": false,
+    "corroboration_score": 1,
+    "corroboration_tier": "UNCORROBORATED"
+  }
+]

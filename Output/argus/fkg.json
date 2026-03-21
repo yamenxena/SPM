@@ -1,0 +1,2101 @@
+{
+  "version": "3.0",
+  "agent": "argus",
+  "metadata": {
+    "source": "Talal Mustafa al-Shuweimi testimony",
+    "facility": "Rumaila Prison / Investigation Section, Raqqa",
+    "domain": "ISIS"
+  },
+  "nodes": [
+    {
+      "id": "Talal_Mustafa_al_Shuweimi",
+      "type": "PERSON",
+      "canonical_name": "Talal Mustafa al-Shuweimi",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 19,
+      "corroboration_tier": "CONVERGENT"
+    },
+    {
+      "id": "RAQQA_CITY",
+      "type": "FACILITY",
+      "canonical_name": "Raqqa Province, Sajiyah Street",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "AIR_FORCE_INTELLIGENCE",
+      "type": "ORGANIZATION",
+      "canonical_name": "Assad regime (Air Force Intelligence)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "RAQQA_WATER_DEPARTMENT",
+      "type": "FACILITY",
+      "canonical_name": "Raqqa, Water Department",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "ASSAD_REGIME",
+      "type": "ORGANIZATION",
+      "canonical_name": "Assad regime",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Abdul_Rahim_Shuweimi",
+      "type": "PERSON",
+      "canonical_name": "Talal's brother (Abdul Rahim Shuweimi)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "SEDNAYA_MILITARY_PRISON",
+      "type": "FACILITY",
+      "canonical_name": "Sednaya Military Prison",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "ISIS",
+      "type": "ORGANIZATION",
+      "canonical_name": "ISIS security members",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 12,
+      "corroboration_tier": "CONVERGENT"
+    },
+    {
+      "id": "POINT_11_GOVERNORS_PALACE",
+      "type": "FACILITY",
+      "canonical_name": "Point 11, former Governor's Palace, Raqqa",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+      "type": "FACILITY",
+      "canonical_name": "Old Military Judiciary building near National Hospital, Raqqa",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "Abu_Yousuf_Interrogator",
+      "type": "PERSON",
+      "canonical_name": "Abu Yousuf (Khameesi family, from Tabqa)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Abu_Abdurrahman_Sahou",
+      "type": "PERSON",
+      "canonical_name": "Abu Abdurrahman (Mahmoud al-Ali al-Sahou, Ghanem al-Zahir clan, from Jaif area)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "04_التحقيق_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "UNNAMED_VAN_DRIVER",
+      "type": "PERSON",
+      "canonical_name": "unnamed prisoner (van driver from Kalta area)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "04_التحقيق_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Abu_Hudhayfa_Shahada",
+      "type": "PERSON",
+      "canonical_name": "Abu Hudhayfa (Mahmoud al-Shahada, Ghanem al-Zahir clan)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "HISBA",
+      "type": "ORGANIZATION",
+      "canonical_name": "Hisba (religious police)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "PANORAMA_HISBA_BASE",
+      "type": "FACILITY",
+      "canonical_name": "16th Street, Raqqa → Panorama Hisba base (Maqs Roundabout)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Abu_Bishr",
+      "type": "PERSON",
+      "canonical_name": "Abu Bishr (Saudi national)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "Abu_Seif_Maqs",
+      "type": "PERSON",
+      "canonical_name": "Abu Seif Maqs (Mustafa al-Hamid al-Muslih, Wahb clan)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 7,
+      "corroboration_tier": "CONVERGENT"
+    },
+    {
+      "id": "INVESTIGATION_SECTION_RAQQA",
+      "type": "FACILITY",
+      "canonical_name": "Hisba / Investigation Section, Raqqa",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 9,
+      "corroboration_tier": "CONVERGENT"
+    },
+    {
+      "id": "Abu_Hamza_al_Tunisi",
+      "type": "PERSON",
+      "canonical_name": "Abu Hamza al-Tunisi",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "03_سجن التحري_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "Ibrahim_al_Fakkash_Bariwi",
+      "type": "PERSON",
+      "canonical_name": "Ibrahim al-Fakkash (al-Bariwi, Shibli Salamah clan)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "RUMAILA_PRISON",
+      "type": "FACILITY",
+      "canonical_name": "Investigation Section / Rumaila Prison",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "Ibrahim_Abu_Nashwa",
+      "type": "PERSON",
+      "canonical_name": "Ibrahim Abu Nashwa (Ibrahim al-Ali al-Alkan)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Ibrahim_Ayyoub_Shantar",
+      "type": "PERSON",
+      "canonical_name": "Ibrahim Ayyoub (Shantar)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Abu_Humam",
+      "type": "PERSON",
+      "canonical_name": "Abu Humam (Issa, Jais clan)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "02_الاعتقال_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "HISBA_SAJIYAH_STREET",
+      "type": "FACILITY",
+      "canonical_name": "Hisba base, Sajiyah Street / Atiya Bakery Street",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "02_الاعتقال_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "ISIS_INFORMANTS",
+      "type": "PERSON",
+      "canonical_name": "ISIS informants (Abdullah al-Bou Saraya, Abdullah al-Asaad)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "05_المحققين_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Abu_Suhaib_al_Tunisi",
+      "type": "PERSON",
+      "canonical_name": "Abu Suhaib al-Tunisi",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "04_التحقيق_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Abu_al_Yaman",
+      "type": "PERSON",
+      "canonical_name": "Abu al-Yaman (from Aleppo Province)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Bara_al_Hano",
+      "type": "PERSON",
+      "canonical_name": "Bara al-Hano",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "ISIS_SHARIA_JUDGE",
+      "type": "PERSON",
+      "canonical_name": "ISIS Sharia Court judge",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "08_العملية القضائية-_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "ISIS_JUDICIAL_POLICE",
+      "type": "ORGANIZATION",
+      "canonical_name": "ISIS Judicial Police",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "09_الشرطة القضائية_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Ramadan_al_Jassim",
+      "type": "PERSON",
+      "canonical_name": "Ramadan al-Jassim",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "خارجي/01_prison room_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "Ibrahim_al_Alkan",
+      "type": "PERSON",
+      "canonical_name": "Ibrahim al-Alkan",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "09_الشرطة القضائية_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "JAZIRA_JUNCTION_PRISON",
+      "type": "FACILITY",
+      "canonical_name": "Jazira Junction prison (small room with toilet)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "10_وصف سجن مفرق الجزرة_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "Abu_Saqr",
+      "type": "PERSON",
+      "canonical_name": "Abu Saqr (al-Dabba family)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "10_وصف سجن مفرق الجزرة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "RUMAILA_SOLITARY_CELLS",
+      "type": "FACILITY",
+      "canonical_name": "Rumaila Prison, solitary cell wing",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "خارجي/04_Solitary Confinement_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "Abu_Sateef",
+      "type": "PERSON",
+      "canonical_name": "Abu Sateef (Kurdish homeowner)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "UNNAMED_SHEIK_HEALER",
+      "type": "PERSON",
+      "canonical_name": "Sheikh (traditional healer, Mansour Street, Raqqa)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EVT_TORTURE_BEATING_3DAYS",
+      "type": "EVENT",
+      "canonical_name": "EVT TORTURE BEATING 3DAYS",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 4,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "EVT_SHABEH_18DAYS",
+      "type": "EVENT",
+      "canonical_name": "EVT SHABEH 18DAYS",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 4,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "EVT_BEARD_DRAGGING_CHOKING",
+      "type": "EVENT",
+      "canonical_name": "EVT BEARD DRAGGING CHOKING",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "EVT_RIB_BREAKING",
+      "type": "EVENT",
+      "canonical_name": "EVT RIB BREAKING",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EVT_ASSAULT_WATER_DEPT",
+      "type": "EVENT",
+      "canonical_name": "EVT ASSAULT WATER DEPT",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "EVT_LAKHDAR_BRAHIMI_KILLING",
+      "type": "EVENT",
+      "canonical_name": "EVT LAKHDAR BRAHIMI KILLING",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 5,
+      "corroboration_tier": "CONVERGENT"
+    },
+    {
+      "id": "EVT_ESCAPE_RECAPTURE",
+      "type": "EVENT",
+      "canonical_name": "EVT ESCAPE RECAPTURE",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EVT_QISAS_SENTENCING",
+      "type": "EVENT",
+      "canonical_name": "EVT QISAS SENTENCING",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 4,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "EVT_ESCAPE_PUNISHMENT",
+      "type": "EVENT",
+      "canonical_name": "EVT ESCAPE PUNISHMENT",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EVT_JAZIRA_CHAINING",
+      "type": "EVENT",
+      "canonical_name": "EVT JAZIRA CHAINING",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 4,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "EVT_ESCAPE_ATTEMPT",
+      "type": "EVENT",
+      "canonical_name": "EVT ESCAPE ATTEMPT",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 4,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "EVT_JUDICIAL_POLICE_TRANSFER",
+      "type": "EVENT",
+      "canonical_name": "EVT JUDICIAL POLICE TRANSFER",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "SUMMER_2014",
+      "type": "TIMEFRAME",
+      "canonical_name": "SUMMER 2014",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "SENSORY_HEAT_ENDURED_BEATING",
+      "type": "SENSORY",
+      "canonical_name": "SENSORY HEAT ENDURED BEATING",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "SENSORY_FOUL_SMELL_DAMPNESS",
+      "type": "SENSORY",
+      "canonical_name": "SENSORY FOUL SMELL DAMPNESS",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "SENSORY_TORTURE_SOUNDS_CORRIDOR",
+      "type": "SENSORY",
+      "canonical_name": "SENSORY TORTURE SOUNDS CORRIDOR",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "SENSORY_HOSE_STRIKING_BODY",
+      "type": "SENSORY",
+      "canonical_name": "SENSORY HOSE STRIKING BODY",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "SENSORY_SWORDS_IN_VEHICLE",
+      "type": "SENSORY",
+      "canonical_name": "SENSORY SWORDS IN VEHICLE",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "SENSORY_CHAIN_SURVEILLANCE",
+      "type": "SENSORY",
+      "canonical_name": "SENSORY CHAIN SURVEILLANCE",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EVT_CHAIN_7_PRISONERS",
+      "type": "EVENT",
+      "canonical_name": "EVT CHAIN 7 PRISONERS",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EVT_REGIME_DISMISSAL",
+      "type": "EVENT",
+      "canonical_name": "EVT REGIME DISMISSAL",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "EVT_SEDNAYA_DETENTION_6YRS",
+      "type": "EVENT",
+      "canonical_name": "EVT SEDNAYA DETENTION 6YRS",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EVT_FIRST_ARREST_POINT11",
+      "type": "EVENT",
+      "canonical_name": "EVT FIRST ARREST POINT11",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EVT_53DAY_DETENTION_MJ",
+      "type": "EVENT",
+      "canonical_name": "EVT 53DAY DETENTION MJ",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EVT_PROPERTY_SEIZURE",
+      "type": "EVENT",
+      "canonical_name": "EVT PROPERTY SEIZURE",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "SHABEH_SUSPENSION",
+      "type": "METHOD",
+      "canonical_name": "SHABEH SUSPENSION",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "BEATING_STICKS_METAL_RODS",
+      "type": "METHOD",
+      "canonical_name": "BEATING STICKS METAL RODS",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "CHOKING_NECK_LIFT",
+      "type": "METHOD",
+      "canonical_name": "CHOKING NECK LIFT",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EMIR_SEARCH_INVESTIGATION",
+      "type": "ROLE",
+      "canonical_name": "EMIR SEARCH INVESTIGATION",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EMIR_HISBA_PANORAMA",
+      "type": "ROLE",
+      "canonical_name": "EMIR HISBA PANORAMA",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    }
+  ],
+  "edges": [
+    {
+      "id": "EDGE_001",
+      "type": "DETAINED_AT",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "POINT_11_GOVERNORS_PALACE",
+      "source_atoms": [
+        "ATOM_004",
+        "ATOM_027"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_002",
+      "type": "DETAINED_AT",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+      "source_atoms": [
+        "ATOM_005",
+        "ATOM_006",
+        "ATOM_026"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_003",
+      "type": "DETAINED_AT",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "INVESTIGATION_SECTION_RAQQA",
+      "source_atoms": [
+        "ATOM_014",
+        "ATOM_015",
+        "ATOM_016",
+        "ATOM_033"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_004",
+      "type": "DETAINED_AT",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "PANORAMA_HISBA_BASE",
+      "source_atoms": [
+        "ATOM_010"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_004B",
+      "type": "DETAINED_AT",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "HISBA_SAJIYAH_STREET",
+      "source_atoms": [
+        "ATOM_028"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_004C",
+      "type": "DETAINED_AT",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "JAZIRA_JUNCTION_PRISON",
+      "source_atoms": [
+        "ATOM_037"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_004D",
+      "type": "DETAINED_AT",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "RUMAILA_PRISON",
+      "source_atoms": [
+        "ATOM_017",
+        "ATOM_040",
+        "ATOM_041"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_005",
+      "type": "PERPETRATED",
+      "from_node": "Abu_Seif_Maqs",
+      "to_node": "EVT_TORTURE_BEATING_3DAYS",
+      "source_atoms": [
+        "ATOM_014"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_006",
+      "type": "PERPETRATED",
+      "from_node": "Abu_Seif_Maqs",
+      "to_node": "EVT_SHABEH_18DAYS",
+      "source_atoms": [
+        "ATOM_014"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_007",
+      "type": "PERPETRATED",
+      "from_node": "Abu_Seif_Maqs",
+      "to_node": "EVT_BEARD_DRAGGING_CHOKING",
+      "source_atoms": [
+        "ATOM_015"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_008",
+      "type": "PERPETRATED",
+      "from_node": "Abu_Seif_Maqs",
+      "to_node": "EVT_RIB_BREAKING",
+      "source_atoms": [
+        "ATOM_016"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_009",
+      "type": "PERPETRATED",
+      "from_node": "Abu_Hudhayfa_Shahada",
+      "to_node": "EVT_ASSAULT_WATER_DEPT",
+      "source_atoms": [
+        "ATOM_008"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_009B",
+      "type": "PERPETRATED",
+      "from_node": "Abu_Abdurrahman_Sahou",
+      "to_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+      "source_atoms": [
+        "ATOM_026"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_009C",
+      "type": "PERPETRATED",
+      "from_node": "Abu_Seif_Maqs",
+      "to_node": "EVT_ESCAPE_RECAPTURE",
+      "source_atoms": [
+        "ATOM_031"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_009D",
+      "type": "PERPETRATED",
+      "from_node": "ISIS_SHARIA_JUDGE",
+      "to_node": "EVT_QISAS_SENTENCING",
+      "source_atoms": [
+        "ATOM_033"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_010",
+      "type": "USED_METHOD",
+      "from_node": "EVT_SHABEH_18DAYS",
+      "to_node": "SHABEH_SUSPENSION",
+      "source_atoms": [
+        "ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_011",
+      "type": "USED_METHOD",
+      "from_node": "EVT_TORTURE_BEATING_3DAYS",
+      "to_node": "BEATING_STICKS_METAL_RODS",
+      "source_atoms": [
+        "ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_012",
+      "type": "USED_METHOD",
+      "from_node": "EVT_BEARD_DRAGGING_CHOKING",
+      "to_node": "CHOKING_NECK_LIFT",
+      "source_atoms": [
+        "ATOM_015"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_012B",
+      "type": "USED_METHOD",
+      "from_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+      "to_node": "LAKHDAR_BRAHIMI_WATER_HOSE",
+      "source_atoms": [
+        "ATOM_026"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_012C",
+      "type": "USED_METHOD",
+      "from_node": "EVT_ESCAPE_PUNISHMENT",
+      "to_node": "CRUCIFIXION",
+      "source_atoms": [
+        "ATOM_032"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_012D",
+      "type": "USED_METHOD",
+      "from_node": "EVT_JAZIRA_CHAINING",
+      "to_node": "CHAIN_SHACKLING_26_LINKS",
+      "source_atoms": [
+        "ATOM_037"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_013",
+      "type": "COMMANDED",
+      "from_node": "Abu_Hamza_al_Tunisi",
+      "to_node": "INVESTIGATION_SECTION_RAQQA",
+      "source_atoms": [
+        "ATOM_013"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_014",
+      "type": "HOLDS_ROLE",
+      "from_node": "Abu_Seif_Maqs",
+      "to_node": "EMIR_SEARCH_INVESTIGATION",
+      "source_atoms": [
+        "ATOM_012"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_015",
+      "type": "HOLDS_ROLE",
+      "from_node": "Abu_Bishr",
+      "to_node": "EMIR_HISBA_PANORAMA",
+      "source_atoms": [
+        "ATOM_011"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_015B",
+      "type": "HOLDS_ROLE",
+      "from_node": "Abu_Humam",
+      "to_node": "EMIR_HISBA_SAJIYAH",
+      "source_atoms": [
+        "ATOM_021"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_015C",
+      "type": "HOLDS_ROLE",
+      "from_node": "Abu_Yousuf_Interrogator",
+      "to_node": "HEAD_INTERROGATOR_MJ",
+      "source_atoms": [
+        "ATOM_006"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_015D",
+      "type": "HOLDS_ROLE",
+      "from_node": "Abu_Suhaib_al_Tunisi",
+      "to_node": "SENIOR_OFFICER_MJ",
+      "source_atoms": [
+        "ATOM_025"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_016",
+      "type": "CO_DETAINED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "Ibrahim_al_Fakkash_Bariwi",
+      "source_atoms": [
+        "ATOM_017",
+        "ATOM_041"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "EDGE_017",
+      "type": "CO_DETAINED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "Ibrahim_Abu_Nashwa",
+      "source_atoms": [
+        "ATOM_018"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_018",
+      "type": "CO_DETAINED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "Ibrahim_Ayyoub_Shantar",
+      "source_atoms": [
+        "ATOM_019",
+        "ATOM_041"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "EDGE_018B",
+      "type": "CO_DETAINED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "Bara_al_Hano",
+      "source_atoms": [
+        "ATOM_030",
+        "ATOM_041"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "EDGE_018C",
+      "type": "CO_DETAINED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "Ramadan_al_Jassim",
+      "source_atoms": [
+        "ATOM_035",
+        "ATOM_041"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "EDGE_018D",
+      "type": "CO_DETAINED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "Ibrahim_al_Alkan",
+      "source_atoms": [
+        "ATOM_036",
+        "ATOM_041"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "EDGE_019",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_SHABEH_18DAYS",
+      "to_node": "INVESTIGATION_SECTION_RAQQA",
+      "source_atoms": [
+        "ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_020",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_TORTURE_BEATING_3DAYS",
+      "to_node": "INVESTIGATION_SECTION_RAQQA",
+      "source_atoms": [
+        "ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_020B",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+      "to_node": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+      "source_atoms": [
+        "ATOM_026"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_020C",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_ESCAPE_ATTEMPT",
+      "to_node": "HISBA_SAJIYAH_STREET",
+      "source_atoms": [
+        "ATOM_028"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_020D",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_QISAS_SENTENCING",
+      "to_node": "INVESTIGATION_SECTION_RAQQA",
+      "source_atoms": [
+        "ATOM_033"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_020E",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_JUDICIAL_POLICE_TRANSFER",
+      "to_node": "INVESTIGATION_SECTION_RAQQA",
+      "source_atoms": [
+        "ATOM_034"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_020F",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_JAZIRA_CHAINING",
+      "to_node": "JAZIRA_JUNCTION_PRISON",
+      "source_atoms": [
+        "ATOM_037"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_021",
+      "type": "CROSS_REGIME_TRANSFER",
+      "from_node": "Abu_Hudhayfa_Shahada",
+      "to_node": "SEDNAYA_MILITARY_PRISON",
+      "source_atoms": [
+        "ATOM_009"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_022",
+      "type": "CROSS_REGIME_TRANSFER",
+      "from_node": "Abu_Humam",
+      "to_node": "POLITICAL_SECURITY_BRANCH",
+      "source_atoms": [
+        "ATOM_021"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_023",
+      "type": "WITNESSED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "EVT_QISAS_SENTENCING",
+      "source_atoms": [
+        "ATOM_020",
+        "ATOM_033"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_023B",
+      "type": "WITNESSED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+      "source_atoms": [
+        "ATOM_026"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_023C",
+      "type": "WITNESSED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "EVT_JUDICIAL_POLICE_TRANSFER",
+      "source_atoms": [
+        "ATOM_034"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_023D",
+      "type": "WITNESSED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "EVT_ESCAPE_ATTEMPT",
+      "source_atoms": [
+        "ATOM_028"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_023E",
+      "type": "WITNESSED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "EVT_JAZIRA_CHAINING",
+      "source_atoms": [
+        "ATOM_037"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_024",
+      "type": "TEMPORAL",
+      "from_node": "EVT_SHABEH_18DAYS",
+      "to_node": "SUMMER_2014",
+      "source_atoms": [
+        "ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_025",
+      "type": "SENSORY_AT",
+      "from_node": "SENSORY_HEAT_ENDURED_BEATING",
+      "to_node": "INVESTIGATION_SECTION_RAQQA",
+      "source_atoms": [
+        "ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_025B",
+      "type": "SENSORY_AT",
+      "from_node": "SENSORY_FOUL_SMELL_DAMPNESS",
+      "to_node": "RUMAILA_SOLITARY_CELLS",
+      "source_atoms": [
+        "ATOM_044"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_025C",
+      "type": "SENSORY_AT",
+      "from_node": "SENSORY_TORTURE_SOUNDS_CORRIDOR",
+      "to_node": "POINT_11_GOVERNORS_PALACE",
+      "source_atoms": [
+        "ATOM_027"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_025D",
+      "type": "SENSORY_AT",
+      "from_node": "SENSORY_HOSE_STRIKING_BODY",
+      "to_node": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+      "source_atoms": [
+        "ATOM_026"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_025E",
+      "type": "SENSORY_AT",
+      "from_node": "SENSORY_SWORDS_IN_VEHICLE",
+      "to_node": "INVESTIGATION_SECTION_RAQQA",
+      "source_atoms": [
+        "ATOM_034"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_025F",
+      "type": "SENSORY_AT",
+      "from_node": "SENSORY_CHAIN_SURVEILLANCE",
+      "to_node": "JAZIRA_JUNCTION_PRISON",
+      "source_atoms": [
+        "ATOM_037"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_026",
+      "type": "CORROBORATES",
+      "from_node": "SITE_VISIT_PRISON_ROOM",
+      "to_node": "EVT_CHAIN_7_PRISONERS",
+      "source_atoms": [
+        "ATOM_040",
+        "ATOM_041"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "EDGE_027",
+      "type": "CORROBORATES",
+      "from_node": "SITE_VISIT_SOLITARY",
+      "to_node": "RUMAILA_SOLITARY_CELLS",
+      "source_atoms": [
+        "ATOM_044"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "EDGE_028",
+      "type": "CORROBORATES",
+      "from_node": "SITE_VISIT_PRISON_ROOM",
+      "to_node": "EVT_ESCAPE_ATTEMPT",
+      "source_atoms": [
+        "ATOM_042"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED"
+    },
+    {
+      "id": "EDGE_029",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Seif_Maqs",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_012"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_030",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Hudhayfa_Shahada",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_009"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_031",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Hamza_al_Tunisi",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_013"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_032",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Humam",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_021"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_033",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Bishr",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_011"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_034",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Abdurrahman_Sahou",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_007"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_035",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_al_Yaman",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_029"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_036",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Saqr",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_038"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_037",
+      "type": "MEMBER_OF",
+      "from_node": "ISIS_JUDICIAL_POLICE",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_034"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_038",
+      "type": "MEMBER_OF",
+      "from_node": "HISBA",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_010"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_039",
+      "type": "MEMBER_OF",
+      "from_node": "ISIS_INFORMANTS",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "ATOM_023"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_040",
+      "type": "DETAINED_AT",
+      "from_node": "Abdul_Rahim_Shuweimi",
+      "to_node": "SEDNAYA_MILITARY_PRISON",
+      "source_atoms": [
+        "ATOM_003"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_041",
+      "type": "PERPETRATED",
+      "from_node": "AIR_FORCE_INTELLIGENCE",
+      "to_node": "EVT_REGIME_DISMISSAL",
+      "source_atoms": [
+        "ATOM_002"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_042",
+      "type": "PERPETRATED",
+      "from_node": "ASSAD_REGIME",
+      "to_node": "EVT_SEDNAYA_DETENTION_6YRS",
+      "source_atoms": [
+        "ATOM_003"
+      ],
+      "requires_human_gate": true,
+      "human_approved": false,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_T01",
+      "type": "TEMPORAL",
+      "from_node": "EVT_REGIME_DISMISSAL",
+      "to_node": "T_2012",
+      "source_atoms": [
+        "ATOM_002"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_T02",
+      "type": "TEMPORAL",
+      "from_node": "EVT_FIRST_ARREST_POINT11",
+      "to_node": "T_2014_Q1",
+      "source_atoms": [
+        "ATOM_004"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_T03",
+      "type": "TEMPORAL",
+      "from_node": "EVT_53DAY_DETENTION_MJ",
+      "to_node": "T_2014_Q1",
+      "source_atoms": [
+        "ATOM_005"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_T04",
+      "type": "TEMPORAL",
+      "from_node": "EVT_ASSAULT_WATER_DEPT",
+      "to_node": "T_2014_MID",
+      "source_atoms": [
+        "ATOM_008"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_T05",
+      "type": "TEMPORAL",
+      "from_node": "EVT_TORTURE_BEATING_3DAYS",
+      "to_node": "SUMMER_2014",
+      "source_atoms": [
+        "ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_T06",
+      "type": "TEMPORAL",
+      "from_node": "EVT_ESCAPE_ATTEMPT",
+      "to_node": "T_2014_2015",
+      "source_atoms": [
+        "ATOM_028"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_T07",
+      "type": "TEMPORAL",
+      "from_node": "EVT_QISAS_SENTENCING",
+      "to_node": "T_2014_2015",
+      "source_atoms": [
+        "ATOM_033"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_T08",
+      "type": "TEMPORAL",
+      "from_node": "EVT_JUDICIAL_POLICE_TRANSFER",
+      "to_node": "T_RAMADAN",
+      "source_atoms": [
+        "ATOM_034"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_T09",
+      "type": "TEMPORAL",
+      "from_node": "EVT_JAZIRA_CHAINING",
+      "to_node": "T_3_5_MONTHS",
+      "source_atoms": [
+        "ATOM_037"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_O01",
+      "type": "OCCURRED_IN",
+      "from_node": "POINT_11_GOVERNORS_PALACE",
+      "to_node": "RAQQA_CITY",
+      "source_atoms": [
+        "ATOM_004"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_O02",
+      "type": "OCCURRED_IN",
+      "from_node": "INVESTIGATION_SECTION_RAQQA",
+      "to_node": "RAQQA_CITY",
+      "source_atoms": [
+        "ATOM_013"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_O03",
+      "type": "OCCURRED_IN",
+      "from_node": "RUMAILA_PRISON",
+      "to_node": "RAQQA_CITY",
+      "source_atoms": [
+        "ATOM_017"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_O04",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_ASSAULT_WATER_DEPT",
+      "to_node": "RAQQA_WATER_DEPARTMENT",
+      "source_atoms": [
+        "ATOM_008"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_O05",
+      "type": "WITNESSED",
+      "from_node": "UNNAMED_VAN_DRIVER",
+      "to_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+      "source_atoms": [
+        "ATOM_026"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_O06",
+      "type": "CO_DETAINED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "UNNAMED_SHEIK_HEALER",
+      "source_atoms": [
+        "ATOM_046"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_O07",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_PROPERTY_SEIZURE",
+      "to_node": "Abu_Sateef",
+      "source_atoms": [
+        "ATOM_045"
+      ],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED"
+    },
+    {
+      "id": "EDGE_CW01",
+      "type": "CROSS_WITNESS",
+      "from_node": "SHABEH_SUSPENSION",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 3,
+      "corroboration_tier": "CONVERGENT"
+    },
+    {
+      "id": "EDGE_CW02",
+      "type": "CROSS_WITNESS",
+      "from_node": "CRUCIFIXION",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 2,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "EDGE_CW03",
+      "type": "CROSS_WITNESS",
+      "from_node": "HISBA",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 2,
+      "corroboration_tier": "CORROBORATED"
+    },
+    {
+      "id": "EDGE_CW04",
+      "type": "CROSS_WITNESS",
+      "from_node": "ISIS",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [],
+      "requires_human_gate": false,
+      "human_approved": null,
+      "corroboration_score": 3,
+      "corroboration_tier": "CONVERGENT"
+    }
+  ],
+  "integrity": []
+}

@@ -1,0 +1,260 @@
+{
+  "timestamp": "2026-03-21T04:29:06.687337+00:00",
+  "version": "3.0",
+  "input_dir": "docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي",
+  "srt_files": 29,
+  "docx_files": 2,
+  "total_cues": 6607,
+  "total_paragraphs": 7854,
+  "glossary_entries": 938,
+  "integrity": [
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\طلال الشويمي-English.docx",
+      "file_name": "طلال الشويمي-English.docx",
+      "sha256": "d4114fefcf0a38b884fb46f9e1adebd03f5add6a3bdcc02d3196ef8ef4f0eeb3",
+      "file_size": 86708,
+      "file_type": "docx",
+      "timestamp": "2026-03-21T04:29:05.468384+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\_backup_20260321\\00_الفيديو كامل-Arabic.srt",
+      "file_name": "00_الفيديو كامل-Arabic.srt",
+      "sha256": "db7007060f4647f2aff683ae11835d4638e6b9fd14c5941efebfb17dd275742b",
+      "file_size": 150673,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.554403+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\_backup_20260321\\00_الفيديو كامل-En.srt",
+      "file_name": "00_الفيديو كامل-En.srt",
+      "sha256": "e9af404a9f54b3277f137cb7f08b86c7b59cc98ce867a620e1989546a6a2745a",
+      "file_size": 123885,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.582060+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\_backup_20260321\\00_الفيديو كامل-Vimeo_ar.srt",
+      "file_name": "00_الفيديو كامل-Vimeo_ar.srt",
+      "sha256": "694bad0a1e9bd52d4d81d31d24a58ae58192cb38e3d8b3fa746cc0f8a9d7659b",
+      "file_size": 111602,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.624692+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\_backup_20260321\\00_الفيديو كامل-Vimeo_en.srt",
+      "file_name": "00_الفيديو كامل-Vimeo_en.srt",
+      "sha256": "ccf7d836febdc2efd448dae82ec1964e504fb3d73ad5f46bb24d04c51931f83e",
+      "file_size": 91511,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.643093+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\_backup_20260321\\طلال الشويمي-English.docx",
+      "file_name": "طلال الشويمي-English.docx",
+      "sha256": "d4114fefcf0a38b884fb46f9e1adebd03f5add6a3bdcc02d3196ef8ef4f0eeb3",
+      "file_size": 86708,
+      "file_type": "docx",
+      "timestamp": "2026-03-21T04:29:05.769196+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\خارجي\\01_prison room_En.srt",
+      "file_name": "01_prison room_En.srt",
+      "sha256": "9709acd25c256c8b7243c6c303289d328e2b0d8bb30e5e084b911259347e50ae",
+      "file_size": 4241,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.786705+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\خارجي\\02_the mothers house_En.srt",
+      "file_name": "02_the mothers house_En.srt",
+      "sha256": "2a36f5b5166e5ab9a752c768453087b9a3c29b30224fd8e6aa471696b54810e3",
+      "file_size": 816,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.810842+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\خارجي\\03_Archive office_En.srt",
+      "file_name": "03_Archive office_En.srt",
+      "sha256": "1e5956510a0ec027b3e618bf2dcea4743975c0cc828f826d4d5921c1727b4ccd",
+      "file_size": 1206,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.858672+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\خارجي\\04_Solitary Confinement_En.srt",
+      "file_name": "04_Solitary Confinement_En.srt",
+      "sha256": "ec458f71f45120cdf744d7931516c5309ac6b02649bf6e8a8877e294ec9bdcd1",
+      "file_size": 823,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.887323+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\خارجي\\05_Entrance to the prison_En.srt",
+      "file_name": "05_Entrance to the prison_En.srt",
+      "sha256": "8699312fc7bc625ea1ecf5c55d120763069a0a6dd7faf59a54833b4464105a4b",
+      "file_size": 1423,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.916071+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\00_الفيديو كامل_en.srt",
+      "file_name": "00_الفيديو كامل_en.srt",
+      "sha256": "ccf7d836febdc2efd448dae82ec1964e504fb3d73ad5f46bb24d04c51931f83e",
+      "file_size": 91511,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.952022+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\01_تعريف-ملخص القصة_En.srt",
+      "file_name": "01_تعريف-ملخص القصة_En.srt",
+      "sha256": "75a450f32dfee6eee308824caeefd6be14182d3d10c568d6627c725a5f9f52f7",
+      "file_size": 15420,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:05.997220+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\02_الاعتقال_En.srt",
+      "file_name": "02_الاعتقال_En.srt",
+      "sha256": "784e5b39e5a794e4a1da89ce20d01863085155618cbb56c19dd2340bad752fc3",
+      "file_size": 4341,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.016288+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\03_سجن التحري_En.srt",
+      "file_name": "03_سجن التحري_En.srt",
+      "sha256": "9234ad74cb70319718a846e59bdc71c74954c0d03c68bad0c94234fef1ca9aa2",
+      "file_size": 7483,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.018963+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\04_التحقيق_En.srt",
+      "file_name": "04_التحقيق_En.srt",
+      "sha256": "043d5ec88636cdd39c84a70dd05d8aa053cf1ae58680e9c3ccf265c742340ab0",
+      "file_size": 7665,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.059792+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\05_المحققين_En.srt",
+      "file_name": "05_المحققين_En.srt",
+      "sha256": "b17ab7b2e79836edc3ffa3a3d3d41d8de61e0afa37a3182f51dd7240df3691e0",
+      "file_size": 3862,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.067889+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\06_وسائل التعذيب_En.srt",
+      "file_name": "06_وسائل التعذيب_En.srt",
+      "sha256": "9ee0bb6821422c1da9e6682cefd885749fac66af59236e267999549b7421edb9",
+      "file_size": 2595,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.069904+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\07_محاولة الهروب من السجن_En.srt",
+      "file_name": "07_محاولة الهروب من السجن_En.srt",
+      "sha256": "9959bbea9bdcb036045589ce347511bdb187d2dfc18f68ab0e071bf8b5ba9fb2",
+      "file_size": 6968,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.070909+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\08_العملية القضائية-_En.srt",
+      "file_name": "08_العملية القضائية-_En.srt",
+      "sha256": "eefd751f1d2be030fa94662cc6327c18028cb2d3d091b25ce517dd39580d2348",
+      "file_size": 8976,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.111663+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\09_الشرطة القضائية_En.srt",
+      "file_name": "09_الشرطة القضائية_En.srt",
+      "sha256": "e16e1314a2523edc2f2a11c06c5e8a596263aa0896d274ed39f098a87a06e659",
+      "file_size": 5160,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.137092+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\10_وصف سجن مفرق الجزرة_En.srt",
+      "file_name": "10_وصف سجن مفرق الجزرة_En.srt",
+      "sha256": "07c3a14b56d10730cca2e410bd37d66020a9678443468e3920679e42a1bb76eb",
+      "file_size": 6383,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.157776+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\11_يوميات السجن_En.srt",
+      "file_name": "11_يوميات السجن_En.srt",
+      "sha256": "f6d9b6e3278e2cf85c37296e0aec11b3bc4497847284c3eb99db9e326e21d4cd",
+      "file_size": 1928,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.177543+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\12_العناية الطبية_En.srt",
+      "file_name": "12_العناية الطبية_En.srt",
+      "sha256": "069b55620dfefc47aefd5fe492c6252b240483f61f7e229245dd55c29a4e8393",
+      "file_size": 2519,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.199153+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\13_وساطات_En.srt",
+      "file_name": "13_وساطات_En.srt",
+      "sha256": "49faae0a14829cad4dcaa587814e3f44a836865e7260144749fd87e192ff1147",
+      "file_size": 3857,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.228651+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\14_قطعة منشار مقابل عشرة ملايين_En.srt",
+      "file_name": "14_قطعة منشار مقابل عشرة ملايين_En.srt",
+      "sha256": "12efdad178fb41225f0974d38546a9f9c340e786d5c20df2e7464bc91e6b4e09",
+      "file_size": 1841,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.230473+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\15_المساومة_En.srt",
+      "file_name": "15_المساومة_En.srt",
+      "sha256": "c1d927bcca8c205bd3717fb0b73e4f6be80f6e0bdb308d1e19e4adf469684a26",
+      "file_size": 1106,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.253938+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\16_تفاصيل في الذاكرة_En.srt",
+      "file_name": "16_تفاصيل في الذاكرة_En.srt",
+      "sha256": "3a853b3b40af65a4bf9d28f493b7996f67927be1760bfea56ae1fef7b700c9bf",
+      "file_size": 4199,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.284906+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\17_الخروج_En.srt",
+      "file_name": "17_الخروج_En.srt",
+      "sha256": "d9592880d623696d42dc3c63aa25c9c803a815477fb31d4e5475b43de1f6558c",
+      "file_size": 1350,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.286595+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\18_تجارة السجائر_En.srt",
+      "file_name": "18_تجارة السجائر_En.srt",
+      "sha256": "989ffa813aceaa084b72be6a1297be908c073719f4fd2c3fe9c8ff7a2c2ffb05",
+      "file_size": 1976,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.289104+00:00"
+    },
+    {
+      "file_path": "D:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن الرميلة\\SRT-En\\طلال الشويمي\\داخلي\\19_أثرالسجن_En.srt",
+      "file_name": "19_أثرالسجن_En.srt",
+      "sha256": "e72777d46a50d2346be6d4e2642ecc78c23d1a6c41c6bd17c480bcdfef8e0b2c",
+      "file_size": 2749,
+      "file_type": "srt",
+      "timestamp": "2026-03-21T04:29:06.305233+00:00"
+    }
+  ]
+}

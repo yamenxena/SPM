@@ -1,0 +1,101 @@
+{
+  "created": "2026-03-19T05:33:42.212114",
+  "source": "d:\\YO\\Infra-Structure\\docs\\input\\Zain Hajahjah\\ISIS Prisons\\سجن البرج\\حميدي سجن البرج\\خارجي",
+  "output": "d:\\YO\\Infra-Structure\\docs\\output\\Zain Hajahjah\\سجن البرج\\SRT-En\\حميدي\\خارجي",
+  "full_interview": "01_حميدي -سجن البرج-جولة السجن كاملة_SRT_Arabic_En.srt",
+  "episodes": [
+    {
+      "file": "02_جولة المدخل_En.srt",
+      "cues": 33,
+      "duration": "1:43",
+      "role": "episode"
+    },
+    {
+      "file": "03_تفريغ عربي-المنفردات التأديبية_En.srt",
+      "cues": 24,
+      "duration": "1:24",
+      "role": "episode"
+    },
+    {
+      "file": "04_الطعام والصحة والنظافة_En.srt",
+      "cues": 49,
+      "duration": "2:56",
+      "role": "episode"
+    },
+    {
+      "file": "05_تفريغ عربي-التحقيق وأساليب التعذيب-المنفردة والسجانين_En.srt",
+      "cues": 122,
+      "duration": "8:36",
+      "role": "episode"
+    },
+    {
+      "file": "06_تفريغ عربي-المساجين-المنفردة_En.srt",
+      "cues": 53,
+      "duration": "3:24",
+      "role": "episode"
+    },
+    {
+      "file": "07_القصاص والاستتابة_En.srt",
+      "cues": 74,
+      "duration": "4:59",
+      "role": "episode"
+    },
+    {
+      "file": "08_غرفة التحقيق_En.srt",
+      "cues": 35,
+      "duration": "2:05",
+      "role": "episode"
+    },
+    {
+      "file": "09_تفريغ عربي-المهجع وسجن الملعب والخروج_En.srt",
+      "cues": 93,
+      "duration": "7:20",
+      "role": "episode"
+    }
+  ],
+  "total_files": 9,
+  "crossref": {
+    "timestamp": "2026-03-19T06:02:33.243665",
+    "total_matched": 448,
+    "total_unmatched": 35,
+    "unmatched_files": {
+      "08_غرفة التحقيق_En.srt": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35"
+      ]
+    }
+  }
+}

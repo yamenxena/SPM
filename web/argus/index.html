@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argus — Forensic Knowledge Graph Viewer</title>
+    <meta name="description" content="Interactive viewer for the Argus Forensic Knowledge Graph — Syria Prisons Museum">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- ═══ CLASSIFIED LOGIN GATE ═══ -->
+    <div id="login-gate" style="position:fixed;inset:0;z-index:9999;background:#050810;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Inter',sans-serif;transition:opacity 0.6s">
+        <div style="text-align:center;animation:fadeIn 1s ease">
+            <div style="font-size:48px;margin-bottom:16px;filter:drop-shadow(0 0 20px rgba(239,68,68,0.6))">👁</div>
+            <h1 style="font-size:28px;letter-spacing:8px;color:#ef4444;margin-bottom:8px;font-weight:700">ARGUS</h1>
+            <div style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#334155;letter-spacing:3px;margin-bottom:32px">FORENSIC KNOWLEDGE GRAPH</div>
+            <div style="font-size:14px;color:#e2e8f0;margin-bottom:4px;font-weight:600">Amer Matar</div>
+            <div style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#ef4444;letter-spacing:4px;margin-bottom:32px;padding:4px 14px;border:1px solid rgba(239,68,68,0.3);border-radius:4px;background:rgba(239,68,68,0.08)">CLASSIFIED</div>
+            <input id="gate-input" type="password" placeholder="ENTER PASSPHRASE" autofocus
+                style="background:#0f172a;border:1px solid #1e293b;color:#e2e8f0;padding:10px 20px;border-radius:6px;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:4px;text-align:center;width:240px;outline:none;transition:border-color 0.2s"
+                onfocus="this.style.borderColor='#3b82f6'" onblur="this.style.borderColor='#1e293b'">
+            <div id="gate-error" style="font-size:10px;color:#ef4444;margin-top:8px;height:14px;font-family:'JetBrains Mono',monospace"></div>
+            <div style="font-size:9px;color:#1e293b;margin-top:24px;letter-spacing:2px">SYRIA PRISONS MUSEUM · 2026</div>
+        </div>
+    </div>
+    <style>@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}</style>
+    <script>
+    document.getElementById('gate-input').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            if (this.value.toUpperCase() === 'PANOPTIC') {
+                const gate = document.getElementById('login-gate');
+                gate.style.opacity = '0';
+                setTimeout(() => gate.remove(), 600);
+            } else {
+                document.getElementById('gate-error').textContent = '⚠ ACCESS DENIED';
+                this.value = '';
+                this.style.borderColor = '#ef4444';
+                setTimeout(() => { document.getElementById('gate-error').textContent = ''; this.style.borderColor = '#1e293b'; }, 2000);
+            }
+        }
+    });
+    </script>
+
+    <header id="app-header">
+        <div class="header-left">
+            <button class="hdr-btn" id="btn-sidebar" onclick="toggleSidebar()" title="Toggle Sidebar">☰</button>
+            <div class="logo">
+                <span class="logo-icon">👁</span>
+                <h1>ARGUS</h1>
+                <span class="version">v3.2</span>
+            </div>
+            <div class="panel-toggles">
+                <button class="toggle-btn" id="btn-flow" onclick="togglePanel('flow')">◈ Flow</button>
+                <button class="toggle-btn" id="btn-timeline" onclick="togglePanel('timeline')">⟹ Timeline</button>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="stats">
+                <div class="stat"><span class="stat-value" id="stat-nodes">—</span><span class="stat-label">Nodes</span></div>
+                <div class="stat"><span class="stat-value" id="stat-edges">—</span><span class="stat-label">Edges</span></div>
+                <div class="stat"><span class="stat-value" id="stat-gated">—</span><span class="stat-label">Gated</span></div>
+            </div>
+        </div>
+    </header>
+
+    <main id="app-main">
+        <!-- Left Sidebar (retractable) -->
+        <aside id="sidebar">
+            <div class="sidebar-section">
+                <h3>Filters</h3>
+                <div class="filter-group"><label>Node Type</label><div id="node-type-filters" class="checkbox-group"></div></div>
+                <div class="filter-group"><label>Edge Type</label><div id="edge-type-filters" class="checkbox-group"></div></div>
+                <div class="filter-group"><label>Corroboration</label><div id="corr-filters" class="checkbox-group"></div></div>
+            </div>
+            <div class="sidebar-section">
+                <h3>Legend</h3>
+                <div id="legend" class="legend"></div>
+            </div>
+        </aside>
+
+        <!-- Graph (always visible) -->
+        <section id="graph-container">
+            <canvas id="graph-canvas"></canvas>
+            <div id="tooltip" class="tooltip hidden"></div>
+        </section>
+
+        <!-- Right Split Panel (flow or timeline alongside graph) -->
+        <aside id="panel-right" class="panel-right hidden">
+            <div class="panel-header">
+                <span class="panel-title" id="panel-title">Evidence Flow</span>
+                <div class="panel-actions">
+                    <button class="hdr-btn" onclick="maximizePanel()" title="Maximize">⬜</button>
+                    <button class="hdr-btn" onclick="togglePanel(null)" title="Close">✕</button>
+                </div>
+            </div>
+            <div id="panel-body" class="panel-body">
+                <div id="flow-container"></div>
+                <div id="timeline-container" style="display:none"></div>
+            </div>
+        </aside>
+
+        <!-- Inspector (overlay on graph) -->
+        <div id="inspector" class="inspector-overlay hidden">
+            <div class="inspector-header">
+                <h3 id="inspector-title">Node Inspector</h3>
+                <button id="inspector-close" class="btn-close">✕</button>
+            </div>
+            <div id="inspector-content"></div>
+        </div>
+    </main>
+
+    <!-- Source Evidence Panel (slide-up from bottom) -->
+    <div id="source-panel" class="source-panel hidden">
+        <div id="source-panel-content" class="source-panel-inner"></div>
+    </div>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>

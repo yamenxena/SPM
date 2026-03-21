@@ -1,0 +1,2598 @@
+{
+  "atoms_total": 46,
+  "atoms_valid": 46,
+  "atoms_invalid": 0,
+  "entities_matched": 48,
+  "entities_new": 33,
+  "edges_valid": 74,
+  "edges_rejected": 4,
+  "edges_human_gate": 13,
+  "details": {
+    "atom_validation": {
+      "valid": [
+        {
+          "id": "ATOM_001",
+          "who": "Talal Mustafa al-Shuweimi",
+          "who_canonical": "Talal_Mustafa_al_Shuweimi",
+          "who_type": "PERSON",
+          "did_what": "identified self: 45-year-old, taxi driver, married (3 wives), 13 children, Marandiyya clan, Sajiyah Street, Raqqa",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Raqqa Province, Sajiyah Street",
+          "where_canonical": "RAQQA_CITY",
+          "when": "",
+          "when_iso": "",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 1,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_002",
+          "who": "Assad regime (Air Force Intelligence)",
+          "who_canonical": "AIR_FORCE_INTELLIGENCE",
+          "who_type": "ORGANIZATION",
+          "did_what": "raided house and dismissed Talal from work at Water Department, labeled him terrorist",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Raqqa, Water Department",
+          "where_canonical": "RAQQA_WATER_DEPARTMENT",
+          "when": "2012",
+          "when_iso": "2012",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 9,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_003",
+          "who": "Assad regime",
+          "who_canonical": "ASSAD_REGIME",
+          "who_type": "ORGANIZATION",
+          "did_what": "arrested and detained Talal's brother for 6 years",
+          "to_whom": "Talal's brother (Abdul Rahim Shuweimi)",
+          "to_whom_canonical": "Abdul_Rahim_Shuweimi",
+          "where": "Sednaya Military Prison",
+          "where_canonical": "SEDNAYA_MILITARY_PRISON",
+          "when": "before 2012",
+          "when_iso": "2006/2012",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 20,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_004",
+          "who": "ISIS security members",
+          "who_canonical": "ISIS",
+          "who_type": "ORGANIZATION",
+          "did_what": "first arrest — detained on charge of being regime agent (shabiha), held 1 week",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Point 11, former Governor's Palace, Raqqa",
+          "where_canonical": "POINT_11_GOVERNORS_PALACE",
+          "when": "2-3 months after ISIS entered Raqqa",
+          "when_iso": "2014-01/2014-03",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 28,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_005",
+          "who": "ISIS",
+          "who_canonical": "ISIS",
+          "who_type": "ORGANIZATION",
+          "did_what": "transferred to new security base, detained 53 days",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Old Military Judiciary building near National Hospital, Raqqa",
+          "where_canonical": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+          "when": "1 week after first arrest",
+          "when_iso": "2014-01/2014-03",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 33,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_006",
+          "who": "Abu Yousuf (Khameesi family, from Tabqa)",
+          "who_canonical": "Abu_Yousuf_Interrogator",
+          "who_type": "PERSON",
+          "did_what": "interrogated Talal (head of interrogators at Military Judiciary)",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Military Judiciary building",
+          "where_canonical": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+          "when": "during 53-day detention",
+          "when_iso": "2014-01/2014-03",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 45,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_007",
+          "who": "Abu Abdurrahman (Mahmoud al-Ali al-Sahou, Ghanem al-Zahir clan, from Jaif area)",
+          "who_canonical": "Abu_Abdurrahman_Sahou",
+          "who_type": "PERSON",
+          "did_what": "served as interrogator; beat another prisoner to death with water hose ('Lakhdar Brahimi') in front of blindfolded Talal as psychological torture",
+          "to_whom": "unnamed prisoner (van driver from Kalta area)",
+          "to_whom_canonical": "UNNAMED_VAN_DRIVER",
+          "where": "Military Judiciary building, interrogation room",
+          "where_canonical": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+          "when": "during Talal's detention",
+          "when_iso": "2014",
+          "sensory": [
+            "Sound:hose_striking_near",
+            "Sound:man_crying_intensely"
+          ],
+          "source_file": "04_التحقيق_En.srt",
+          "source_cue": 73,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_008",
+          "who": "Abu Hudhayfa (Mahmoud al-Shahada, Ghanem al-Zahir clan)",
+          "who_canonical": "Abu_Hudhayfa_Shahada",
+          "who_type": "PERSON",
+          "did_what": "assaulted Talal at Water Department: grabbed hair, pressed head onto table, put foot on shoulder",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Water Department, Raqqa",
+          "where_canonical": "RAQQA_WATER_DEPARTMENT",
+          "when": "50-60 days after first release",
+          "when_iso": "2014",
+          "sensory": [
+            "Touch:grabbed_hair",
+            "Touch:head_pressed_onto_table",
+            "Touch:foot_on_shoulder"
+          ],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 84,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_009",
+          "who": "Abu Hudhayfa (Mahmoud al-Shahada)",
+          "who_canonical": "Abu_Hudhayfa_Shahada",
+          "who_type": "PERSON",
+          "did_what": "previously detained in Assad Sednaya Prison (~2000), released, then joined ISIS as emir — CROSS_REGIME link",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Sednaya Prison → Raqqa",
+          "where_canonical": "SEDNAYA_MILITARY_PRISON",
+          "when": "arrested ~2000, released before ISIS control",
+          "when_iso": "2000/2013",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 69,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_010",
+          "who": "Hisba (religious police)",
+          "who_canonical": "HISBA",
+          "who_type": "ORGANIZATION",
+          "did_what": "raided home at 16th Street, detained Talal 4 days for cigarette trading accusation",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "16th Street, Raqqa → Panorama Hisba base (Maqs Roundabout)",
+          "where_canonical": "PANORAMA_HISBA_BASE",
+          "when": "after cigarette trade began",
+          "when_iso": "2014",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 116,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_011",
+          "who": "Abu Bishr (Saudi national)",
+          "who_canonical": "Abu_Bishr",
+          "who_type": "PERSON",
+          "did_what": "served as Hisba emir at Panorama base",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Panorama Hisba base, Maqs Roundabout, Raqqa",
+          "where_canonical": "PANORAMA_HISBA_BASE",
+          "when": "",
+          "when_iso": "",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 129,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_012",
+          "who": "Abu Seif Maqs (Mustafa al-Hamid al-Muslih, Wahb clan)",
+          "who_canonical": "Abu_Seif_Maqs",
+          "who_type": "PERSON",
+          "did_what": "arrested and tortured Talal for 15 days; formerly hashish/pill user → became Doshka gunner → Emir of Search & Investigation",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Hisba / Investigation Section, Raqqa",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "second arrest for cigarettes",
+          "when_iso": "2014",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 143,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_013",
+          "who": "Abu Hamza al-Tunisi",
+          "who_canonical": "Abu_Hamza_al_Tunisi",
+          "who_type": "PERSON",
+          "did_what": "served as senior sharia official and overall emir of Investigation Section, second floor",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Investigation Section, second floor, Sajiyah/Hittin intersection",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "",
+          "when_iso": "",
+          "sensory": [],
+          "source_file": "03_سجن التحري_En.srt",
+          "source_cue": 3,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_014",
+          "who": "Abu Seif Maqs",
+          "who_canonical": "Abu_Seif_Maqs",
+          "who_type": "PERSON",
+          "did_what": "beat Talal with sticks and metal rods for 3 days, then hung him on wall in shabeh [suspension] for 18 days during summer heat",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Investigation Section, second floor",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "summer, hot season",
+          "when_iso": "2014-06/2014-08",
+          "sensory": [
+            "Touch:hands_tied_behind_back",
+            "Visual:blindfolded",
+            "Touch:sticks_and_metal_rods",
+            "Sound:water_poured",
+            "Temperature:hot_summer_heat_helped_endure",
+            "Touch:toes_barely_touched_ground"
+          ],
+          "source_file": "03_سجن التحري_En.srt",
+          "source_cue": 8,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_015",
+          "who": "Abu Seif Maqs",
+          "who_canonical": "Abu_Seif_Maqs",
+          "who_type": "PERSON",
+          "did_what": "dragged Talal by beard while shackled, choked by lifting 20-30cm off ground by neck",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Investigation Section",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "during detention",
+          "when_iso": "2014",
+          "sensory": [
+            "Touch:beard_dragged",
+            "Touch:grabbed_by_neck_lifted_20-30cm",
+            "Touch:legs_kicking"
+          ],
+          "source_file": "03_سجن التحري_En.srt",
+          "source_cue": 28,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_016",
+          "who": "Abu Seif Maqs",
+          "who_canonical": "Abu_Seif_Maqs",
+          "who_type": "PERSON",
+          "did_what": "broke Talal's ribs causing lasting chest pain and tonsillitis",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Investigation Section",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "during detention",
+          "when_iso": "2014",
+          "sensory": [
+            "Touch:broken_ribs",
+            "Touch:chest_pain_ongoing"
+          ],
+          "source_file": "06_وسائل التعذيب_En.srt",
+          "source_cue": 22,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_017",
+          "who": "Ibrahim al-Fakkash (al-Bariwi, Shibli Salamah clan)",
+          "who_canonical": "Ibrahim_al_Fakkash_Bariwi",
+          "who_type": "PERSON",
+          "did_what": "co-detained, both sentenced to qisas; al-Bariwi initiated escape attempt by digging wall",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Investigation Section / Rumaila Prison",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "during Talal's detention",
+          "when_iso": "2014",
+          "sensory": [],
+          "source_file": "07_محاولة الهروب من السجن_En.srt",
+          "source_cue": 9,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_018",
+          "who": "Ibrahim Abu Nashwa (Ibrahim al-Ali al-Alkan)",
+          "who_canonical": "Ibrahim_Abu_Nashwa",
+          "who_type": "PERSON",
+          "did_what": "co-detained, diabetic, blood sugar spiked during escape attempt, eventually died; cared for Talal 68 days after torture",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Investigation Section / Rumaila Prison",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "after torture",
+          "when_iso": "2014",
+          "sensory": [],
+          "source_file": "07_محاولة الهروب من السجن_En.srt",
+          "source_cue": 39,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_019",
+          "who": "Ibrahim Ayyoub (Shantar)",
+          "who_canonical": "Ibrahim_Ayyoub_Shantar",
+          "who_type": "PERSON",
+          "did_what": "co-detained, watched door during escape attempt, cared for Talal after broken ribs",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Rumaila Prison",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "during detention",
+          "when_iso": "2014",
+          "sensory": [],
+          "source_file": "07_محاولة الهروب من السجن_En.srt",
+          "source_cue": 11,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_020",
+          "who": "ISIS (Investigation Section / Sharia Court)",
+          "who_canonical": "ISIS",
+          "who_type": "ORGANIZATION",
+          "did_what": "sentenced 7 people to qisas (execution) on charge of 'corruption on earth' — actual crime was cigarette trading; 10 fabricated charges added",
+          "to_whom": "Talal + Ibrahim al-Fakkash + Ibrahim al-Alkan + Bara al-Hano + Ibrahim Ayyoub + Ramadan al-Jassim + 1 other",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Investigation Section / Sharia Court",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "final arrest",
+          "when_iso": "2014/2015",
+          "sensory": [
+            "Visual:blindfolded_during_sentencing",
+            "Touch:shackled_standing"
+          ],
+          "source_file": "08_العملية القضائية-_En.srt",
+          "source_cue": 54,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_021",
+          "who": "Abu Humam (Issa, Jais clan)",
+          "who_canonical": "Abu_Humam",
+          "who_type": "PERSON",
+          "did_what": "served as Hisba emir on Sajiyah Street; formerly Assad regime Political Security sergeant — CROSS_REGIME link",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Hisba base, Sajiyah Street / Atiya Bakery Street",
+          "where_canonical": "HISBA_SAJIYAH_STREET",
+          "when": "",
+          "when_iso": "",
+          "sensory": [],
+          "source_file": "02_الاعتقال_En.srt",
+          "source_cue": 22,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_022",
+          "who": "ISIS (Investigation Section)",
+          "who_canonical": "ISIS",
+          "who_type": "ORGANIZATION",
+          "did_what": "confiscated all property (gold, silver, cars, farmland) under sharia ruling",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Investigation Section",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "after 53-day detention",
+          "when_iso": "2014",
+          "sensory": [],
+          "source_file": "03_سجن التحري_En.srt",
+          "source_cue": 55,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_023",
+          "who": "ISIS informants (Abdullah al-Bou Saraya, Abdullah al-Asaad)",
+          "who_canonical": "ISIS_INFORMANTS",
+          "who_type": "PERSON",
+          "did_what": "planted inside prison posing as detainees to extract confessions; Abdullah al-Asaad's family manipulated",
+          "to_whom": "prisoners including Talal",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Inside the prison",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "",
+          "when_iso": "",
+          "sensory": [],
+          "source_file": "05_المحققين_En.srt",
+          "source_cue": 8,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_024",
+          "who": "Talal al-Shuweimi",
+          "who_canonical": "Talal_Mustafa_al_Shuweimi",
+          "who_type": "PERSON",
+          "did_what": "was imprisoned 28 times by ISIS over duration of their control",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Multiple ISIS facilities in Raqqa",
+          "where_canonical": "RAQQA_CITY",
+          "when": "duration of ISIS control",
+          "when_iso": "2014/2017",
+          "sensory": [],
+          "source_file": "01_تعريف-ملخص القصة_En.srt",
+          "source_cue": 176,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_025",
+          "who": "Abu Suhaib al-Tunisi",
+          "who_canonical": "Abu_Suhaib_al_Tunisi",
+          "who_type": "PERSON",
+          "did_what": "senior officer at Military Judiciary; very strict religiously but never allowed anyone to be beaten — notable restraint",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Military Judiciary building",
+          "where_canonical": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+          "when": "during Talal's detention",
+          "when_iso": "2014",
+          "sensory": [],
+          "source_file": "04_التحقيق_En.srt",
+          "source_cue": 82,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_026",
+          "who": "Abu Abdurrahman (Mahmoud al-Ali al-Sahou)",
+          "who_canonical": "Abu_Abdurrahman_Sahou",
+          "who_type": "PERSON",
+          "did_what": "used psychological torture: forced Talal to sit blindfolded while beating another man to death with 'Lakhdar Brahimi' water hose next to him",
+          "to_whom": "unnamed van driver (from Kalta area, accused of smuggling people)",
+          "to_whom_canonical": "UNNAMED_VAN_DRIVER",
+          "where": "Military Judiciary building, interrogation room",
+          "where_canonical": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+          "when": "during detention",
+          "when_iso": "2014",
+          "sensory": [
+            "Sound:hose_striking_body",
+            "Sound:victim_crying_intensely",
+            "Touch:plastic_cable_ties_on_wrists",
+            "Visual:blindfolded"
+          ],
+          "source_file": "04_التحقيق_En.srt",
+          "source_cue": 73,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_027",
+          "who": "ISIS (Point 11 interrogators)",
+          "who_canonical": "ISIS",
+          "who_type": "ORGANIZATION",
+          "did_what": "kept Talal blindfolded standing in corridor 2-3 hours (~10 times) while he heard torture sounds of other prisoners",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Point 11, Governor's Palace corridor",
+          "where_canonical": "POINT_11_GOVERNORS_PALACE",
+          "when": "during first detention",
+          "when_iso": "2014",
+          "sensory": [
+            "Sound:torture_sounds_in_corridor",
+            "Sound:Stand_up_you_dog_Turn_around_Lift_your_foot",
+            "Visual:blindfolded"
+          ],
+          "source_file": "04_التحقيق_En.srt",
+          "source_cue": 21,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_028",
+          "who": "Ibrahim al-Fakkash (al-Bariwi) and Talal",
+          "who_canonical": "Ibrahim_al_Fakkash_Bariwi",
+          "who_type": "PERSON",
+          "did_what": "attempted escape: broke iron from solitary cell, dug through wall (white stone), 7m drop to neighbor's yard; homeowner helped",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Hisba prison, above group cell, Sajiyah Street",
+          "where_canonical": "HISBA_SAJIYAH_STREET",
+          "when": "during imprisonment",
+          "when_iso": "2014/2015",
+          "sensory": [
+            "Sound:pounding_on_wall",
+            "Touch:scraping_smooth_cement",
+            "Touch:modern_white_stone"
+          ],
+          "source_file": "07_محاولة الهروب من السجن_En.srt",
+          "source_cue": 5,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_029",
+          "who": "Abu al-Yaman (from Aleppo Province)",
+          "who_canonical": "Abu_al_Yaman",
+          "who_type": "PERSON",
+          "did_what": "served as ISIS guard outside the prison room during escape attempt; had just finished training course",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Hisba prison, Sajiyah Street",
+          "where_canonical": "HISBA_SAJIYAH_STREET",
+          "when": "during escape attempt",
+          "when_iso": "2014/2015",
+          "sensory": [],
+          "source_file": "07_محاولة الهروب من السجن_En.srt",
+          "source_cue": 36,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_030",
+          "who": "Bara al-Hano",
+          "who_canonical": "Bara_al_Hano",
+          "who_type": "PERSON",
+          "did_what": "co-detained, watched door during escape attempt alongside Ibrahim Ayyoub (Shantar)",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Hisba prison / Rumaila",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "during escape attempt",
+          "when_iso": "2014/2015",
+          "sensory": [],
+          "source_file": "07_محاولة الهروب من السجن_En.srt",
+          "source_cue": 11,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_031",
+          "who": "Abu Seif Maqs",
+          "who_canonical": "Abu_Seif_Maqs",
+          "who_type": "PERSON",
+          "did_what": "discovered escape: saw destroyed wall from his house (seized Kurdish home of Abu Sateef on Sajiyah Street); security surrounded area, shot at Talal's feet",
+          "to_whom": "Talal + other prisoners",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Hisba prison / Sajiyah Street",
+          "where_canonical": "HISBA_SAJIYAH_STREET",
+          "when": "at dawn after escape attempt",
+          "when_iso": "2014/2015",
+          "sensory": [
+            "Sound:gunshots_at_feet"
+          ],
+          "source_file": "07_محاولة الهروب من السجن_En.srt",
+          "source_cue": 67,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_032",
+          "who": "ISIS",
+          "who_canonical": "ISIS",
+          "who_type": "ORGANIZATION",
+          "did_what": "punished failed escape with crucifixion, suspension, beatings, and insults",
+          "to_whom": "Talal + other prisoners",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Investigation Section / Hisba",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "after failed escape",
+          "when_iso": "2014/2015",
+          "sensory": [],
+          "source_file": "07_محاولة الهروب من السجن_En.srt",
+          "source_cue": 73,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_033",
+          "who": "ISIS Sharia Court judge",
+          "who_canonical": "ISIS_SHARIA_JUDGE",
+          "who_type": "PERSON",
+          "did_what": "pronounced qisas sentence on Talal while he was blindfolded, shackled, standing; added false charges (adultery, corruption on earth); hit Talal on head causing bleeding",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Sharia Court at Investigation Section",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "after 3 days of torture following escape",
+          "when_iso": "2014/2015",
+          "sensory": [
+            "Touch:heat_running_down_head_blood",
+            "Visual:blindfolded",
+            "Touch:shackled_standing"
+          ],
+          "source_file": "08_العملية القضائية-_En.srt",
+          "source_cue": 54,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_034",
+          "who": "ISIS Judicial Police",
+          "who_canonical": "ISIS_JUDICIAL_POLICE",
+          "who_type": "ORGANIZATION",
+          "did_what": "arrived with black prisoner transport vehicle containing swords and sharp metal; handled executions and amputations; took custody of death-sentenced prisoners",
+          "to_whom": "Talal + Ibrahim al-Fakkash + Bara al-Hano + others",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Investigation Section entrance",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "after sentencing, sunset, during Ramadan",
+          "when_iso": "2014/2015",
+          "sensory": [
+            "Visual:black_vehicle",
+            "Visual:swords_inside_vehicle",
+            "Visual:masked_guards",
+            "Touch:black_bag_over_head",
+            "Sound:Ibrahim_choking_on_water_from_fear"
+          ],
+          "source_file": "09_الشرطة القضائية_En.srt",
+          "source_cue": 3,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_035",
+          "who": "Ramadan al-Jassim",
+          "who_canonical": "Ramadan_al_Jassim",
+          "who_type": "PERSON",
+          "did_what": "co-detained, one of 7 chained prisoners",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Rumaila Prison / Jazira Junction prison",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "during detention",
+          "when_iso": "2014/2015",
+          "sensory": [],
+          "source_file": "خارجي/01_prison room_En.srt",
+          "source_cue": 32,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_036",
+          "who": "Ibrahim al-Alkan",
+          "who_canonical": "Ibrahim_al_Alkan",
+          "who_type": "PERSON",
+          "did_what": "co-detained, diabetic, asked for water before expected execution during Ramadan; choked on water from fear",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Investigation Section / Judicial Police area",
+          "where_canonical": "INVESTIGATION_SECTION_RAQQA",
+          "when": "during Ramadan, sunset",
+          "when_iso": "2014/2015",
+          "sensory": [
+            "Sound:choking_on_water"
+          ],
+          "source_file": "09_الشرطة القضائية_En.srt",
+          "source_cue": 33,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_037",
+          "who": "ISIS",
+          "who_canonical": "ISIS",
+          "who_type": "ORGANIZATION",
+          "did_what": "chained 7 prisoners with new thick iron chains (26 links between each), 7 padlocks, fastened to wall; monitored via cameras and loudspeakers",
+          "to_whom": "Talal + 6 others",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Jazira Junction prison (small room with toilet)",
+          "where_canonical": "JAZIRA_JUNCTION_PRISON",
+          "when": "after Judicial Police transfer",
+          "when_iso": "2014/2015",
+          "sensory": [
+            "Touch:thick_white_iron_chains",
+            "Touch:26_links_between_each_prisoner",
+            "Touch:padlocks",
+            "Visual:surveillance_cameras",
+            "Sound:loudspeaker_orders"
+          ],
+          "source_file": "10_وصف سجن مفرق الجزرة_En.srt",
+          "source_cue": 5,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_038",
+          "who": "Abu Saqr (al-Dabba family)",
+          "who_canonical": "Abu_Saqr",
+          "who_type": "PERSON",
+          "did_what": "served as kind emir at Jazira Junction; sat with prisoners daily 30 min, recited hadiths, force-fed them; cared for prisoners 3.5 months",
+          "to_whom": "Talal + other prisoners",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Jazira Junction prison",
+          "where_canonical": "JAZIRA_JUNCTION_PRISON",
+          "when": "3-3.5 months of chaining",
+          "when_iso": "2014/2015",
+          "sensory": [],
+          "source_file": "10_وصف سجن مفرق الجزرة_En.srt",
+          "source_cue": 33,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_039",
+          "who": "Abu Seif Maqs",
+          "who_canonical": "Abu_Seif_Maqs",
+          "who_type": "PERSON",
+          "did_what": "told Talal he bought the expensive chains from Qoutli Street specifically for him",
+          "to_whom": "Talal al-Shuweimi",
+          "to_whom_canonical": "Talal_Mustafa_al_Shuweimi",
+          "where": "Jazira Junction prison",
+          "where_canonical": "JAZIRA_JUNCTION_PRISON",
+          "when": "upon chaining",
+          "when_iso": "2014/2015",
+          "sensory": [],
+          "source_file": "10_وصف سجن مفرق الجزرة_En.srt",
+          "source_cue": 13,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_040",
+          "who": "Talal al-Shuweimi (site visit)",
+          "who_canonical": "Talal_Mustafa_al_Shuweimi",
+          "who_type": "PERSON",
+          "did_what": "revisited prison room, pointed to: 3 doors, iron bars on ceiling, chain attachment points, 7 sleeping positions, bathroom area; identified iron bar marks as physical evidence",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Rumaila Prison room (site visit)",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "post-liberation site visit",
+          "when_iso": "2017/2026",
+          "sensory": [
+            "Visual:iron_bar_marks_on_ceiling",
+            "Visual:3_doors",
+            "Touch:pipe_locations",
+            "Visual:hole_with_green_pipes"
+          ],
+          "source_file": "خارجي/01_prison room_En.srt",
+          "source_cue": 1,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_041",
+          "who": "Talal al-Shuweimi (site visit)",
+          "who_canonical": "Talal_Mustafa_al_Shuweimi",
+          "who_type": "PERSON",
+          "did_what": "named exact sleeping positions: Ibrahim al-Bariwi next to him, Ibrahim al-Alkan here, Bara al-Hano here, Ibrahim al-Ayyoub here, Ramadan al-Jassim here",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Rumaila Prison room (site visit)",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "post-liberation",
+          "when_iso": "2017/2026",
+          "sensory": [
+            "Visual:pointing_at_exact_positions"
+          ],
+          "source_file": "خارجي/01_prison room_En.srt",
+          "source_cue": 31,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_042",
+          "who": "Talal al-Shuweimi (site visit)",
+          "who_canonical": "Talal_Mustafa_al_Shuweimi",
+          "who_type": "PERSON",
+          "did_what": "demonstrated how he escaped chains: undressed, rubbed with dish soap, slipped out of cuffs because of extreme thinness, climbed pipes to hole to see his family",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Rumaila Prison room (site visit)",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "post-liberation",
+          "when_iso": "2017/2026",
+          "sensory": [
+            "Touch:dish_soap_for_slipping_cuffs",
+            "Visual:pipe_climbing",
+            "Visual:hole_overlooking_aunt_Najah_house"
+          ],
+          "source_file": "خارجي/01_prison room_En.srt",
+          "source_cue": 39,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_043",
+          "who": "Talal al-Shuweimi (site visit)",
+          "who_canonical": "Talal_Mustafa_al_Shuweimi",
+          "who_type": "PERSON",
+          "did_what": "saw his mother praying noon prayer in family courtyard from prison window while shackled",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Prison window → family house courtyard",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "during detention, noon",
+          "when_iso": "2014",
+          "sensory": [
+            "Visual:mother_praying_in_courtyard"
+          ],
+          "source_file": "خارجي/02_the mothers house_En.srt",
+          "source_cue": 2,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_044",
+          "who": "Talal al-Shuweimi (site visit)",
+          "who_canonical": "Talal_Mustafa_al_Shuweimi",
+          "who_type": "PERSON",
+          "did_what": "identified 6 solitary cells in prison, wall remnants visible; noted foul smell from dampness",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Rumaila Prison, solitary cell wing",
+          "where_canonical": "RUMAILA_SOLITARY_CELLS",
+          "when": "post-liberation site visit",
+          "when_iso": "2017/2026",
+          "sensory": [
+            "Smell:foul_from_dampness",
+            "Visual:solitary_cell_wall_remnants"
+          ],
+          "source_file": "خارجي/04_Solitary Confinement_En.srt",
+          "source_cue": 7,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_045",
+          "who": "Abu Seif Maqs",
+          "who_canonical": "Abu_Seif_Maqs",
+          "who_type": "PERSON",
+          "did_what": "lived in house seized from Kurdish family (Abu Sateef, bicycle repairman) on Sajiyah Street; house was across from Hisba base",
+          "to_whom": "Abu Sateef (Kurdish homeowner)",
+          "to_whom_canonical": "Abu_Sateef",
+          "where": "Sajiyah Street, Raqqa",
+          "where_canonical": "HISBA_SAJIYAH_STREET",
+          "when": "during ISIS control",
+          "when_iso": "2014/2017",
+          "sensory": [],
+          "source_file": "07_محاولة الهروب من السجن_En.srt",
+          "source_cue": 64,
+          "source_hash": "",
+          "confidence": "stated"
+        },
+        {
+          "id": "ATOM_046",
+          "who": "Sheikh (traditional healer, Mansour Street, Raqqa)",
+          "who_canonical": "UNNAMED_SHEIK_HEALER",
+          "who_type": "PERSON",
+          "did_what": "co-detained, sentenced to execution for 'sorcery' (treating woman with traditional medicine); recited Quran during escape attempt",
+          "to_whom": "",
+          "to_whom_canonical": "",
+          "where": "Rumaila Prison",
+          "where_canonical": "RUMAILA_PRISON",
+          "when": "during detention",
+          "when_iso": "2014/2015",
+          "sensory": [],
+          "source_file": "07_محاولة الهروب من السجن_En.srt",
+          "source_cue": 27,
+          "source_hash": "",
+          "confidence": "stated"
+        }
+      ],
+      "invalid": []
+    },
+    "entity_validation": {
+      "matched": [
+        {
+          "entity": "Raqqa Province, Sajiyah Street",
+          "canonical": "Raqqa",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Assad regime (Air Force Intelligence)",
+          "canonical": "Assad regime",
+          "source": "1_glossary_state_military.md",
+          "partial": true
+        },
+        {
+          "entity": "Raqqa, Water Department",
+          "canonical": "Raqqa",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Assad regime",
+          "canonical": "Assad regime",
+          "source": "1_glossary_state_military.md",
+          "partial": false
+        },
+        {
+          "entity": "Sednaya Military Prison",
+          "canonical": "Sednaya Military Prison",
+          "source": "2_glossary_detention.md",
+          "partial": false
+        },
+        {
+          "entity": "Point 11, former Governor's Palace, Raqqa",
+          "canonical": "Raqqa",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "ISIS",
+          "canonical": "ISIS / Islamic State",
+          "source": "1_glossary_state_military.md",
+          "partial": true
+        },
+        {
+          "entity": "Old Military Judiciary building near National Hospital, Raqqa",
+          "canonical": "Raqqa",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Abu Yousuf (Khameesi family, from Tabqa)",
+          "canonical": "Tabqa",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Abu Abdurrahman (Mahmoud al-Ali al-Sahou, Ghanem al-Zahir clan, from Jaif area)",
+          "canonical": "clan",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Military Judiciary building, interrogation room",
+          "canonical": "interrogation room",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "Abu Hudhayfa (Mahmoud al-Shahada, Ghanem al-Zahir clan)",
+          "canonical": "clan",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Water Department, Raqqa",
+          "canonical": "Raqqa",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Sednaya Prison → Raqqa",
+          "canonical": "Sednaya",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Hisba (religious police)",
+          "canonical": "Hisba (religious police)",
+          "source": "5_glossary_isis.md",
+          "partial": false
+        },
+        {
+          "entity": "16th Street, Raqqa → Panorama Hisba base (Maqs Roundabout)",
+          "canonical": "base",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Panorama Hisba base, Maqs Roundabout, Raqqa",
+          "canonical": "base",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Abu Seif Maqs (Mustafa al-Hamid al-Muslih, Wahb clan)",
+          "canonical": "clan",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Hisba / Investigation Section, Raqqa",
+          "canonical": "Raqqa",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Ibrahim al-Fakkash (al-Bariwi, Shibli Salamah clan)",
+          "canonical": "clan",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Investigation Section / Rumaila Prison",
+          "canonical": "Rumaila",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Rumaila Prison",
+          "canonical": "(ISIS)",
+          "source": "4_glossary_places_culture.md",
+          "partial": false
+        },
+        {
+          "entity": "ISIS (Investigation Section / Sharia Court)",
+          "canonical": "Sharia Court",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "Investigation Section / Sharia Court",
+          "canonical": "Sharia Court",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "Abu Humam (Issa, Jais clan)",
+          "canonical": "clan",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Hisba base, Sajiyah Street / Atiya Bakery Street",
+          "canonical": "base",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "ISIS informants (Abdullah al-Bou Saraya, Abdullah al-Asaad)",
+          "canonical": "informants",
+          "source": "1_glossary_state_military.md",
+          "partial": true
+        },
+        {
+          "entity": "prisoners including Talal",
+          "canonical": "prisoners",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Multiple ISIS facilities in Raqqa",
+          "canonical": "Raqqa",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "ISIS (Point 11 interrogators)",
+          "canonical": "interrogators",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "Point 11, Governor's Palace corridor",
+          "canonical": "Governor's Palace",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "Hisba prison, above group cell, Sajiyah Street",
+          "canonical": "group cell",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Abu al-Yaman (from Aleppo Province)",
+          "canonical": "Aleppo",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Hisba prison, Sajiyah Street",
+          "canonical": "Hisba prison",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "Hisba prison / Rumaila",
+          "canonical": "Rumaila",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Talal + other prisoners",
+          "canonical": "prisoners",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Hisba prison / Sajiyah Street",
+          "canonical": "Hisba prison",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "ISIS Sharia Court judge",
+          "canonical": "Sharia Court",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "Sharia Court at Investigation Section",
+          "canonical": "Sharia Court",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "ISIS Judicial Police",
+          "canonical": "Judicial Police",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "Rumaila Prison / Jazira Junction prison",
+          "canonical": "Rumaila",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Investigation Section / Judicial Police area",
+          "canonical": "Judicial Police",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "Abu Saqr (al-Dabba family)",
+          "canonical": "Abu Saqr",
+          "source": "5_glossary_isis.md",
+          "partial": true
+        },
+        {
+          "entity": "Rumaila Prison room (site visit)",
+          "canonical": "Rumaila",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Prison window → family house courtyard",
+          "canonical": "yard",
+          "source": "2_glossary_detention.md",
+          "partial": true
+        },
+        {
+          "entity": "Rumaila Prison, solitary cell wing",
+          "canonical": "Rumaila",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Sajiyah Street, Raqqa",
+          "canonical": "Raqqa",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        },
+        {
+          "entity": "Sheikh (traditional healer, Mansour Street, Raqqa)",
+          "canonical": "Raqqa",
+          "source": "4_glossary_places_culture.md",
+          "partial": true
+        }
+      ],
+      "new_entities": [
+        {
+          "entity": "Talal Mustafa al-Shuweimi",
+          "from_atom": "ATOM_001",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Talal al-Shuweimi",
+          "from_atom": "ATOM_002",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Talal's brother (Abdul Rahim Shuweimi)",
+          "from_atom": "ATOM_003",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "ISIS security members",
+          "from_atom": "ATOM_004",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Military Judiciary building",
+          "from_atom": "ATOM_006",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "unnamed prisoner (van driver from Kalta area)",
+          "from_atom": "ATOM_007",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Abu Hudhayfa (Mahmoud al-Shahada)",
+          "from_atom": "ATOM_009",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Abu Bishr (Saudi national)",
+          "from_atom": "ATOM_011",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Abu Hamza al-Tunisi",
+          "from_atom": "ATOM_013",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Investigation Section, second floor, Sajiyah/Hittin intersection",
+          "from_atom": "ATOM_013",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Abu Seif Maqs",
+          "from_atom": "ATOM_014",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Investigation Section, second floor",
+          "from_atom": "ATOM_014",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Investigation Section",
+          "from_atom": "ATOM_015",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Ibrahim Abu Nashwa (Ibrahim al-Ali al-Alkan)",
+          "from_atom": "ATOM_018",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Ibrahim Ayyoub (Shantar)",
+          "from_atom": "ATOM_019",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Talal + Ibrahim al-Fakkash + Ibrahim al-Alkan + Bara al-Hano + Ibrahim Ayyoub + Ramadan al-Jassim + 1 other",
+          "from_atom": "ATOM_020",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "ISIS (Investigation Section)",
+          "from_atom": "ATOM_022",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Inside the prison",
+          "from_atom": "ATOM_023",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Abu Suhaib al-Tunisi",
+          "from_atom": "ATOM_025",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Abu Abdurrahman (Mahmoud al-Ali al-Sahou)",
+          "from_atom": "ATOM_026",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "unnamed van driver (from Kalta area, accused of smuggling people)",
+          "from_atom": "ATOM_026",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Ibrahim al-Fakkash (al-Bariwi) and Talal",
+          "from_atom": "ATOM_028",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Bara al-Hano",
+          "from_atom": "ATOM_030",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Investigation Section / Hisba",
+          "from_atom": "ATOM_032",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Talal + Ibrahim al-Fakkash + Bara al-Hano + others",
+          "from_atom": "ATOM_034",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Investigation Section entrance",
+          "from_atom": "ATOM_034",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Ramadan al-Jassim",
+          "from_atom": "ATOM_035",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Ibrahim al-Alkan",
+          "from_atom": "ATOM_036",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Talal + 6 others",
+          "from_atom": "ATOM_037",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Jazira Junction prison (small room with toilet)",
+          "from_atom": "ATOM_037",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Jazira Junction prison",
+          "from_atom": "ATOM_038",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Talal al-Shuweimi (site visit)",
+          "from_atom": "ATOM_040",
+          "status": "NEW_ENTITY — requires human review"
+        },
+        {
+          "entity": "Abu Sateef (Kurdish homeowner)",
+          "from_atom": "ATOM_045",
+          "status": "NEW_ENTITY — requires human review"
+        }
+      ]
+    },
+    "edge_validation": {
+      "valid": [
+        {
+          "id": "EDGE_001",
+          "type": "DETAINED_AT",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "POINT_11_GOVERNORS_PALACE",
+          "source_atoms": [
+            "ATOM_004",
+            "ATOM_027"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_002",
+          "type": "DETAINED_AT",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+          "source_atoms": [
+            "ATOM_005",
+            "ATOM_006",
+            "ATOM_026"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_003",
+          "type": "DETAINED_AT",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "INVESTIGATION_SECTION_RAQQA",
+          "source_atoms": [
+            "ATOM_014",
+            "ATOM_015",
+            "ATOM_016",
+            "ATOM_033"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_004",
+          "type": "DETAINED_AT",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "PANORAMA_HISBA_BASE",
+          "source_atoms": [
+            "ATOM_010"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_004B",
+          "type": "DETAINED_AT",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "HISBA_SAJIYAH_STREET",
+          "source_atoms": [
+            "ATOM_028"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_004C",
+          "type": "DETAINED_AT",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "JAZIRA_JUNCTION_PRISON",
+          "source_atoms": [
+            "ATOM_037"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_004D",
+          "type": "DETAINED_AT",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "RUMAILA_PRISON",
+          "source_atoms": [
+            "ATOM_017",
+            "ATOM_040",
+            "ATOM_041"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_010",
+          "type": "USED_METHOD",
+          "from_node": "EVT_SHABEH_18DAYS",
+          "to_node": "SHABEH_SUSPENSION",
+          "source_atoms": [
+            "ATOM_014"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_011",
+          "type": "USED_METHOD",
+          "from_node": "EVT_TORTURE_BEATING_3DAYS",
+          "to_node": "BEATING_STICKS_METAL_RODS",
+          "source_atoms": [
+            "ATOM_014"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_012",
+          "type": "USED_METHOD",
+          "from_node": "EVT_BEARD_DRAGGING_CHOKING",
+          "to_node": "CHOKING_NECK_LIFT",
+          "source_atoms": [
+            "ATOM_015"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_012B",
+          "type": "USED_METHOD",
+          "from_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+          "to_node": "LAKHDAR_BRAHIMI_WATER_HOSE",
+          "source_atoms": [
+            "ATOM_026"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_012C",
+          "type": "USED_METHOD",
+          "from_node": "EVT_ESCAPE_PUNISHMENT",
+          "to_node": "CRUCIFIXION",
+          "source_atoms": [
+            "ATOM_032"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_012D",
+          "type": "USED_METHOD",
+          "from_node": "EVT_JAZIRA_CHAINING",
+          "to_node": "CHAIN_SHACKLING_26_LINKS",
+          "source_atoms": [
+            "ATOM_037"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_014",
+          "type": "HOLDS_ROLE",
+          "from_node": "Abu_Seif_Maqs",
+          "to_node": "EMIR_SEARCH_INVESTIGATION",
+          "source_atoms": [
+            "ATOM_012"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_015",
+          "type": "HOLDS_ROLE",
+          "from_node": "Abu_Bishr",
+          "to_node": "EMIR_HISBA_PANORAMA",
+          "source_atoms": [
+            "ATOM_011"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_015B",
+          "type": "HOLDS_ROLE",
+          "from_node": "Abu_Humam",
+          "to_node": "EMIR_HISBA_SAJIYAH",
+          "source_atoms": [
+            "ATOM_021"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_015C",
+          "type": "HOLDS_ROLE",
+          "from_node": "Abu_Yousuf_Interrogator",
+          "to_node": "HEAD_INTERROGATOR_MJ",
+          "source_atoms": [
+            "ATOM_006"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_015D",
+          "type": "HOLDS_ROLE",
+          "from_node": "Abu_Suhaib_al_Tunisi",
+          "to_node": "SENIOR_OFFICER_MJ",
+          "source_atoms": [
+            "ATOM_025"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_016",
+          "type": "CO_DETAINED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "Ibrahim_al_Fakkash_Bariwi",
+          "source_atoms": [
+            "ATOM_017",
+            "ATOM_041"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 2,
+          "corroboration_tier": "SUPPORTED"
+        },
+        {
+          "id": "EDGE_017",
+          "type": "CO_DETAINED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "Ibrahim_Abu_Nashwa",
+          "source_atoms": [
+            "ATOM_018"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_018",
+          "type": "CO_DETAINED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "Ibrahim_Ayyoub_Shantar",
+          "source_atoms": [
+            "ATOM_019",
+            "ATOM_041"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 2,
+          "corroboration_tier": "SUPPORTED"
+        },
+        {
+          "id": "EDGE_018B",
+          "type": "CO_DETAINED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "Bara_al_Hano",
+          "source_atoms": [
+            "ATOM_030",
+            "ATOM_041"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 2,
+          "corroboration_tier": "SUPPORTED"
+        },
+        {
+          "id": "EDGE_018C",
+          "type": "CO_DETAINED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "Ramadan_al_Jassim",
+          "source_atoms": [
+            "ATOM_035",
+            "ATOM_041"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 2,
+          "corroboration_tier": "SUPPORTED"
+        },
+        {
+          "id": "EDGE_018D",
+          "type": "CO_DETAINED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "Ibrahim_al_Alkan",
+          "source_atoms": [
+            "ATOM_036",
+            "ATOM_041"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 2,
+          "corroboration_tier": "SUPPORTED"
+        },
+        {
+          "id": "EDGE_019",
+          "type": "OCCURRED_AT",
+          "from_node": "EVT_SHABEH_18DAYS",
+          "to_node": "INVESTIGATION_SECTION_RAQQA",
+          "source_atoms": [
+            "ATOM_014"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_020",
+          "type": "OCCURRED_AT",
+          "from_node": "EVT_TORTURE_BEATING_3DAYS",
+          "to_node": "INVESTIGATION_SECTION_RAQQA",
+          "source_atoms": [
+            "ATOM_014"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_020B",
+          "type": "OCCURRED_AT",
+          "from_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+          "to_node": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+          "source_atoms": [
+            "ATOM_026"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_020C",
+          "type": "OCCURRED_AT",
+          "from_node": "EVT_ESCAPE_ATTEMPT",
+          "to_node": "HISBA_SAJIYAH_STREET",
+          "source_atoms": [
+            "ATOM_028"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_020D",
+          "type": "OCCURRED_AT",
+          "from_node": "EVT_QISAS_SENTENCING",
+          "to_node": "INVESTIGATION_SECTION_RAQQA",
+          "source_atoms": [
+            "ATOM_033"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_020E",
+          "type": "OCCURRED_AT",
+          "from_node": "EVT_JUDICIAL_POLICE_TRANSFER",
+          "to_node": "INVESTIGATION_SECTION_RAQQA",
+          "source_atoms": [
+            "ATOM_034"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_020F",
+          "type": "OCCURRED_AT",
+          "from_node": "EVT_JAZIRA_CHAINING",
+          "to_node": "JAZIRA_JUNCTION_PRISON",
+          "source_atoms": [
+            "ATOM_037"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_023",
+          "type": "WITNESSED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "EVT_QISAS_SENTENCING",
+          "source_atoms": [
+            "ATOM_020",
+            "ATOM_033"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_023B",
+          "type": "WITNESSED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+          "source_atoms": [
+            "ATOM_026"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_023C",
+          "type": "WITNESSED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "EVT_JUDICIAL_POLICE_TRANSFER",
+          "source_atoms": [
+            "ATOM_034"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_023D",
+          "type": "WITNESSED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "EVT_ESCAPE_ATTEMPT",
+          "source_atoms": [
+            "ATOM_028"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_023E",
+          "type": "WITNESSED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "EVT_JAZIRA_CHAINING",
+          "source_atoms": [
+            "ATOM_037"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_024",
+          "type": "TEMPORAL",
+          "from_node": "EVT_SHABEH_18DAYS",
+          "to_node": "SUMMER_2014",
+          "source_atoms": [
+            "ATOM_014"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_025",
+          "type": "SENSORY_AT",
+          "from_node": "SENSORY_HEAT_ENDURED_BEATING",
+          "to_node": "INVESTIGATION_SECTION_RAQQA",
+          "source_atoms": [
+            "ATOM_014"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_025B",
+          "type": "SENSORY_AT",
+          "from_node": "SENSORY_FOUL_SMELL_DAMPNESS",
+          "to_node": "RUMAILA_SOLITARY_CELLS",
+          "source_atoms": [
+            "ATOM_044"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_025C",
+          "type": "SENSORY_AT",
+          "from_node": "SENSORY_TORTURE_SOUNDS_CORRIDOR",
+          "to_node": "POINT_11_GOVERNORS_PALACE",
+          "source_atoms": [
+            "ATOM_027"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_025D",
+          "type": "SENSORY_AT",
+          "from_node": "SENSORY_HOSE_STRIKING_BODY",
+          "to_node": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+          "source_atoms": [
+            "ATOM_026"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_025E",
+          "type": "SENSORY_AT",
+          "from_node": "SENSORY_SWORDS_IN_VEHICLE",
+          "to_node": "INVESTIGATION_SECTION_RAQQA",
+          "source_atoms": [
+            "ATOM_034"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_025F",
+          "type": "SENSORY_AT",
+          "from_node": "SENSORY_CHAIN_SURVEILLANCE",
+          "to_node": "JAZIRA_JUNCTION_PRISON",
+          "source_atoms": [
+            "ATOM_037"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_026",
+          "type": "CORROBORATES",
+          "from_node": "SITE_VISIT_PRISON_ROOM",
+          "to_node": "EVT_CHAIN_7_PRISONERS",
+          "source_atoms": [
+            "ATOM_040",
+            "ATOM_041"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 2,
+          "corroboration_tier": "SUPPORTED",
+          "note": "Iron bar marks on ceiling + 3 doors + sleeping positions physically verified"
+        },
+        {
+          "id": "EDGE_027",
+          "type": "CORROBORATES",
+          "from_node": "SITE_VISIT_SOLITARY",
+          "to_node": "RUMAILA_SOLITARY_CELLS",
+          "source_atoms": [
+            "ATOM_044"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 2,
+          "corroboration_tier": "SUPPORTED",
+          "note": "6 solitary cell wall remnants still visible + dampness smell"
+        },
+        {
+          "id": "EDGE_028",
+          "type": "CORROBORATES",
+          "from_node": "SITE_VISIT_PRISON_ROOM",
+          "to_node": "EVT_ESCAPE_ATTEMPT",
+          "source_atoms": [
+            "ATOM_042"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 2,
+          "corroboration_tier": "SUPPORTED",
+          "note": "Escape route through pipes visible, dish soap escape method demonstrated on site"
+        },
+        {
+          "id": "EDGE_029",
+          "type": "MEMBER_OF",
+          "from_node": "Abu_Seif_Maqs",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_012"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_030",
+          "type": "MEMBER_OF",
+          "from_node": "Abu_Hudhayfa_Shahada",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_009"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_031",
+          "type": "MEMBER_OF",
+          "from_node": "Abu_Hamza_al_Tunisi",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_013"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_032",
+          "type": "MEMBER_OF",
+          "from_node": "Abu_Humam",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_021"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_033",
+          "type": "MEMBER_OF",
+          "from_node": "Abu_Bishr",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_011"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_034",
+          "type": "MEMBER_OF",
+          "from_node": "Abu_Abdurrahman_Sahou",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_007"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_035",
+          "type": "MEMBER_OF",
+          "from_node": "Abu_al_Yaman",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_029"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_036",
+          "type": "MEMBER_OF",
+          "from_node": "Abu_Saqr",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_038"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_037",
+          "type": "MEMBER_OF",
+          "from_node": "ISIS_JUDICIAL_POLICE",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_034"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_038",
+          "type": "MEMBER_OF",
+          "from_node": "HISBA",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_010"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_039",
+          "type": "MEMBER_OF",
+          "from_node": "ISIS_INFORMANTS",
+          "to_node": "ISIS",
+          "source_atoms": [
+            "ATOM_023"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_040",
+          "type": "DETAINED_AT",
+          "from_node": "Abdul_Rahim_Shuweimi",
+          "to_node": "SEDNAYA_MILITARY_PRISON",
+          "source_atoms": [
+            "ATOM_003"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_T01",
+          "type": "TEMPORAL",
+          "from_node": "EVT_REGIME_DISMISSAL",
+          "to_node": "T_2012",
+          "source_atoms": [
+            "ATOM_002"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_T02",
+          "type": "TEMPORAL",
+          "from_node": "EVT_FIRST_ARREST_POINT11",
+          "to_node": "T_2014_Q1",
+          "source_atoms": [
+            "ATOM_004"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_T03",
+          "type": "TEMPORAL",
+          "from_node": "EVT_53DAY_DETENTION_MJ",
+          "to_node": "T_2014_Q1",
+          "source_atoms": [
+            "ATOM_005"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_T04",
+          "type": "TEMPORAL",
+          "from_node": "EVT_ASSAULT_WATER_DEPT",
+          "to_node": "T_2014_MID",
+          "source_atoms": [
+            "ATOM_008"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_T05",
+          "type": "TEMPORAL",
+          "from_node": "EVT_TORTURE_BEATING_3DAYS",
+          "to_node": "SUMMER_2014",
+          "source_atoms": [
+            "ATOM_014"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_T06",
+          "type": "TEMPORAL",
+          "from_node": "EVT_ESCAPE_ATTEMPT",
+          "to_node": "T_2014_2015",
+          "source_atoms": [
+            "ATOM_028"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_T07",
+          "type": "TEMPORAL",
+          "from_node": "EVT_QISAS_SENTENCING",
+          "to_node": "T_2014_2015",
+          "source_atoms": [
+            "ATOM_033"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_T08",
+          "type": "TEMPORAL",
+          "from_node": "EVT_JUDICIAL_POLICE_TRANSFER",
+          "to_node": "T_RAMADAN",
+          "source_atoms": [
+            "ATOM_034"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_T09",
+          "type": "TEMPORAL",
+          "from_node": "EVT_JAZIRA_CHAINING",
+          "to_node": "T_3_5_MONTHS",
+          "source_atoms": [
+            "ATOM_037"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_O01",
+          "type": "OCCURRED_IN",
+          "from_node": "POINT_11_GOVERNORS_PALACE",
+          "to_node": "RAQQA_CITY",
+          "source_atoms": [
+            "ATOM_004"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_O02",
+          "type": "OCCURRED_IN",
+          "from_node": "INVESTIGATION_SECTION_RAQQA",
+          "to_node": "RAQQA_CITY",
+          "source_atoms": [
+            "ATOM_013"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_O03",
+          "type": "OCCURRED_IN",
+          "from_node": "RUMAILA_PRISON",
+          "to_node": "RAQQA_CITY",
+          "source_atoms": [
+            "ATOM_017"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_O04",
+          "type": "OCCURRED_AT",
+          "from_node": "EVT_ASSAULT_WATER_DEPT",
+          "to_node": "RAQQA_WATER_DEPARTMENT",
+          "source_atoms": [
+            "ATOM_008"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_O05",
+          "type": "WITNESSED",
+          "from_node": "UNNAMED_VAN_DRIVER",
+          "to_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+          "source_atoms": [
+            "ATOM_026"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED",
+          "note": "Victim of the beating death"
+        },
+        {
+          "id": "EDGE_O06",
+          "type": "CO_DETAINED",
+          "from_node": "Talal_Mustafa_al_Shuweimi",
+          "to_node": "UNNAMED_SHEIK_HEALER",
+          "source_atoms": [
+            "ATOM_046"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_O07",
+          "type": "OCCURRED_AT",
+          "from_node": "EVT_PROPERTY_SEIZURE",
+          "to_node": "Abu_Sateef",
+          "source_atoms": [
+            "ATOM_045"
+          ],
+          "requires_human_gate": false,
+          "human_approved": null,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED",
+          "note": "Abu Seif seized Abu Sateef's house"
+        }
+      ],
+      "rejected": [
+        {
+          "edge": {
+            "id": "EDGE_CW01",
+            "type": "CROSS_WITNESS",
+            "from_node": "SHABEH_SUSPENSION",
+            "to_node": "AL_BURJ_PRISON",
+            "source_atoms": [],
+            "requires_human_gate": false,
+            "human_approved": null,
+            "corroboration_score": 3,
+            "corroboration_tier": "CONVERGENT",
+            "note": "5/5 al-Burj witnesses confirm shabeh. حميدي, فرج سلامة, محمد نور, أحمد all describe identical suspension method."
+          },
+          "reason": "Unknown edge type: 'CROSS_WITNESS'. Not in edge vocabulary."
+        },
+        {
+          "edge": {
+            "id": "EDGE_CW02",
+            "type": "CROSS_WITNESS",
+            "from_node": "CRUCIFIXION",
+            "to_node": "AL_BURJ_PRISON",
+            "source_atoms": [],
+            "requires_human_gate": false,
+            "human_approved": null,
+            "corroboration_score": 2,
+            "corroboration_tier": "CORROBORATED",
+            "note": "فرج سلامة witnesses crucifixion at Mansoura. Talal reports crucifixion as escape punishment at Rumaila. Same ISIS judicial method."
+          },
+          "reason": "Unknown edge type: 'CROSS_WITNESS'. Not in edge vocabulary."
+        },
+        {
+          "edge": {
+            "id": "EDGE_CW03",
+            "type": "CROSS_WITNESS",
+            "from_node": "HISBA",
+            "to_node": "AL_BURJ_PRISON",
+            "source_atoms": [],
+            "requires_human_gate": false,
+            "human_approved": null,
+            "corroboration_score": 2,
+            "corroboration_tier": "CORROBORATED",
+            "note": "أحمد الحاج عبد describes Hisba operations at al-Burj. Talal arrested by Hisba at Panorama."
+          },
+          "reason": "Unknown edge type: 'CROSS_WITNESS'. Not in edge vocabulary."
+        },
+        {
+          "edge": {
+            "id": "EDGE_CW04",
+            "type": "CROSS_WITNESS",
+            "from_node": "ISIS",
+            "to_node": "AL_BURJ_PRISON",
+            "source_atoms": [],
+            "requires_human_gate": false,
+            "human_approved": null,
+            "corroboration_score": 3,
+            "corroboration_tier": "CONVERGENT",
+            "note": "All 5 al-Burj witnesses detained by ISIS. Confirms systematic detention infrastructure."
+          },
+          "reason": "Unknown edge type: 'CROSS_WITNESS'. Not in edge vocabulary."
+        }
+      ],
+      "human_gate_required": [
+        {
+          "id": "EDGE_005",
+          "type": "PERPETRATED",
+          "from_node": "Abu_Seif_Maqs",
+          "to_node": "EVT_TORTURE_BEATING_3DAYS",
+          "source_atoms": [
+            "ATOM_014"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_006",
+          "type": "PERPETRATED",
+          "from_node": "Abu_Seif_Maqs",
+          "to_node": "EVT_SHABEH_18DAYS",
+          "source_atoms": [
+            "ATOM_014"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_007",
+          "type": "PERPETRATED",
+          "from_node": "Abu_Seif_Maqs",
+          "to_node": "EVT_BEARD_DRAGGING_CHOKING",
+          "source_atoms": [
+            "ATOM_015"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_008",
+          "type": "PERPETRATED",
+          "from_node": "Abu_Seif_Maqs",
+          "to_node": "EVT_RIB_BREAKING",
+          "source_atoms": [
+            "ATOM_016"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_009",
+          "type": "PERPETRATED",
+          "from_node": "Abu_Hudhayfa_Shahada",
+          "to_node": "EVT_ASSAULT_WATER_DEPT",
+          "source_atoms": [
+            "ATOM_008"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_009B",
+          "type": "PERPETRATED",
+          "from_node": "Abu_Abdurrahman_Sahou",
+          "to_node": "EVT_LAKHDAR_BRAHIMI_KILLING",
+          "source_atoms": [
+            "ATOM_026"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_009C",
+          "type": "PERPETRATED",
+          "from_node": "Abu_Seif_Maqs",
+          "to_node": "EVT_ESCAPE_RECAPTURE",
+          "source_atoms": [
+            "ATOM_031"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_009D",
+          "type": "PERPETRATED",
+          "from_node": "ISIS_SHARIA_JUDGE",
+          "to_node": "EVT_QISAS_SENTENCING",
+          "source_atoms": [
+            "ATOM_033"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_013",
+          "type": "COMMANDED",
+          "from_node": "Abu_Hamza_al_Tunisi",
+          "to_node": "INVESTIGATION_SECTION_RAQQA",
+          "source_atoms": [
+            "ATOM_013"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_021",
+          "type": "CROSS_REGIME_TRANSFER",
+          "from_node": "Abu_Hudhayfa_Shahada",
+          "to_node": "SEDNAYA_MILITARY_PRISON",
+          "source_atoms": [
+            "ATOM_009"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED",
+          "note": "Abu Hudhayfa detained in Assad Sednaya (~2000), released, became ISIS emir"
+        },
+        {
+          "id": "EDGE_022",
+          "type": "CROSS_REGIME_TRANSFER",
+          "from_node": "Abu_Humam",
+          "to_node": "POLITICAL_SECURITY_BRANCH",
+          "source_atoms": [
+            "ATOM_021"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED",
+          "note": "Abu Humam was Assad Political Security sergeant, then ISIS Hisba emir"
+        },
+        {
+          "id": "EDGE_041",
+          "type": "PERPETRATED",
+          "from_node": "AIR_FORCE_INTELLIGENCE",
+          "to_node": "EVT_REGIME_DISMISSAL",
+          "source_atoms": [
+            "ATOM_002"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        },
+        {
+          "id": "EDGE_042",
+          "type": "PERPETRATED",
+          "from_node": "ASSAD_REGIME",
+          "to_node": "EVT_SEDNAYA_DETENTION_6YRS",
+          "source_atoms": [
+            "ATOM_003"
+          ],
+          "requires_human_gate": true,
+          "human_approved": false,
+          "corroboration_score": 1,
+          "corroboration_tier": "UNCORROBORATED"
+        }
+      ]
+    }
+  }
+}

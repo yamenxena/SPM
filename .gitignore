@@ -1,0 +1,11 @@
+# Workspace Defaults
+node_modules/
+.DS_Store
+
+# Agent Workspace Isolation
+.env
+*.key
+credentials.json
+
+# Python bytecode
+__pycache__/
