@@ -1357,6 +1357,7 @@ function resetGraph() {
     if (!cy) return;
     selectedNode = null;
     temporalMode = false;
+    clearSavedLayout();
     document.getElementById('inspector').classList.add('hidden');
     clearHighlight();
     togglePanel(null);
@@ -2149,9 +2150,27 @@ function restoreLayout() {
         if (!raw) return false;
         const data = JSON.parse(raw);
         if (!data.positions) return false;
+
+        // Invalidate stale layout: if saved node count differs from current graph
+        const currentNodeCount = cy.nodes().length;
+        const savedNodeCount = data.nodeCount || 0;
+        if (savedNodeCount !== currentNodeCount) {
+            console.warn('Layout invalidated: saved ' + savedNodeCount + ' nodes vs current ' + currentNodeCount + ' — clearing stale data');
+            localStorage.removeItem(LAYOUT_KEY);
+            return false;
+        }
+
+        // Also verify ALL current nodes have saved positions
+        const missingPos = cy.nodes().filter(n => !data.positions[n.id()]);
+        if (missingPos.length > 0) {
+            console.warn('Layout invalidated: ' + missingPos.length + ' nodes missing positions — clearing stale data');
+            localStorage.removeItem(LAYOUT_KEY);
+            return false;
+        }
+
         cy.layout({
             name: 'preset',
-            positions: node => data.positions[node.id()] || { x: 0, y: 0 },
+            positions: node => data.positions[node.id()],
             fit: true,
             padding: 30,
             animate: true,
