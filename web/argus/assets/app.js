@@ -119,8 +119,17 @@ function initCytoscape() {
         });
     }
 
-    // Build edge elements
+    // Build node ID index for edge validation
+    const nodeIds = new Set(fkg.nodes.map(n => n.id));
+
+    // Build edge elements (skip edges with missing source/target)
+    let skippedEdges = 0;
     for (const e of fkg.edges) {
+        if (!nodeIds.has(e.from_node) || !nodeIds.has(e.to_node)) {
+            skippedEdges++;
+            console.warn('Skipped edge', e.id, '— missing node:', !nodeIds.has(e.from_node) ? e.from_node : e.to_node);
+            continue;
+        }
         const color = EDGE_COLORS[e.type] || '#334155';
         elements.push({
             group: 'edges',
@@ -141,6 +150,7 @@ function initCytoscape() {
             },
         });
     }
+    if (skippedEdges > 0) console.warn('Total skipped edges (missing nodes):', skippedEdges);
 
     cy = cytoscape({
         container: document.getElementById('cy'),
