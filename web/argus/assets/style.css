@@ -9,6 +9,9 @@
 
 /* Argus FKG Viewer v5.0 — Cytoscape.js, Split-Panel Responsive, inline SRT */
 
+/* Utility */
+.hidden { display: none !important; }
+
 :root {
     --bg-primary: #0a0e17;
     --bg-secondary: #111827;
