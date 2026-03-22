@@ -1,11 +1,4 @@
 {
-  "version": "3.0",
-  "agent": "argus",
-  "metadata": {
-    "source": "Talal Mustafa al-Shuweimi testimony",
-    "facility": "Rumaila Prison / Investigation Section, Raqqa",
-    "domain": "ISIS"
-  },
   "nodes": [
     {
       "id": "Talal_Mustafa_al_Shuweimi",
@@ -17,60 +10,70 @@
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
-      "corroboration_score": 19,
-      "corroboration_tier": "CONVERGENT"
+      "corroboration_score": 25,
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "WITNESS",
+      "witness_source": "W1"
     },
     {
       "id": "RAQQA_CITY",
       "type": "FACILITY",
       "canonical_name": "Raqqa Province, Sajiyah Street",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "4_glossary_places_culture.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 3,
-      "corroboration_tier": "CORROBORATED"
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "AIR_FORCE_INTELLIGENCE",
       "type": "ORGANIZATION",
       "canonical_name": "Assad regime (Air Force Intelligence)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "1_glossary_state_military.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "RAQQA_WATER_DEPARTMENT",
       "type": "FACILITY",
       "canonical_name": "Raqqa, Water Department",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "4_glossary_places_culture.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "ASSAD_REGIME",
       "type": "ORGANIZATION",
       "canonical_name": "Assad regime",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "1_glossary_state_military.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "Abdul_Rahim_Shuweimi",
@@ -83,20 +86,24 @@
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W1"
     },
     {
       "id": "SEDNAYA_MILITARY_PRISON",
       "type": "FACILITY",
       "canonical_name": "Sednaya Military Prison",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "2_glossary_detention.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "ISIS",
@@ -108,60 +115,70 @@
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
-      "corroboration_score": 12,
-      "corroboration_tier": "CONVERGENT"
+      "corroboration_score": 26,
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "",
+      "witness_source": "SHARED"
     },
     {
       "id": "POINT_11_GOVERNORS_PALACE",
       "type": "FACILITY",
       "canonical_name": "Point 11, former Governor's Palace, Raqqa",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "4_glossary_places_culture.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
-      "corroboration_score": 3,
-      "corroboration_tier": "CORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "MILITARY_JUDICIARY_BUILDING_RAQQA",
       "type": "FACILITY",
       "canonical_name": "Old Military Judiciary building near National Hospital, Raqqa",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "4_glossary_places_culture.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 3,
-      "corroboration_tier": "CORROBORATED"
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_Yousuf_Interrogator",
       "type": "PERSON",
       "canonical_name": "Abu Yousuf (Khameesi family, from Tabqa)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "4_glossary_places_culture.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_Abdurrahman_Sahou",
       "type": "PERSON",
       "canonical_name": "Abu Abdurrahman (Mahmoud al-Ali al-Sahou, Ghanem al-Zahir clan, from Jaif area)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "2_glossary_detention.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "04_التحقيق_En.srt",
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "PERPETRATOR",
+      "witness_source": "W1"
     },
     {
       "id": "UNNAMED_VAN_DRIVER",
@@ -174,46 +191,54 @@
       "attributes": {},
       "first_seen_in": "04_التحقيق_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "WITNESS",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_Hudhayfa_Shahada",
       "type": "PERSON",
       "canonical_name": "Abu Hudhayfa (Mahmoud al-Shahada, Ghanem al-Zahir clan)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "2_glossary_detention.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
-      "corroboration_score": 3,
-      "corroboration_tier": "CORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "PERPETRATOR",
+      "witness_source": "W1"
     },
     {
       "id": "HISBA",
       "type": "ORGANIZATION",
       "canonical_name": "Hisba (religious police)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "5_glossary_isis.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
-      "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "PANORAMA_HISBA_BASE",
       "type": "FACILITY",
       "canonical_name": "16th Street, Raqqa → Panorama Hisba base (Maqs Roundabout)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "2_glossary_detention.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_Bishr",
@@ -225,34 +250,40 @@
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
-      "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_Seif_Maqs",
       "type": "PERSON",
       "canonical_name": "Abu Seif Maqs (Mustafa al-Hamid al-Muslih, Wahb clan)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "2_glossary_detention.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
-      "corroboration_score": 7,
-      "corroboration_tier": "CONVERGENT"
+      "corroboration_score": 6,
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "PERPETRATOR",
+      "witness_source": "W1"
     },
     {
       "id": "INVESTIGATION_SECTION_RAQQA",
       "type": "FACILITY",
       "canonical_name": "Hisba / Investigation Section, Raqqa",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "4_glossary_places_culture.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
-      "corroboration_score": 9,
-      "corroboration_tier": "CONVERGENT"
+      "corroboration_score": 6,
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_Hamza_al_Tunisi",
@@ -264,34 +295,40 @@
       "aliases": [],
       "attributes": {},
       "first_seen_in": "03_سجن التحري_En.srt",
-      "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "PERPETRATOR",
+      "witness_source": "W1"
     },
     {
       "id": "Ibrahim_al_Fakkash_Bariwi",
       "type": "PERSON",
       "canonical_name": "Ibrahim al-Fakkash (al-Bariwi, Shibli Salamah clan)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "2_glossary_detention.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "CO_DETAINEE",
+      "witness_source": "W1"
     },
     {
       "id": "RUMAILA_PRISON",
       "type": "FACILITY",
       "canonical_name": "Investigation Section / Rumaila Prison",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "4_glossary_places_culture.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
-      "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "Ibrahim_Abu_Nashwa",
@@ -304,7 +341,9 @@
       "attributes": {},
       "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "CO_DETAINEE",
+      "witness_source": "W1"
     },
     {
       "id": "Ibrahim_Ayyoub_Shantar",
@@ -316,47 +355,55 @@
       "aliases": [],
       "attributes": {},
       "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "CO_DETAINEE",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_Humam",
       "type": "PERSON",
       "canonical_name": "Abu Humam (Issa, Jais clan)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "2_glossary_detention.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "02_الاعتقال_En.srt",
-      "corroboration_score": 3,
-      "corroboration_tier": "CORROBORATED"
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W1"
     },
     {
       "id": "HISBA_SAJIYAH_STREET",
       "type": "FACILITY",
       "canonical_name": "Hisba base, Sajiyah Street / Atiya Bakery Street",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "2_glossary_detention.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "02_الاعتقال_En.srt",
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "ISIS_INFORMANTS",
       "type": "PERSON",
       "canonical_name": "ISIS informants (Abdullah al-Bou Saraya, Abdullah al-Asaad)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "1_glossary_state_military.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "05_المحققين_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_Suhaib_al_Tunisi",
@@ -368,21 +415,25 @@
       "aliases": [],
       "attributes": {},
       "first_seen_in": "04_التحقيق_En.srt",
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_al_Yaman",
       "type": "PERSON",
       "canonical_name": "Abu al-Yaman (from Aleppo Province)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "4_glossary_places_culture.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W1"
     },
     {
       "id": "Bara_al_Hano",
@@ -394,34 +445,40 @@
       "aliases": [],
       "attributes": {},
       "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "CO_DETAINEE",
+      "witness_source": "W1"
     },
     {
       "id": "ISIS_SHARIA_JUDGE",
       "type": "PERSON",
       "canonical_name": "ISIS Sharia Court judge",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "5_glossary_isis.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "08_العملية القضائية-_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "PERPETRATOR",
+      "witness_source": "W1"
     },
     {
       "id": "ISIS_JUDICIAL_POLICE",
       "type": "ORGANIZATION",
       "canonical_name": "ISIS Judicial Police",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "5_glossary_isis.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "09_الشرطة القضائية_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "Ramadan_al_Jassim",
@@ -433,8 +490,10 @@
       "aliases": [],
       "attributes": {},
       "first_seen_in": "خارجي/01_prison room_En.srt",
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "CO_DETAINEE",
+      "witness_source": "W1"
     },
     {
       "id": "Ibrahim_al_Alkan",
@@ -446,8 +505,10 @@
       "aliases": [],
       "attributes": {},
       "first_seen_in": "09_الشرطة القضائية_En.srt",
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "CO_DETAINEE",
+      "witness_source": "W1"
     },
     {
       "id": "JAZIRA_JUNCTION_PRISON",
@@ -459,34 +520,40 @@
       "aliases": [],
       "attributes": {},
       "first_seen_in": "10_وصف سجن مفرق الجزرة_En.srt",
-      "corroboration_score": 3,
-      "corroboration_tier": "CORROBORATED"
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_Saqr",
       "type": "PERSON",
       "canonical_name": "Abu Saqr (al-Dabba family)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "5_glossary_isis.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "10_وصف سجن مفرق الجزرة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W1"
     },
     {
       "id": "RUMAILA_SOLITARY_CELLS",
       "type": "FACILITY",
       "canonical_name": "Rumaila Prison, solitary cell wing",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "4_glossary_places_culture.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "خارجي/04_Solitary Confinement_En.srt",
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "Abu_Sateef",
@@ -499,20 +566,24 @@
       "attributes": {},
       "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W1"
     },
     {
       "id": "UNNAMED_SHEIK_HEALER",
       "type": "PERSON",
       "canonical_name": "Sheikh (traditional healer, Mansour Street, Raqqa)",
       "arabic_name": "",
-      "glossary_match": false,
-      "glossary_source": "",
+      "glossary_match": true,
+      "glossary_source": "4_glossary_places_culture.md",
       "aliases": [],
       "attributes": {},
       "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "CO_DETAINEE",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_TORTURE_BEATING_3DAYS",
@@ -523,9 +594,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 4,
-      "corroboration_tier": "CORROBORATED"
+      "first_seen_in": "03_سجن التحري_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_SHABEH_18DAYS",
@@ -536,9 +609,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 4,
-      "corroboration_tier": "CORROBORATED"
+      "first_seen_in": "03_سجن التحري_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_BEARD_DRAGGING_CHOKING",
@@ -549,9 +624,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "first_seen_in": "03_سجن التحري_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_RIB_BREAKING",
@@ -562,9 +639,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "06_وسائل التعذيب_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_ASSAULT_WATER_DEPT",
@@ -575,9 +654,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 3,
-      "corroboration_tier": "CORROBORATED"
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_LAKHDAR_BRAHIMI_KILLING",
@@ -588,9 +669,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 5,
-      "corroboration_tier": "CONVERGENT"
+      "first_seen_in": "04_التحقيق_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_ESCAPE_RECAPTURE",
@@ -601,9 +684,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_QISAS_SENTENCING",
@@ -614,9 +699,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "08_العملية القضائية-_En.srt",
       "corroboration_score": 4,
-      "corroboration_tier": "CORROBORATED"
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_ESCAPE_PUNISHMENT",
@@ -627,9 +714,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_JAZIRA_CHAINING",
@@ -640,9 +729,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 4,
-      "corroboration_tier": "CORROBORATED"
+      "first_seen_in": "10_وصف سجن مفرق الجزرة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_ESCAPE_ATTEMPT",
@@ -653,9 +744,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 4,
-      "corroboration_tier": "CORROBORATED"
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_JUDICIAL_POLICE_TRANSFER",
@@ -666,9 +759,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 3,
-      "corroboration_tier": "CORROBORATED"
+      "first_seen_in": "09_الشرطة القضائية_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "SUMMER_2014",
@@ -679,9 +774,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "first_seen_in": "03_سجن التحري_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "SENSORY_HEAT_ENDURED_BEATING",
@@ -692,9 +789,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "03_سجن التحري_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "SENSORY_FOUL_SMELL_DAMPNESS",
@@ -705,9 +804,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "خارجي/04_Solitary Confinement_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "SENSORY_TORTURE_SOUNDS_CORRIDOR",
@@ -718,9 +819,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "04_التحقيق_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "SENSORY_HOSE_STRIKING_BODY",
@@ -731,9 +834,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "04_التحقيق_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "SENSORY_SWORDS_IN_VEHICLE",
@@ -744,9 +849,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "09_الشرطة القضائية_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "SENSORY_CHAIN_SURVEILLANCE",
@@ -757,9 +864,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "10_وصف سجن مفرق الجزرة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_CHAIN_7_PRISONERS",
@@ -770,9 +879,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "first_seen_in": "خارجي/01_prison room_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_REGIME_DISMISSAL",
@@ -783,9 +894,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_SEDNAYA_DETENTION_6YRS",
@@ -796,9 +909,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_FIRST_ARREST_POINT11",
@@ -809,9 +924,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_53DAY_DETENTION_MJ",
@@ -822,9 +939,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EVT_PROPERTY_SEIZURE",
@@ -835,9 +954,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "SHABEH_SUSPENSION",
@@ -848,9 +969,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "first_seen_in": "03_سجن التحري_En.srt",
+      "corroboration_score": 5,
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "",
+      "witness_source": "SHARED"
     },
     {
       "id": "BEATING_STICKS_METAL_RODS",
@@ -861,9 +984,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "first_seen_in": "03_سجن التحري_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "SHARED"
     },
     {
       "id": "CHOKING_NECK_LIFT",
@@ -874,9 +999,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "03_سجن التحري_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EMIR_SEARCH_INVESTIGATION",
@@ -887,9 +1014,11 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
     },
     {
       "id": "EMIR_HISBA_PANORAMA",
@@ -900,9 +1029,926 @@
       "glossary_source": "",
       "aliases": [],
       "attributes": {},
-      "first_seen_in": "",
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W1"
+    },
+    {
+      "id": "T_2014_MID",
+      "type": "TIMEFRAME",
+      "sub_type": "",
+      "canonical_name": "Mid 2014 (detention period)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "T_2014_Q1",
+      "type": "TIMEFRAME",
+      "sub_type": "",
+      "canonical_name": "Early 2014 (first arrest by ISIS)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "T_2012",
+      "type": "TIMEFRAME",
+      "sub_type": "",
+      "canonical_name": "2012 (regime dismissal period)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "T_3_5_MONTHS",
+      "type": "TIMEFRAME",
+      "sub_type": "",
+      "canonical_name": "3.5 months (Jazira Junction detention)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "10_وصف سجن مفرق الجزرة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "T_2014_2015",
+      "type": "TIMEFRAME",
+      "sub_type": "",
+      "canonical_name": "2014-2015 (escape and sentencing)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "T_RAMADAN",
+      "type": "TIMEFRAME",
+      "sub_type": "",
+      "canonical_name": "Ramadan (transfer period)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "09_الشرطة القضائية_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "EMIR_HISBA_SAJIYAH",
+      "type": "ROLE",
+      "sub_type": "",
+      "canonical_name": "Emir of Hisba, Sajiyah Street",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "02_الاعتقال_En.srt",
+      "corroboration_score": 0,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "HEAD_INTERROGATOR_MJ",
+      "type": "ROLE",
+      "sub_type": "",
+      "canonical_name": "Head Interrogator, Military Judiciary",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تعريف-ملخص القصة_En.srt",
+      "corroboration_score": 0,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "AL_BURJ_PRISON",
+      "type": "FACILITY",
+      "sub_type": "",
+      "canonical_name": "Al-Burj Prison",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "",
+      "corroboration_score": 10,
+      "corroboration_tier": "CORROBORATED",
+      "witness_source": "SHARED"
+    },
+    {
+      "id": "SENIOR_OFFICER_MJ",
+      "type": "ROLE",
+      "sub_type": "",
+      "canonical_name": "Senior Officer, Military Judiciary",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "04_التحقيق_En.srt",
+      "corroboration_score": 0,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "LAKHDAR_BRAHIMI_WATER_HOSE",
+      "type": "METHOD",
+      "sub_type": "",
+      "canonical_name": "Lakhdar Brahimi water hose (beating tool)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "04_التحقيق_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "SHARED"
+    },
+    {
+      "id": "SITE_VISIT_SOLITARY",
+      "type": "SOURCE",
+      "sub_type": "",
+      "canonical_name": "Site visit: solitary confinement footage",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "خارجي/04_Solitary Confinement_En.srt",
+      "corroboration_score": 0,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "CRUCIFIXION",
+      "type": "METHOD",
+      "sub_type": "",
+      "canonical_name": "Crucifixion (punishment method)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_محاولة الهروب من السجن_En.srt",
+      "corroboration_score": 4,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "SHARED"
+    },
+    {
+      "id": "SITE_VISIT_PRISON_ROOM",
+      "type": "SOURCE",
+      "sub_type": "",
+      "canonical_name": "Site visit: prison room footage",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "خارجي/01_prison room_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "CHAIN_SHACKLING_26_LINKS",
+      "type": "METHOD",
+      "sub_type": "",
+      "canonical_name": "Chain shackling with 26-link chain",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "10_وصف سجن مفرق الجزرة_En.srt",
+      "corroboration_score": 0,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "POLITICAL_SECURITY_BRANCH",
+      "type": "FACILITY",
+      "sub_type": "",
+      "canonical_name": "Political Security Branch (Assad regime)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "02_الاعتقال_En.srt",
+      "corroboration_score": 0,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1"
+    },
+    {
+      "id": "Faraj_Salamah",
+      "type": "PERSON",
+      "canonical_name": "Faraj Salamah (فرج سلامة)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تفرج سلامة_En.srt",
+      "corroboration_score": 14,
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "WITNESS",
+      "witness_source": "W2"
+    },
+    {
+      "id": "ISIS_INTERROGATOR_BURJ",
+      "type": "PERSON",
+      "canonical_name": "ISIS Interrogator (Al-Burj)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "05_تفريغ عربي-التحقيق والتعذيب_En.srt",
+      "corroboration_score": 4,
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "PERPETRATOR",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Abu_Luqman_Ibrahim_al_Shawakh",
+      "type": "PERSON",
+      "canonical_name": "Abu Luqman (Ibrahim al-Shawakh)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_تفريغ عربي-السجانون_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "PERPETRATOR",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Mahmoud_al_Ibrahim_al_Dakhil",
+      "type": "PERSON",
+      "canonical_name": "Mahmoud al-Ibrahim al-Dakhil",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_تفريغ عربي-السجانون_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "PERPETRATOR",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Abu_Nayef_Saudi",
+      "type": "PERSON",
+      "canonical_name": "Abu Nayef (Saudi)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_تفريغ عربي-السجانون_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Abu_Abdullah_Jailer",
+      "type": "PERSON",
+      "canonical_name": "Abu Abdullah (Jailer)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_تفريغ عربي-السجانون_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Abu_Zaid_Jailer",
+      "type": "PERSON",
+      "canonical_name": "Abu Zaid (Jailer)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_تفريغ عربي-السجانون_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Abdullah_Salamah_Abu_Islam",
+      "type": "PERSON",
+      "canonical_name": "Abdullah Salamah (Abu Islam)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "05_تفريغ عربي-التحقيق والتعذيب_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Khalaf_al_Salamah",
+      "type": "PERSON",
+      "canonical_name": "Khalaf al-Salamah (father)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "10_تفريغ عربي-هروب الأب_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Ammar_al_Baasi",
+      "type": "PERSON",
+      "canonical_name": "Ammar (from al-Baasi)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "18_تفريغ عربي-أساليب التحقيق_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Ahmad_al_Lajji",
+      "type": "PERSON",
+      "canonical_name": "Ahmad al-Lajji",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "14_تفريغ عربي-قصاص ثلاثة سجناء_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Faisal_al_Zaher",
+      "type": "PERSON",
+      "canonical_name": "Faisal al-Zaher",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "14_تفريغ عربي-قصاص ثلاثة سجناء_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W2"
+    },
+    {
+      "id": "Ahmad_al_Hamoud",
+      "type": "PERSON",
+      "canonical_name": "Ahmad al-Hamoud (child)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "14_تفريغ عربي-قصاص ثلاثة سجناء_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "BYSTANDER",
+      "witness_source": "W2"
+    },
+    {
+      "id": "AL_BURJ_PRISON_SOLITARY",
+      "type": "FACILITY",
+      "canonical_name": "Al-Burj Solitary Cells",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تفرج سلامة_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "AL_BURJ_PRISON_DISCIPLINARY",
+      "type": "FACILITY",
+      "canonical_name": "Al-Burj Disciplinary Cell (60cm×1.5m)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تفرج سلامة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "AL_BURJ_INTERROGATION",
+      "type": "FACILITY",
+      "canonical_name": "Al-Burj Interrogation Room",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "05_تفريغ عربي-التحقيق والتعذيب_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "ISLAMIC_POLICE_BASE_TABQA",
+      "type": "FACILITY",
+      "canonical_name": "Islamic Police Base, Tabqa",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تفرج سلامة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "TABQA",
+      "type": "FACILITY",
+      "canonical_name": "Tabqa, Raqqa Province",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تفرج سلامة_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "CORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "MANSOURA",
+      "type": "FACILITY",
+      "canonical_name": "Mansoura, Tabqa countryside",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "13_تفريغ عربي- قصاص ثمانية سجناء_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_TORTURE_FARAJ_BEATING",
+      "type": "EVENT",
+      "canonical_name": "Torture Faraj Beating",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "05_تفريغ عربي-التحقيق والتعذيب_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_TORTURE_ABDULLAH_ASTHMA",
+      "type": "EVENT",
+      "canonical_name": "Torture Abdullah Asthma",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "05_تفريغ عربي-التحقيق والتعذيب_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_SHABEH_9HRS",
+      "type": "EVENT",
+      "canonical_name": "Shabeh 9Hrs",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "05_تفريغ عربي-التحقيق والتعذيب_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_QISAS_8_MANSOURA",
+      "type": "EVENT",
+      "canonical_name": "Qisas 8 Mansoura",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "13_تفريغ عربي- قصاص ثمانية سجناء_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_QISAS_3_COALITION",
+      "type": "EVENT",
+      "canonical_name": "Qisas 3 Coalition",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "14_تفريغ عربي-قصاص ثلاثة سجناء_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_WOMEN_KILLED",
+      "type": "EVENT",
+      "canonical_name": "Women Killed",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "14_تفريغ عربي-قصاص ثلاثة سجناء_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_TORTURE_SYSTEMATIC",
+      "type": "EVENT",
+      "canonical_name": "Torture Systematic",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "18_تفريغ عربي-أساليب التحقيق_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_DEATH_AMMAR",
+      "type": "EVENT",
+      "canonical_name": "Death Ammar",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "18_تفريغ عربي-أساليب التحقيق_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_PSYCH_TORTURE",
+      "type": "EVENT",
+      "canonical_name": "Psych Torture",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "06_تفريغ عربي-التعذيب النفسي_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_MASS_ARREST",
+      "type": "EVENT",
+      "canonical_name": "Mass Arrest",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تفرج سلامة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_DEATH_THREAT_FATHER",
+      "type": "EVENT",
+      "canonical_name": "Death Threat Father",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "10_تفريغ عربي-هروب الأب_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_RANSOM",
+      "type": "EVENT",
+      "canonical_name": "Ransom",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "09_تفريغ عربي-الخروج ودفع غرامة الأخ_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EVT_W2_WOMEN_TORTURED",
+      "type": "EVENT",
+      "canonical_name": "Women Tortured",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "18_تفريغ عربي-أساليب التحقيق_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "BEATING_UNTIL_UNCONSCIOUS",
+      "type": "METHOD",
+      "canonical_name": "Beating until unconsciousness",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "18_تفريغ عربي-أساليب التحقيق_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "BEATING_HOSE_STICK",
+      "type": "METHOD",
+      "canonical_name": "Beating with hose or stick",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "18_تفريغ عربي-أساليب التحقيق_En.srt",
+      "corroboration_score": 3,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "SHARED"
+    },
+    {
+      "id": "STABBING_THEN_SHOOTING",
+      "type": "METHOD",
+      "canonical_name": "Stabbing then shooting",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "18_تفريغ عربي-أساليب التحقيق_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "MOCK_EXECUTION",
+      "type": "METHOD",
+      "canonical_name": "Mock execution (yellow clothes, shaved)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "18_تفريغ عربي-أساليب التحقيق_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "EMIR_AL_BURJ",
+      "type": "ROLE",
+      "canonical_name": "Emir/General Official of Al-Burj Prison",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_تفريغ عربي-السجانون_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "INTERROGATOR_AL_BURJ",
+      "type": "ROLE",
+      "canonical_name": "Internal Official/Interrogator at Al-Burj",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_تفريغ عربي-السجانون_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "JAILER_CHIEF_AL_BURJ",
+      "type": "ROLE",
+      "canonical_name": "Chief of Jailers at Al-Burj",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "07_تفريغ عربي-السجانون_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "T_2016_FEB",
+      "type": "TIMEFRAME",
+      "canonical_name": "February 2016",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تفرج سلامة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "T_2016_JUN",
+      "type": "TIMEFRAME",
+      "canonical_name": "~June 2016 (4 months after arrest)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "09_تفريغ عربي-الخروج ودفع غرامة الأخ_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "SENSORY_W2_WOMEN_SCREAMS",
+      "type": "SENSORY",
+      "canonical_name": "Women screaming during torture",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تفرج سلامة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "SENSORY_W2_WATER_TAP_COMM",
+      "type": "SENSORY",
+      "canonical_name": "Communication through water taps",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تفرج سلامة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "SENSORY_W2_TORTURE_SOUNDS",
+      "type": "SENSORY",
+      "canonical_name": "Sounds of torture (beating, screaming)",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "01_تفرج سلامة_En.srt",
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "sub_type": "",
+      "witness_source": "W2"
+    },
+    {
+      "id": "SHABEH_BALINGO_SUSPENSION",
+      "type": "METHOD",
+      "canonical_name": "SHABEH BALINGO SUSPENSION",
+      "arabic_name": "",
+      "glossary_match": false,
+      "glossary_source": "",
+      "aliases": [],
+      "attributes": {},
+      "first_seen_in": "18_تفريغ عربي-أساليب التحقيق_En.srt",
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "sub_type": "",
+      "witness_source": "W2"
     }
   ],
   "edges": [
@@ -918,7 +1964,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_002",
@@ -933,7 +1982,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_003",
@@ -949,7 +2001,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_004",
@@ -962,7 +2017,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_004B",
@@ -975,7 +2033,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_004C",
@@ -988,7 +2049,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_004D",
@@ -1003,7 +2067,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_005",
@@ -1014,9 +2081,12 @@
         "ATOM_014"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_006",
@@ -1027,9 +2097,12 @@
         "ATOM_014"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_007",
@@ -1040,9 +2113,12 @@
         "ATOM_015"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_008",
@@ -1053,9 +2129,12 @@
         "ATOM_016"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_009",
@@ -1066,9 +2145,12 @@
         "ATOM_008"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_009B",
@@ -1079,9 +2161,12 @@
         "ATOM_026"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_009C",
@@ -1092,9 +2177,12 @@
         "ATOM_031"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_009D",
@@ -1105,9 +2193,12 @@
         "ATOM_033"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_010",
@@ -1119,8 +2210,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_011",
@@ -1132,8 +2226,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_012",
@@ -1146,7 +2243,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_012B",
@@ -1158,8 +2258,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_012C",
@@ -1171,8 +2274,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_012D",
@@ -1185,7 +2291,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_013",
@@ -1196,9 +2305,12 @@
         "ATOM_013"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_014",
@@ -1211,7 +2323,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_015",
@@ -1224,7 +2339,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_015B",
@@ -1237,7 +2355,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_015C",
@@ -1250,7 +2371,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_015D",
@@ -1263,7 +2387,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_016",
@@ -1277,7 +2404,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_017",
@@ -1290,7 +2420,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_018",
@@ -1304,7 +2437,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_018B",
@@ -1318,7 +2454,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_018C",
@@ -1332,7 +2471,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_018D",
@@ -1346,7 +2488,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_019",
@@ -1359,7 +2504,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_020",
@@ -1372,7 +2520,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_020B",
@@ -1385,7 +2536,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_020C",
@@ -1398,7 +2552,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_020D",
@@ -1410,8 +2567,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_020E",
@@ -1424,7 +2584,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_020F",
@@ -1437,7 +2600,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_021",
@@ -1448,9 +2614,13 @@
         "ATOM_009"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Abu Hudhayfa detained in Assad Sednaya (~2000), released, became ISIS emir",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_022",
@@ -1461,9 +2631,13 @@
         "ATOM_021"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Abu Humam was Assad Political Security sergeant, then ISIS Hisba emir",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_023",
@@ -1476,8 +2650,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_023B",
@@ -1490,7 +2667,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_023C",
@@ -1503,7 +2683,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_023D",
@@ -1516,7 +2699,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_023E",
@@ -1529,7 +2715,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_024",
@@ -1542,7 +2731,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_025",
@@ -1555,7 +2747,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_025B",
@@ -1568,7 +2763,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_025C",
@@ -1581,7 +2779,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_025D",
@@ -1594,7 +2795,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_025E",
@@ -1607,7 +2811,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_025F",
@@ -1620,7 +2827,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_026",
@@ -1634,7 +2844,11 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "note": "Iron bar marks on ceiling + 3 doors + sleeping positions physically verified",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_027",
@@ -1647,7 +2861,11 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "note": "6 solitary cell wall remnants still visible + dampness smell",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_028",
@@ -1660,7 +2878,11 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 2,
-      "corroboration_tier": "SUPPORTED"
+      "corroboration_tier": "SUPPORTED",
+      "note": "Escape route through pipes visible, dish soap escape method demonstrated on site",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_029",
@@ -1672,8 +2894,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_030",
@@ -1685,8 +2910,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_031",
@@ -1698,8 +2926,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_032",
@@ -1711,8 +2942,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_033",
@@ -1724,8 +2958,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_034",
@@ -1737,8 +2974,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_035",
@@ -1750,8 +2990,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_036",
@@ -1763,8 +3006,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_037",
@@ -1776,8 +3022,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_038",
@@ -1789,8 +3038,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_039",
@@ -1802,8 +3054,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_040",
@@ -1816,7 +3071,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_041",
@@ -1827,9 +3085,12 @@
         "ATOM_002"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_042",
@@ -1840,9 +3101,12 @@
         "ATOM_003"
       ],
       "requires_human_gate": true,
-      "human_approved": false,
+      "human_approved": true,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_T01",
@@ -1855,7 +3119,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_T02",
@@ -1868,7 +3135,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_T03",
@@ -1881,7 +3151,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_T04",
@@ -1894,7 +3167,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_T05",
@@ -1907,7 +3183,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_T06",
@@ -1920,7 +3199,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_T07",
@@ -1932,8 +3214,11 @@
       ],
       "requires_human_gate": false,
       "human_approved": null,
-      "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_T08",
@@ -1946,7 +3231,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_T09",
@@ -1959,11 +3247,14 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_O01",
-      "type": "OCCURRED_IN",
+      "type": "LOCATED_IN",
       "from_node": "POINT_11_GOVERNORS_PALACE",
       "to_node": "RAQQA_CITY",
       "source_atoms": [
@@ -1972,11 +3263,14 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_O02",
-      "type": "OCCURRED_IN",
+      "type": "LOCATED_IN",
       "from_node": "INVESTIGATION_SECTION_RAQQA",
       "to_node": "RAQQA_CITY",
       "source_atoms": [
@@ -1985,11 +3279,14 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_O03",
-      "type": "OCCURRED_IN",
+      "type": "LOCATED_IN",
       "from_node": "RUMAILA_PRISON",
       "to_node": "RAQQA_CITY",
       "source_atoms": [
@@ -1998,7 +3295,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_O04",
@@ -2011,7 +3311,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_O05",
@@ -2024,7 +3327,11 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Victim of the beating death",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_O06",
@@ -2037,7 +3344,10 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
       "id": "EDGE_O07",
@@ -2050,52 +3360,1310 @@
       "requires_human_gate": false,
       "human_approved": null,
       "corroboration_score": 1,
-      "corroboration_tier": "UNCORROBORATED"
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Abu Seif seized Abu Sateef's house",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
     },
     {
-      "id": "EDGE_CW01",
+      "id": "EDGE_100",
+      "type": "WITNESSED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "EVT_REGIME_DISMISSAL",
+      "source_atoms": [
+        "ATOM_002"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Talal testified about his own dismissal from the Water Dept by Air Force Intelligence",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
+    },
+    {
+      "id": "EDGE_101",
+      "type": "LOCATED_IN",
+      "from_node": "RUMAILA_SOLITARY_CELLS",
+      "to_node": "RUMAILA_PRISON",
+      "source_atoms": [
+        "ATOM_040"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Solitary cells are part of Rumaila Prison complex",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
+    },
+    {
+      "id": "EDGE_102",
+      "type": "WITNESSED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "EVT_FIRST_ARREST_POINT11",
+      "source_atoms": [
+        "ATOM_004"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Talal testified about being arrested at Point 11 (Governor's Palace)",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
+    },
+    {
+      "id": "EDGE_103",
+      "type": "WITNESSED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "EVT_53DAY_DETENTION_MJ",
+      "source_atoms": [
+        "ATOM_005"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Talal testified about being detained for 53 days at Military Judiciary",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
+    },
+    {
+      "id": "EDGE_104",
+      "type": "WITNESSED",
+      "from_node": "Talal_Mustafa_al_Shuweimi",
+      "to_node": "EVT_SEDNAYA_DETENTION_6YRS",
+      "source_atoms": [
+        "ATOM_003"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Talal testified about his brother Abdul Rahim's 6-year Sednaya detention",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
+    },
+    {
+      "id": "EDGE_105",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Yousuf_Interrogator",
+      "to_node": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+      "source_atoms": [
+        "ATOM_006"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Abu Yousuf was head interrogator at the Military Judiciary building",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
+    },
+    {
+      "id": "EDGE_106",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Suhaib_al_Tunisi",
+      "to_node": "MILITARY_JUDICIARY_BUILDING_RAQQA",
+      "source_atoms": [
+        "ATOM_006"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Abu Suhaib al-Tunisi was senior officer at Mil. Judiciary (SRT 04 cue 82)",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
+    },
+    {
+      "id": "EDGE_107",
+      "type": "PERPETRATED",
+      "from_node": "Abu_Seif_Maqs",
+      "to_node": "EVT_PROPERTY_SEIZURE",
+      "source_atoms": [
+        "ATOM_045"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Abu Seif took Abu Sateef's house (seized Kurdish home on Sajiyah Street)",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
+    },
+    {
+      "id": "EDGE_108",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_PROPERTY_SEIZURE",
+      "to_node": "HISBA_SAJIYAH_STREET",
+      "source_atoms": [
+        "ATOM_045"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "note": "Property seizure occurred on Sajiyah Street near Hisba base",
+      "witness_source": "W1",
+      "cross_witness": false,
+      "common_edge": ""
+    },
+    {
+      "id": "W2_EDGE_001",
+      "type": "PERPETRATED",
+      "from_node": "ISIS_INTERROGATOR_BURJ",
+      "to_node": "EVT_W2_TORTURE_FARAJ_BEATING",
+      "source_atoms": [
+        "W2_ATOM_007"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Beaten until unconscious, water splash revival"
+    },
+    {
+      "id": "W2_EDGE_002",
+      "type": "PERPETRATED",
+      "from_node": "ISIS_INTERROGATOR_BURJ",
+      "to_node": "EVT_W2_TORTURE_ABDULLAH_ASTHMA",
+      "source_atoms": [
+        "W2_ATOM_008"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Cousin with asthma fainted after 30min"
+    },
+    {
+      "id": "W2_EDGE_003",
+      "type": "PERPETRATED",
+      "from_node": "ISIS_INTERROGATOR_BURJ",
+      "to_node": "EVT_W2_SHABEH_9HRS",
+      "source_atoms": [
+        "W2_ATOM_009"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Suspended 9 hours, feet off ground"
+    },
+    {
+      "id": "W2_EDGE_004",
+      "type": "PERPETRATED",
+      "from_node": "ISIS",
+      "to_node": "EVT_W2_QISAS_8_MANSOURA",
+      "source_atoms": [
+        "W2_ATOM_014"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "8 prisoners crucified for hiraba"
+    },
+    {
+      "id": "W2_EDGE_005",
+      "type": "PERPETRATED",
+      "from_node": "ISIS",
+      "to_node": "EVT_W2_QISAS_3_COALITION",
+      "source_atoms": [
+        "W2_ATOM_015"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "3 killed: stabbed then shot, Coalition charges"
+    },
+    {
+      "id": "W2_EDGE_006",
+      "type": "PERPETRATED",
+      "from_node": "ISIS",
+      "to_node": "EVT_W2_WOMEN_KILLED",
+      "source_atoms": [
+        "W2_ATOM_016"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Women taken at night with grave-digging tools"
+    },
+    {
+      "id": "W2_EDGE_007",
+      "type": "PERPETRATED",
+      "from_node": "Mahmoud_al_Ibrahim_al_Dakhil",
+      "to_node": "EVT_W2_TORTURE_SYSTEMATIC",
+      "source_atoms": [
+        "W2_ATOM_017"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Systematic beating with hose/stick + balingo suspension"
+    },
+    {
+      "id": "W2_EDGE_008",
+      "type": "PERPETRATED",
+      "from_node": "ISIS_INTERROGATOR_BURJ",
+      "to_node": "EVT_W2_DEATH_AMMAR",
+      "source_atoms": [
+        "W2_ATOM_018"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Ammar from al-Baasi tortured to death"
+    },
+    {
+      "id": "W2_EDGE_009",
+      "type": "PERPETRATED",
+      "from_node": "ISIS",
+      "to_node": "EVT_W2_PSYCH_TORTURE",
+      "source_atoms": [
+        "W2_ATOM_010"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Mock executions, death threats, yellow clothes"
+    },
+    {
+      "id": "W2_EDGE_010",
+      "type": "PERPETRATED",
+      "from_node": "ISIS",
+      "to_node": "EVT_W2_MASS_ARREST",
+      "source_atoms": [
+        "W2_ATOM_001"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Mass arrest of ~30 relatives during Friday prayer"
+    },
+    {
+      "id": "W2_EDGE_011",
+      "type": "PERPETRATED",
+      "from_node": "ISIS",
+      "to_node": "EVT_W2_DEATH_THREAT_FATHER",
+      "source_atoms": [
+        "W2_ATOM_021"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Threatened to kill Faraj if father didn't return"
+    },
+    {
+      "id": "W2_EDGE_012",
+      "type": "PERPETRATED",
+      "from_node": "ISIS",
+      "to_node": "EVT_W2_RANSOM",
+      "source_atoms": [
+        "W2_ATOM_022"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "$10K for brother + $10K for cousin"
+    },
+    {
+      "id": "W2_EDGE_013",
+      "type": "PERPETRATED",
+      "from_node": "ISIS",
+      "to_node": "EVT_W2_WOMEN_TORTURED",
+      "source_atoms": [
+        "W2_ATOM_023"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Women tortured 3hrs after midnight"
+    },
+    {
+      "id": "W2_EDGE_014",
+      "type": "COMMANDED",
+      "from_node": "Abu_Luqman_Ibrahim_al_Shawakh",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_011"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "General official/emir of Al-Burj Prison"
+    },
+    {
+      "id": "W2_EDGE_015",
+      "type": "COMMANDED",
+      "from_node": "Mahmoud_al_Ibrahim_al_Dakhil",
+      "to_node": "AL_BURJ_INTERROGATION",
+      "source_atoms": [
+        "W2_ATOM_012"
+      ],
+      "requires_human_gate": true,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": "Internal official, responsible for interrogations in Tabqa"
+    },
+    {
+      "id": "W2_EDGE_016",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_TORTURE_FARAJ_BEATING",
+      "source_atoms": [
+        "W2_ATOM_007"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_017",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_TORTURE_ABDULLAH_ASTHMA",
+      "source_atoms": [
+        "W2_ATOM_008"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_018",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_SHABEH_9HRS",
+      "source_atoms": [
+        "W2_ATOM_009"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_019",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_QISAS_8_MANSOURA",
+      "source_atoms": [
+        "W2_ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_020",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_QISAS_3_COALITION",
+      "source_atoms": [
+        "W2_ATOM_015"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_021",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_WOMEN_KILLED",
+      "source_atoms": [
+        "W2_ATOM_016"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_022",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_PSYCH_TORTURE",
+      "source_atoms": [
+        "W2_ATOM_010"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_023",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_MASS_ARREST",
+      "source_atoms": [
+        "W2_ATOM_001"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_024",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_DEATH_AMMAR",
+      "source_atoms": [
+        "W2_ATOM_018"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_025",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_DEATH_THREAT_FATHER",
+      "source_atoms": [
+        "W2_ATOM_021"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_026",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_RANSOM",
+      "source_atoms": [
+        "W2_ATOM_022"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_027",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_WOMEN_TORTURED",
+      "source_atoms": [
+        "W2_ATOM_023"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_028",
+      "type": "WITNESSED",
+      "from_node": "Faraj_Salamah",
+      "to_node": "EVT_W2_TORTURE_SYSTEMATIC",
+      "source_atoms": [
+        "W2_ATOM_017"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_029",
+      "type": "DETAINED_AT",
+      "from_node": "Faraj_Salamah",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_002"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_030",
+      "type": "DETAINED_AT",
+      "from_node": "Abdullah_Salamah_Abu_Islam",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_008"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_031",
+      "type": "DETAINED_AT",
+      "from_node": "Khalaf_al_Salamah",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_019"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_032",
+      "type": "DETAINED_AT",
+      "from_node": "Ammar_al_Baasi",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_018"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_033",
+      "type": "DETAINED_AT",
+      "from_node": "Ahmad_al_Lajji",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_015"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_034",
+      "type": "DETAINED_AT",
+      "from_node": "Faisal_al_Zaher",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_015"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_035",
+      "type": "DETAINED_AT",
+      "from_node": "Ahmad_al_Hamoud",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_015"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_036",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Luqman_Ibrahim_al_Shawakh",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "W2_ATOM_011"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_037",
+      "type": "MEMBER_OF",
+      "from_node": "Mahmoud_al_Ibrahim_al_Dakhil",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "W2_ATOM_012"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_038",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Nayef_Saudi",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "W2_ATOM_013"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_039",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Abdullah_Jailer",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "W2_ATOM_024"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_040",
+      "type": "MEMBER_OF",
+      "from_node": "Abu_Zaid_Jailer",
+      "to_node": "ISIS",
+      "source_atoms": [
+        "W2_ATOM_025"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_041",
+      "type": "HOLDS_ROLE",
+      "from_node": "Abu_Luqman_Ibrahim_al_Shawakh",
+      "to_node": "EMIR_AL_BURJ",
+      "source_atoms": [
+        "W2_ATOM_011"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_042",
+      "type": "HOLDS_ROLE",
+      "from_node": "Mahmoud_al_Ibrahim_al_Dakhil",
+      "to_node": "INTERROGATOR_AL_BURJ",
+      "source_atoms": [
+        "W2_ATOM_012"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_043",
+      "type": "HOLDS_ROLE",
+      "from_node": "Abu_Nayef_Saudi",
+      "to_node": "JAILER_CHIEF_AL_BURJ",
+      "source_atoms": [
+        "W2_ATOM_013"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_044",
+      "type": "USED_METHOD",
+      "from_node": "EVT_W2_TORTURE_FARAJ_BEATING",
+      "to_node": "BEATING_UNTIL_UNCONSCIOUS",
+      "source_atoms": [
+        "W2_ATOM_007"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_045",
+      "type": "USED_METHOD",
+      "from_node": "EVT_W2_SHABEH_9HRS",
+      "to_node": "SHABEH_SUSPENSION",
+      "source_atoms": [
+        "W2_ATOM_009"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_046",
+      "type": "USED_METHOD",
+      "from_node": "EVT_W2_TORTURE_SYSTEMATIC",
+      "to_node": "BEATING_HOSE_STICK",
+      "source_atoms": [
+        "W2_ATOM_017"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_047",
+      "type": "USED_METHOD",
+      "from_node": "EVT_W2_TORTURE_SYSTEMATIC",
+      "to_node": "SHABEH_SUSPENSION",
+      "source_atoms": [
+        "W2_ATOM_017"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_048",
+      "type": "USED_METHOD",
+      "from_node": "EVT_W2_QISAS_8_MANSOURA",
+      "to_node": "CRUCIFIXION",
+      "source_atoms": [
+        "W2_ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_049",
+      "type": "USED_METHOD",
+      "from_node": "EVT_W2_QISAS_3_COALITION",
+      "to_node": "STABBING_THEN_SHOOTING",
+      "source_atoms": [
+        "W2_ATOM_015"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_050",
+      "type": "USED_METHOD",
+      "from_node": "EVT_W2_PSYCH_TORTURE",
+      "to_node": "MOCK_EXECUTION",
+      "source_atoms": [
+        "W2_ATOM_010"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_051",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_W2_MASS_ARREST",
+      "to_node": "TABQA",
+      "source_atoms": [
+        "W2_ATOM_001"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_052",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_W2_QISAS_8_MANSOURA",
+      "to_node": "MANSOURA",
+      "source_atoms": [
+        "W2_ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_053",
+      "type": "OCCURRED_AT",
+      "from_node": "EVT_W2_QISAS_3_COALITION",
+      "to_node": "TABQA",
+      "source_atoms": [
+        "W2_ATOM_015"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_054",
+      "type": "LOCATED_IN",
+      "from_node": "AL_BURJ_PRISON_SOLITARY",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_003"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_055",
+      "type": "LOCATED_IN",
+      "from_node": "AL_BURJ_PRISON_DISCIPLINARY",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_005"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_056",
+      "type": "LOCATED_IN",
+      "from_node": "AL_BURJ_PRISON",
+      "to_node": "TABQA",
+      "source_atoms": [
+        "W2_ATOM_002"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_057",
+      "type": "LOCATED_IN",
+      "from_node": "ISLAMIC_POLICE_BASE_TABQA",
+      "to_node": "TABQA",
+      "source_atoms": [
+        "W2_ATOM_002"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_058",
+      "type": "TEMPORAL",
+      "from_node": "EVT_W2_MASS_ARREST",
+      "to_node": "T_2016_FEB",
+      "source_atoms": [
+        "W2_ATOM_001"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_059",
+      "type": "TEMPORAL",
+      "from_node": "EVT_W2_RANSOM",
+      "to_node": "T_2016_JUN",
+      "source_atoms": [
+        "W2_ATOM_022"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_060",
+      "type": "SENSORY_AT",
+      "from_node": "SENSORY_W2_WOMEN_SCREAMS",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_006"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_061",
+      "type": "SENSORY_AT",
+      "from_node": "SENSORY_W2_WATER_TAP_COMM",
+      "to_node": "AL_BURJ_PRISON_SOLITARY",
+      "source_atoms": [
+        "W2_ATOM_006"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "W2_EDGE_062",
+      "type": "SENSORY_AT",
+      "from_node": "SENSORY_W2_TORTURE_SOUNDS",
+      "to_node": "AL_BURJ_PRISON",
+      "source_atoms": [
+        "W2_ATOM_007"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 1,
+      "corroboration_tier": "UNCORROBORATED",
+      "witness_source": "W2",
+      "cross_witness": false,
+      "common_edge": "",
+      "note": ""
+    },
+    {
+      "id": "EDGE_CW_001",
       "type": "CROSS_WITNESS",
       "from_node": "SHABEH_SUSPENSION",
-      "to_node": "AL_BURJ_PRISON",
-      "source_atoms": [],
+      "to_node": "SHABEH_BALINGO_SUSPENSION",
+      "source_atoms": [
+        "ATOM_014",
+        "W2_ATOM_009",
+        "W2_ATOM_017"
+      ],
       "requires_human_gate": false,
-      "human_approved": null,
-      "corroboration_score": 3,
-      "corroboration_tier": "CONVERGENT"
-    },
-    {
-      "id": "EDGE_CW02",
-      "type": "CROSS_WITNESS",
-      "from_node": "CRUCIFIXION",
-      "to_node": "AL_BURJ_PRISON",
-      "source_atoms": [],
-      "requires_human_gate": false,
-      "human_approved": null,
+      "human_approved": true,
       "corroboration_score": 2,
-      "corroboration_tier": "CORROBORATED"
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "SHARED",
+      "cross_witness": true,
+      "common_edge": "SHABEH",
+      "note": "Same suspension torture described independently by both witnesses at different ISIS prisons"
     },
     {
-      "id": "EDGE_CW03",
+      "id": "EDGE_CW_002",
       "type": "CROSS_WITNESS",
-      "from_node": "HISBA",
-      "to_node": "AL_BURJ_PRISON",
-      "source_atoms": [],
+      "from_node": "BEATING_STICKS_METAL_RODS",
+      "to_node": "BEATING_HOSE_STICK",
+      "source_atoms": [
+        "ATOM_014",
+        "W2_ATOM_017"
+      ],
       "requires_human_gate": false,
-      "human_approved": null,
+      "human_approved": true,
       "corroboration_score": 2,
-      "corroboration_tier": "CORROBORATED"
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "SHARED",
+      "cross_witness": true,
+      "common_edge": "BEATING",
+      "note": "Both witnesses describe systematic beating by ISIS guards with implements"
     },
     {
-      "id": "EDGE_CW04",
+      "id": "EDGE_CW_003",
       "type": "CROSS_WITNESS",
-      "from_node": "ISIS",
-      "to_node": "AL_BURJ_PRISON",
-      "source_atoms": [],
+      "from_node": "LAKHDAR_BRAHIMI_WATER_HOSE",
+      "to_node": "BEATING_HOSE_STICK",
+      "source_atoms": [
+        "ATOM_026",
+        "W2_ATOM_017"
+      ],
       "requires_human_gate": false,
-      "human_approved": null,
-      "corroboration_score": 3,
-      "corroboration_tier": "CONVERGENT"
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "SHARED",
+      "cross_witness": true,
+      "common_edge": "WATER_HOSE",
+      "note": "Both witnesses describe water hose used as beating weapon"
+    },
+    {
+      "id": "EDGE_CW_004",
+      "type": "CROSS_WITNESS",
+      "from_node": "EVT_ESCAPE_PUNISHMENT",
+      "to_node": "EVT_W2_QISAS_8_MANSOURA",
+      "source_atoms": [
+        "ATOM_032",
+        "W2_ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "SHARED",
+      "cross_witness": true,
+      "common_edge": "CRUCIFIXION_EVENTS",
+      "note": "Both witnesses describe crucifixion events at different locations"
+    },
+    {
+      "id": "EDGE_CW_005",
+      "type": "CROSS_WITNESS",
+      "from_node": "EVT_QISAS_SENTENCING",
+      "to_node": "EVT_W2_QISAS_8_MANSOURA",
+      "source_atoms": [
+        "ATOM_020",
+        "ATOM_033",
+        "W2_ATOM_014"
+      ],
+      "requires_human_gate": false,
+      "human_approved": true,
+      "corroboration_score": 2,
+      "corroboration_tier": "SUPPORTED",
+      "witness_source": "SHARED",
+      "cross_witness": true,
+      "common_edge": "QISAS_EXECUTION",
+      "note": "Both witnesses describe ISIS qisas judicial sentencing and public executions"
     }
-  ],
-  "integrity": []
+  ]
 }
