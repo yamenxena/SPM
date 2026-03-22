@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/", "destination": "/web/argus/index.html" },
     { "source": "/assets/(.*)", "destination": "/web/argus/assets/$1" },
+    { "source": "/srt/(.*)", "destination": "/web/argus/srt/$1" },
     { "source": "/fkg.json", "destination": "/web/argus/fkg.json" },
     { "source": "/atoms.json", "destination": "/web/argus/atoms.json" }
   ]
