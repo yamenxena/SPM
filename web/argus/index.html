@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Argus — Forensic Knowledge Graph Viewer</title>
     <meta name="description" content="Interactive viewer for the Argus Forensic Knowledge Graph — Syria Prisons Museum">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Air-gapped: fonts bundled locally in assets/fonts/ -->
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -46,14 +45,17 @@
     <header id="app-header">
         <div class="header-left">
             <button class="hdr-btn" id="btn-sidebar" onclick="toggleSidebar()" title="Toggle Sidebar">☰</button>
+            <button class="hdr-btn" id="btn-back" onclick="closeDossier()" title="Back to Graph" style="display:none">← Back</button>
             <div class="logo">
                 <span class="logo-icon">👁</span>
                 <h1>ARGUS</h1>
-                <span class="version">v3.2</span>
+                <span class="version">v5.0</span>
             </div>
-            <div class="panel-toggles">
-                <button class="toggle-btn" id="btn-flow" onclick="togglePanel('flow')">◈ Flow</button>
-                <button class="toggle-btn" id="btn-timeline" onclick="togglePanel('timeline')">⟹ Timeline</button>
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input id="search-input" type="text" placeholder="Search nodes…" autocomplete="off"
+                    oninput="searchNodes(this.value)">
+                <div id="search-results" class="search-results hidden"></div>
             </div>
         </div>
         <div class="header-right">
@@ -68,8 +70,54 @@
     <main id="app-main">
         <!-- Left Sidebar (retractable) -->
         <aside id="sidebar">
-            <div class="sidebar-section">
+            <!-- Navigation Buttons -->
+            <div class="sidebar-nav">
+                <button class="nav-btn" onclick="exportDossier()" title="Forensic Dossier">
+                    <span class="nav-icon">📄</span><span class="nav-label">Dossier</span>
+                </button>
+                <button class="nav-btn" id="btn-timeline" onclick="togglePanel('timeline')">
+                    <span class="nav-icon">📅</span><span class="nav-label">Timeline</span>
+                </button>
+                <button class="nav-btn" id="btn-flow" onclick="togglePanel('flow')">
+                    <span class="nav-icon">📊</span><span class="nav-label">Flow</span>
+                </button>
+                <button class="nav-btn" id="btn-analysis" onclick="togglePanel('analysis')">
+                    <span class="nav-icon">📈</span><span class="nav-label">Analysis</span>
+                </button>
+                <button class="nav-btn" id="btn-taxonomy" onclick="togglePanel('taxonomy')">
+                    <span class="nav-icon">🌳</span><span class="nav-label">Taxonomy</span>
+                </button>
+                <button class="nav-btn" onclick="toggleTemporalLayout()" title="Toggle temporal / force-directed layout">
+                    <span class="nav-icon">⏳</span><span class="nav-label">Temporal</span>
+                </button>
+                <button class="nav-btn" onclick="exportPNG()" title="Export PNG">
+                    <span class="nav-icon">📷</span><span class="nav-label">PNG</span>
+                </button>
+                <button class="nav-btn" id="nav-filters" onclick="toggleSidebarSection('filters')">
+                    <span class="nav-icon">🔍</span><span class="nav-label">Filters</span>
+                </button>
+                <button class="nav-btn" onclick="resetGraph()">
+                    <span class="nav-icon">🔄</span><span class="nav-label">Refresh</span>
+                </button>
+                <button class="nav-btn" onclick="saveLayout()" title="Save current node positions">
+                    <span class="nav-icon">📌</span><span class="nav-label">Save</span>
+                </button>
+                <button class="nav-btn nav-logout" onclick="location.href=location.href">
+                    <span class="nav-icon">🚪</span><span class="nav-label">Logout</span>
+                </button>
+            </div>
+
+            <!-- Filters Section (toggleable) -->
+            <div id="filters-section" class="sidebar-section">
                 <h3>Filters</h3>
+                <div class="filter-group"><label>Witness</label>
+                    <select id="witness-filter" onchange="setWitnessFilter(this.value)" style="width:100%;background:#0f172a;color:#e2e8f0;border:1px solid #1e293b;border-radius:4px;padding:6px 8px;font-family:'JetBrains Mono',monospace;font-size:11px;cursor:pointer">
+                        <option value="ALL">👁 All Witnesses</option>
+                        <option value="W1">🟢 Talal al-Shuweimi (Rumaila)</option>
+                        <option value="W2">🔵 Faraj Salamah (Al-Burj)</option>
+                        <option value="CW">⚡ Cross-Witness Only</option>
+                    </select>
+                </div>
                 <div class="filter-group"><label>Node Type</label><div id="node-type-filters" class="checkbox-group"></div></div>
                 <div class="filter-group"><label>Corroboration</label><div id="corr-filters" class="checkbox-group"></div></div>
             </div>
@@ -81,7 +129,7 @@
 
         <!-- Graph (always visible) -->
         <section id="graph-container">
-            <canvas id="graph-canvas"></canvas>
+            <div id="cy"></div>
             <div id="tooltip" class="tooltip hidden"></div>
         </section>
 
@@ -97,6 +145,8 @@
             <div id="panel-body" class="panel-body">
                 <div id="flow-container"></div>
                 <div id="timeline-container" style="display:none"></div>
+                <div id="taxonomy-container" style="display:none"></div>
+                <div id="analysis-container" style="display:none"></div>
             </div>
         </aside>
 
@@ -108,6 +158,9 @@
             </div>
             <div id="inspector-content"></div>
         </div>
+
+        <!-- Dossier (inline, replaces graph view) -->
+        <div id="dossier-container" class="dossier-container hidden"></div>
     </main>
 
     <!-- Source Evidence Panel (slide-up from bottom) -->
@@ -115,6 +168,19 @@
         <div id="source-panel-content" class="source-panel-inner"></div>
     </div>
 
+    <!-- Data Integrity Footer -->
+    <footer id="data-footer" style="display:flex;justify-content:center;gap:24px;padding:4px 12px;background:#0f172a;border-top:1px solid #1e293b;font-family:'JetBrains Mono',monospace;font-size:9px;color:#64748b;flex-shrink:0">
+        <span>ARGUS v5.0 · Cytoscape.js</span>
+        <span id="footer-hash">SHA-256: loading…</span>
+        <span id="footer-counts">N: — · E: —</span>
+        <span>Shift+Click → Path Analysis</span>
+    </footer>
+
+    <script src="assets/lib/cytoscape.min.js"></script>
+    <script src="assets/lib/layout-base.js"></script>
+    <script src="assets/lib/cose-base.js"></script>
+    <script src="assets/lib/cytoscape-cose-bilkent.js"></script>
+    <script src="assets/lib/cytoscape-svg.js"></script>
     <script src="assets/app.js"></script>
 </body>
 </html>
