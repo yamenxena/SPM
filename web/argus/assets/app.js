@@ -37,7 +37,6 @@ let activeWitness = 'ALL';
 let selectedNode = null;
 let srtCache = {};
 let activePanel = null;
-let flowZoom = 1, flowPanX = 0, flowPanY = 0, flowDragging = false, flowDragStart = null;
 
 // --- Centralized atom resolution (3-tier) ---
 function findRelatedAtoms(nodeId) {
@@ -1777,174 +1776,276 @@ function renderAnalysis() {
     container.innerHTML = html;
 }
 
-// --- SVG Zoom & Pan for Evidence Flow ---
-function initFlowZoomPan() {
-    const container = document.getElementById('flow-container');
-    const svg = container.querySelector('.flow-svg');
-    if (!svg) return;
+// ═══ FORENSIC FLOW — DUAL-LANE ENGINE ═══
 
-    function applyTransform() {
-        svg.style.transform = `translate(${flowPanX}px,${flowPanY}px) scale(${flowZoom})`;
+// Phase classification by keyword matching
+const FLOW_PHASES = {
+    ARREST:    { color: '#22c55e', icon: '🟢', keywords: ['arrest', 'capture', 'seize', 'apprehend', 'checkpoint', 'raid', 'abduct', 'kidnap', 'take', 'brought in'] },
+    DETENTION: { color: '#3b82f6', icon: '🔵', keywords: ['detain', 'prison', 'cell', 'held', 'imprison', 'confine', 'solitary', 'jail', 'locked', 'custody', 'transfer', 'moved'] },
+    TORTURE:   { color: '#dc2626', icon: '🔴', keywords: ['torture', 'beat', 'shabeh', 'hung', 'whip', 'lash', 'electric', 'burn', 'tire', 'hose', 'strike', 'crucif', 'hit', 'punch', 'kick', 'water', 'starv', 'deprive', 'stick', 'flog', 'club'] },
+    LEGAL:     { color: '#f59e0b', icon: '🟡', keywords: ['court', 'judge', 'sentence', 'trial', 'sharia', 'qisas', 'ruling', 'verdict', 'law', 'charge'] },
+    TRANSFER:  { color: '#f97316', icon: '🟠', keywords: ['transfer', 'escape', 'release', 'freed', 'ransom', 'exchanged', 'smuggle', 'flee', 'deported'] },
+    WITNESS:   { color: '#8b5cf6', icon: '🟣', keywords: ['witness', 'saw', 'confirm', 'corroborate', 'verified', 'heard', 'told', 'report', 'describe', 'observ'] },
+};
+
+function classifyPhase(atom) {
+    const text = ((atom.did_what || '') + ' ' + (atom.where || '')).toLowerCase();
+    let bestPhase = 'DETENTION';
+    let bestScore = 0;
+    for (const [phase, cfg] of Object.entries(FLOW_PHASES)) {
+        let score = 0;
+        for (const kw of cfg.keywords) {
+            if (text.includes(kw)) score++;
+        }
+        if (score > bestScore) { bestScore = score; bestPhase = phase; }
+    }
+    return bestPhase;
+}
+
+// Group consecutive same-phase atoms into phase blocks
+function groupIntoPhases(atomList) {
+    const groups = [];
+    let current = null;
+    for (const a of atomList) {
+        const phase = classifyPhase(a);
+        if (current && current.phase === phase) {
+            current.atoms.push(a);
+        } else {
+            current = { phase, atoms: [a] };
+            groups.push(current);
+        }
+    }
+    return groups;
+}
+
+// Find corroboration tier for an atom's canonical refs
+function getAtomTier(atom) {
+    if (!fkg) return 'UNCORROBORATED';
+    const refs = [atom.who_canonical, atom.to_whom_canonical, atom.where_canonical].filter(Boolean);
+    const tiers = ['CONVERGENT', 'CORROBORATED', 'SUPPORTED'];
+    for (const ref of refs) {
+        const node = fkg.nodes.find(n => n.id === ref);
+        if (node && tiers.includes(node.corroboration_tier)) return node.corroboration_tier;
+    }
+    return 'UNCORROBORATED';
+}
+
+const TIER_BADGES = {
+    CONVERGENT: { icon: '🟢', label: 'CONVERGENT' },
+    CORROBORATED: { icon: '🟡', label: 'CORROBORATED' },
+    SUPPORTED: { icon: '🔵', label: 'SUPPORTED' },
+    UNCORROBORATED: { icon: '⚪', label: 'UNCORROBRTD' },
+};
+
+// Best tier from a group of atoms
+function groupTier(atoms) {
+    const rank = { CONVERGENT: 3, CORROBORATED: 2, SUPPORTED: 1, UNCORROBORATED: 0 };
+    let best = 'UNCORROBORATED';
+    for (const a of atoms) {
+        const t = getAtomTier(a);
+        if (rank[t] > rank[best]) best = t;
+    }
+    return best;
+}
+
+// Build the title for a phase group (first atom's did_what, full text)
+function phaseTitle(group) {
+    const first = group.atoms[0];
+    return first.did_what || first.who || 'Unknown action';
+}
+
+// Render a single phase card
+function renderPhaseCard(group, idx) {
+    const cfg = FLOW_PHASES[group.phase] || FLOW_PHASES.DETENTION;
+    const tier = groupTier(group.atoms);
+    const tb = TIER_BADGES[tier] || TIER_BADGES.UNCORROBORATED;
+    const title = phaseTitle(group);
+    const when = group.atoms[0].when || group.atoms[0].when_iso || '';
+    const where = group.atoms[0].where || '';
+    const atomCount = group.atoms.length;
+    const cardId = `flow-phase-${idx}`;
+
+    let html = `<div class="flow-phase" style="border-left-color:${cfg.color}" id="${cardId}">`;
+    html += `<div class="flow-phase-label"><span class="flow-phase-dot" style="background:${cfg.color}"></span><span style="color:${cfg.color}">${group.phase}</span></div>`;
+    html += `<div class="flow-phase-title">${escHtml(title)}</div>`;
+    html += `<div class="flow-phase-meta">`;
+    if (when) html += `<span>📅 ${escHtml(when)}</span>`;
+    if (where) html += `<span>📍 ${escHtml(where)}</span>`;
+    html += `<span>${tb.icon} ${tb.label}</span>`;
+    html += `</div>`;
+
+    // Expandable atom section
+    if (atomCount > 0) {
+        html += `<div class="flow-phase-count" onclick="event.stopPropagation(); toggleFlowAtoms('${cardId}')">${atomCount} atom${atomCount > 1 ? 's' : ''} ▸</div>`;
+        html += `<div class="flow-atoms" id="${cardId}-atoms">`;
+        for (const a of group.atoms) {
+            const nodeId = a.who_canonical || a.where_canonical || '';
+            const esc = (a.source_file || '').replace(/'/g, "\\'");
+            html += `<div class="flow-atom" onclick="event.stopPropagation(); navigateToNode('${nodeId}','${esc}',${a.source_cue || 0},'${a.id}')">`;
+            html += `<div class="flow-atom-id">${a.id}</div>`;
+            html += `<div class="flow-atom-text">${escHtml(a.did_what || '')}</div>`;
+            html += `<div class="flow-atom-detail">`;
+            if (a.who) html += `👤 ${escHtml(a.who)}<br>`;
+            if (a.source_file) html += `📄 ${escHtml(a.source_file)}<br>`;
+            if (a.source_cue) html += `⏱ ${formatCue(a.source_cue)}<br>`;
+            html += `🔒 ${a.confidence || 'unknown'}`;
+            html += `</div></div>`;
+        }
+        html += `</div>`;
     }
 
-    container.addEventListener('wheel', (e) => {
-        e.preventDefault();
-        const delta = e.deltaY > 0 ? 0.9 : 1.1;
-        flowZoom = Math.max(0.3, Math.min(3, flowZoom * delta));
-        applyTransform();
-    }, { passive: false });
-
-    container.addEventListener('mousedown', (e) => {
-        if (e.target.closest('.flow-node')) return;
-        flowDragging = true;
-        flowDragStart = { x: e.clientX - flowPanX, y: e.clientY - flowPanY };
-        container.style.cursor = 'grabbing';
-    });
-    container.addEventListener('mousemove', (e) => {
-        if (!flowDragging) return;
-        flowPanX = e.clientX - flowDragStart.x;
-        flowPanY = e.clientY - flowDragStart.y;
-        applyTransform();
-    });
-    container.addEventListener('mouseup', () => { flowDragging = false; container.style.cursor = 'grab'; });
-    container.addEventListener('mouseleave', () => { flowDragging = false; container.style.cursor = 'grab'; });
-
-    let touchStart = null;
-    container.addEventListener('touchstart', (e) => {
-        if (e.touches.length === 1) {
-            touchStart = { x: e.touches[0].clientX - flowPanX, y: e.touches[0].clientY - flowPanY };
-        }
-    }, { passive: true });
-    container.addEventListener('touchmove', (e) => {
-        if (touchStart && e.touches.length === 1) {
-            flowPanX = e.touches[0].clientX - touchStart.x;
-            flowPanY = e.touches[0].clientY - touchStart.y;
-            applyTransform();
-        }
-    }, { passive: true });
-    container.addEventListener('touchend', () => { touchStart = null; });
+    html += `</div>`;
+    return html;
 }
 
-function flowZoomIn() { flowZoom = Math.min(3, flowZoom * 1.2); applyFlowTransform(); }
-function flowZoomOut() { flowZoom = Math.max(0.3, flowZoom * 0.8); applyFlowTransform(); }
-function flowZoomReset() { flowZoom = 1; flowPanX = 0; flowPanY = 0; applyFlowTransform(); }
-function applyFlowTransform() {
-    const svg = document.querySelector('.flow-svg');
-    if (svg) svg.style.transform = `translate(${flowPanX}px,${flowPanY}px) scale(${flowZoom})`;
+function formatCue(cue) {
+    if (!cue) return '';
+    const s = Math.round(cue);
+    const m = Math.floor(s / 60);
+    const ss = (s % 60).toString().padStart(2, '0');
+    const h = Math.floor(m / 60);
+    const mm = (m % 60).toString().padStart(2, '0');
+    return h > 0 ? `${h}:${mm}:${ss}` : `${mm}:${ss}`;
 }
 
-// --- Cross-witness atom detection (for CW filter in Flow/Timeline) ---
+function toggleFlowAtoms(cardId) {
+    const el = document.getElementById(cardId + '-atoms');
+    if (el) el.classList.toggle('open');
+    // Update the count label
+    const countEl = el?.previousElementSibling;
+    if (countEl && el) {
+        const n = el.querySelectorAll('.flow-atom').length;
+        countEl.textContent = el.classList.contains('open') ? `${n} atom${n > 1 ? 's' : ''} ▾` : `${n} atom${n > 1 ? 's' : ''} ▸`;
+    }
+}
+
+// Find cross-witness convergence nodes
+function findConvergenceNodes() {
+    if (!fkg || !atoms) return [];
+    const w1Atoms = atoms.filter(a => (a.witness || 'W1') === 'W1');
+    const w2Atoms = atoms.filter(a => (a.witness || 'W1') === 'W2');
+    const w1Refs = new Set();
+    const w2Refs = new Set();
+    w1Atoms.forEach(a => { [a.who_canonical, a.to_whom_canonical, a.where_canonical].filter(Boolean).forEach(r => w1Refs.add(r)); });
+    w2Atoms.forEach(a => { [a.who_canonical, a.to_whom_canonical, a.where_canonical].filter(Boolean).forEach(r => w2Refs.add(r)); });
+
+    // Nodes referenced by both + FKG SHARED nodes
+    const convIds = new Set();
+    w1Refs.forEach(r => { if (w2Refs.has(r)) convIds.add(r); });
+    fkg.nodes.filter(n => n.witness_source === 'SHARED').forEach(n => convIds.add(n.id));
+
+    return [...convIds].map(id => {
+        const node = fkg.nodes.find(n => n.id === id);
+        return node || { id, type: 'UNKNOWN', canonical_name: id, corroboration_tier: 'UNCORROBORATED' };
+    });
+}
+
+// --- Main Render ---
+function renderEvidenceFlow() {
+    const container = document.getElementById('flow-container');
+    if (!atoms || atoms.length === 0) {
+        container.innerHTML = '<div class="srt-no-data">No atom data available for Forensic Flow.</div>';
+        return;
+    }
+
+    const w1Atoms = atoms.filter(a => (a.witness || 'W1') === 'W1').sort((a, b) => {
+        const aw = a.when_iso || a.when || 'ZZZZ';
+        const bw = b.when_iso || b.when || 'ZZZZ';
+        return aw !== bw ? aw.localeCompare(bw) : (a.source_cue || 0) - (b.source_cue || 0);
+    });
+    const w2Atoms = atoms.filter(a => (a.witness || 'W1') === 'W2').sort((a, b) => {
+        const aw = a.when_iso || a.when || 'ZZZZ';
+        const bw = b.when_iso || b.when || 'ZZZZ';
+        return aw !== bw ? aw.localeCompare(bw) : (a.source_cue || 0) - (b.source_cue || 0);
+    });
+
+    const w1Phases = groupIntoPhases(w1Atoms);
+    const w2Phases = groupIntoPhases(w2Atoms);
+    const convNodes = findConvergenceNodes();
+
+    // Cross-witness edge count
+    const cwEdges = fkg ? fkg.edges.filter(e => e.type === 'CROSS_WITNESS').length : 0;
+
+    let html = '';
+
+    // Search bar
+    html += `<div class="flow-search-wrap"><span class="flow-search-icon">🔍</span><input type="text" class="flow-search" placeholder="Search atoms..." oninput="filterFlowCards(this.value)"></div>`;
+
+    // Stats
+    html += `<div class="flow-stats">
+        <span style="color:#22c55e">● W1: ${w1Atoms.length}</span>
+        <span style="color:#3b82f6">● W2: ${w2Atoms.length}</span>
+        <span style="color:#a855f7">⚡ ${cwEdges} CW</span>
+        <span style="color:var(--text-muted)">${atoms.length} atoms</span>
+    </div>`;
+
+    // Dual layout
+    html += '<div class="flow-dual">';
+
+    // W1 lane
+    html += '<div class="flow-lane flow-lane-w1">';
+    html += `<div class="flow-lane-header">W1 — ${escHtml(w1Atoms[0]?.who || 'Witness 1')}</div>`;
+    for (let i = 0; i < w1Phases.length; i++) {
+        html += renderPhaseCard(w1Phases[i], `w1-${i}`);
+        if (i < w1Phases.length - 1) {
+            html += '<div class="flow-connector">↓</div>';
+        }
+    }
+    if (w1Phases.length === 0) html += '<div class="srt-no-data">No W1 atoms</div>';
+    html += '</div>';
+
+    // Center convergence column
+    html += '<div class="flow-center">';
+    html += '<div class="flow-lane-header" style="color:#a855f7; font-size:9px; border:1px solid #a855f733; background:#a855f70a;">⚡ CW</div>';
+    if (convNodes.length > 0) {
+        for (const node of convNodes) {
+            const tier = node.corroboration_tier || 'UNCORROBORATED';
+            const tb = TIER_BADGES[tier] || TIER_BADGES.UNCORROBORATED;
+            const name = (node.canonical_name || node.id || '').replace(/_/g, ' ');
+            html += `<div class="flow-conv" onclick="navigateToNode('${node.id}','','0','')">`;
+            html += `<div class="flow-conv-name">${escHtml(name)}</div>`;
+            html += `<div class="flow-conv-type">${node.type || ''}</div>`;
+            html += `<div class="flow-conv-tier">${tb.icon}</div>`;
+            html += `</div>`;
+        }
+    } else {
+        html += '<div style="font-size:9px; color:var(--text-muted); text-align:center; margin-top:40px;">No shared<br>entities</div>';
+    }
+    html += '</div>';
+
+    // W2 lane
+    html += '<div class="flow-lane flow-lane-w2">';
+    html += `<div class="flow-lane-header">W2 — ${escHtml(w2Atoms[0]?.who || 'Witness 2')}</div>`;
+    for (let i = 0; i < w2Phases.length; i++) {
+        html += renderPhaseCard(w2Phases[i], `w2-${i}`);
+        if (i < w2Phases.length - 1) {
+            html += '<div class="flow-connector">↓</div>';
+        }
+    }
+    if (w2Phases.length === 0) html += '<div class="srt-no-data">No W2 atoms</div>';
+    html += '</div>';
+
+    html += '</div>'; // .flow-dual
+    container.innerHTML = html;
+}
+
+// Search filter for flow cards
+function filterFlowCards(query) {
+    const q = query.toLowerCase().trim();
+    const cards = document.querySelectorAll('.flow-phase');
+    cards.forEach(card => {
+        if (!q) { card.style.display = ''; return; }
+        const text = card.textContent.toLowerCase();
+        card.style.display = text.includes(q) ? '' : 'none';
+    });
+}
+
+// --- Cross-witness atom detection (used by Timeline CW filter) ---
 function isCrossWitnessAtom(atom) {
     if (!fkg) return false;
     const sharedNodes = new Set(fkg.nodes.filter(n => n.witness_source === 'SHARED').map(n => n.id));
     const refs = [atom.who_canonical, atom.to_whom_canonical, atom.where_canonical].filter(Boolean);
     return refs.some(r => sharedNodes.has(r));
-}
-
-// --- Find FKG edge between two atoms' referenced nodes ---
-function findFlowEdge(atomA, atomB) {
-    if (!fkg) return null;
-    const aRefs = [atomA.who_canonical, atomA.to_whom_canonical, atomA.where_canonical].filter(Boolean);
-    const bRefs = [atomB.who_canonical, atomB.to_whom_canonical, atomB.where_canonical].filter(Boolean);
-    for (const edge of fkg.edges) {
-        const fwd = aRefs.includes(edge.from_node) && bRefs.includes(edge.to_node);
-        const rev = aRefs.includes(edge.to_node) && bRefs.includes(edge.from_node);
-        if (fwd || rev) return edge;
-    }
-    return null;
-}
-
-// --- Evidence Flow — Data-Driven HTML Cards ---
-function renderEvidenceFlow() {
-    const container = document.getElementById('flow-container');
-    if (!atoms || atoms.length === 0) {
-        container.innerHTML = '<div class="srt-no-data">No atom data available for Evidence Flow.</div>';
-        return;
-    }
-
-    let filtered = atoms.filter(a => {
-        const w = a.witness || 'W1';
-        if (activeWitness === 'ALL') return true;
-        if (activeWitness === 'CW') return isCrossWitnessAtom(a);
-        return w === activeWitness;
-    });
-
-    filtered.sort((a, b) => {
-        const aWhen = a.when_iso || a.when || 'ZZZZ';
-        const bWhen = b.when_iso || b.when || 'ZZZZ';
-        if (aWhen !== bWhen) return aWhen.localeCompare(bWhen);
-        return (a.source_cue || 0) - (b.source_cue || 0);
-    });
-
-    if (filtered.length === 0) {
-        container.innerHTML = '<div class="srt-no-data">No atoms match the current filter.</div>';
-        return;
-    }
-
-    const w1Count = filtered.filter(a => (a.witness || 'W1') === 'W1').length;
-    const w2Count = filtered.filter(a => (a.witness || 'W1') === 'W2').length;
-    const cwLabel = activeWitness === 'CW' ? `<span style="color:#a855f7">⚡ Cross-Witness: ${filtered.length}</span>` : '';
-
-    let html = '<div class="flow-list">';
-    html += `<div class="flow-header">
-        <span style="color:#22c55e">● W1: ${w1Count}</span>
-        <span style="color:#3b82f6">● W2: ${w2Count}</span>
-        ${cwLabel}
-        <span style="color:var(--text-muted)">${filtered.length} atoms</span>
-    </div>`;
-
-    for (let i = 0; i < filtered.length; i++) {
-        const a = filtered[i];
-        const color = getFlowColor(a);
-        const witness = a.witness || 'W1';
-        const wColor = witness === 'W2' ? '#3b82f6' : '#22c55e';
-        const wLabel = witness === 'W2' ? 'W2' : 'W1';
-        const label = escHtml((a.did_what || '').substring(0, 65) + ((a.did_what || '').length > 65 ? '…' : ''));
-        const where = a.where || '';
-        const when = a.when || a.when_iso || '';
-        const who = a.who || '';
-        const nodeId = a.who_canonical || a.where_canonical || '';
-        const esc = (a.source_file || '').replace(/'/g, "\\'");
-
-        html += `<div class="flow-card" onclick="navigateToNode('${nodeId}','${esc}',${a.source_cue || 0},'${a.id}')" style="border-left-color:${color}">
-            <div class="flow-card-top">
-                <span class="flow-w-dot" style="background:${wColor}">${wLabel}</span>
-                <span class="flow-card-when">${escHtml(when)}</span>
-                <span class="flow-card-badge" style="color:${color}">${a.id}</span>
-            </div>
-            <div class="flow-card-label">${label}</div>
-            ${who ? `<div class="flow-card-who">${escHtml(who)}</div>` : ''}
-            ${where ? `<div class="flow-card-where">📍 ${escHtml(where)}</div>` : ''}
-        </div>`;
-
-        // Flow arrow with FKG edge relationship
-        if (i < filtered.length - 1) {
-            const edge = findFlowEdge(a, filtered[i + 1]);
-            if (edge) {
-                const eColor = EDGE_COLORS[edge.type] || '#334155';
-                const gated = edge.requires_human_gate ? ' ⚠️' : '';
-                html += `<div class="flow-arrow" style="color:${eColor};opacity:0.8" title="${edge.type}">
-                    ↓ <span style="font-size:8px;font-family:var(--font-mono);background:${eColor}22;padding:1px 4px;border-radius:3px">${edge.type.replace(/_/g, ' ')}${gated}</span>
-                </div>`;
-            } else {
-                html += '<div class="flow-arrow">▼</div>';
-            }
-        }
-    }
-    html += '</div>';
-    container.innerHTML = html;
-}
-
-function getFlowColor(atom) {
-    const did = (atom.did_what || '').toLowerCase();
-    const where = (atom.where || '').toLowerCase();
-    if (did.includes('torture') || did.includes('beat') || did.includes('shabeh') || did.includes('crucif') || did.includes('hung') || did.includes('kill') || did.includes('execute') || did.includes('struck') || did.includes('lash')) return '#dc2626';
-    if (did.includes('arrest') || did.includes('detain') || did.includes('prison') || did.includes('cell') || did.includes('chain') || where.includes('prison') || where.includes('jail')) return '#3b82f6';
-    if (did.includes('court') || did.includes('judge') || did.includes('sentence') || did.includes('trial') || did.includes('qisas') || did.includes('sharia')) return '#f59e0b';
-    if (did.includes('raid') || did.includes('regime') || did.includes('air force') || did.includes('military')) return '#6366f1';
-    if (did.includes('transfer') || did.includes('escape') || did.includes('moved')) return '#f97316';
-    if (did.includes('confirm') || did.includes('visit') || did.includes('verified') || did.includes('corroborate')) return '#10b981';
-    return '#64748b';
 }
 
 function escHtml(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
