@@ -1373,10 +1373,12 @@ function toggleSidebar() {
 
 // --- Reset Graph ---
 let temporalMode = false;
+let physicsRunning = false;
 function resetGraph() {
     if (!cy) return;
     selectedNode = null;
     temporalMode = false;
+    physicsRunning = false;
     clearSavedLayout();
     document.getElementById('inspector').classList.add('hidden');
     clearHighlight();
@@ -1395,6 +1397,43 @@ function resetGraph() {
         fit: true,
         padding: 30,
     }).run();
+    updatePhysicsBtn();
+}
+
+// --- Gentle Physics Toggle ---
+function togglePhysics() {
+    if (!cy) return;
+    physicsRunning = !physicsRunning;
+    updatePhysicsBtn();
+
+    if (physicsRunning) {
+        // Run gentle physics — soft forces, from current positions (no randomize)
+        cy.layout({
+            name: 'cose-bilkent',
+            animate: true,
+            animationDuration: 1500,
+            randomize: false,
+            nodeDimensionsIncludeLabels: true,
+            idealEdgeLength: 180,
+            nodeRepulsion: 3000,
+            edgeElasticity: 0.15,
+            gravity: 0.08,
+            gravityRange: 2.0,
+            numIter: 1500,
+            fit: true,
+            padding: 40,
+            tile: false,
+        }).run();
+    }
+    // When toggled off, nodes just stay where they are
+}
+
+function updatePhysicsBtn() {
+    const btn = document.getElementById('btn-physics');
+    if (btn) {
+        btn.classList.toggle('active', physicsRunning);
+        btn.title = physicsRunning ? 'Physics: ON (click to stop)' : 'Physics: OFF (click to start)';
+    }
 }
 
 // --- Panel System ---
