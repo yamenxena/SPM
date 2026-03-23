@@ -1419,8 +1419,8 @@ function togglePhysics() {
             fit: false,              // don't auto-fit, let the user pan/zoom freely
             animate: true,           // animate node movements
             randomize: false,        // start from current positions
-            nodeSpacing: 80,         // minimum space between nodes (gentle repulsion)
-            edgeLength: 150,         // target edge length (spring rest length)
+            nodeSpacing: 25,         // minimum space between nodes (gentle repulsion)
+            edgeLength: 80,          // target edge length (spring rest length)
             convergenceThreshold: 0.01,
             gravity: false,          // no gravity — nodes float naturally
             avoidOverlap: true,      // prevent node overlap
