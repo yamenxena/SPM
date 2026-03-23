@@ -380,6 +380,8 @@ function initCytoscape() {
         if (restoreLayout()) {
             console.log('Restored saved layout from localStorage');
         }
+        // Auto-start physics after initial layout settles
+        startPhysics();
     }, 500);
 }
 
@@ -1403,37 +1405,46 @@ function resetGraph() {
 
 // --- Live Force Physics (cola) ---
 let _physicsLayout = null;
+
+function startPhysics() {
+    if (!cy) return;
+    // Stop any existing layout first
+    if (_physicsLayout) { try { _physicsLayout.stop(); } catch(e){} }
+
+    physicsRunning = true;
+    _physicsLayout = cy.layout({
+        name: 'cola',
+        infinite: true,
+        fit: false,
+        animate: true,
+        randomize: false,
+        nodeSpacing: 25,
+        edgeLength: 80,
+        convergenceThreshold: 0.01,
+        gravity: false,
+        avoidOverlap: true,
+        handleDisconnected: true,
+        ungrabifyWhileSimulating: false,
+    });
+    _physicsLayout.run();
+    updatePhysicsBtn();
+}
+
+function stopPhysics() {
+    physicsRunning = false;
+    if (_physicsLayout) {
+        try { _physicsLayout.stop(); } catch(e) {}
+        _physicsLayout = null;
+    }
+    updatePhysicsBtn();
+}
+
 function togglePhysics() {
     if (!cy) return;
-    physicsRunning = !physicsRunning;
-    updatePhysicsBtn();
-
     if (physicsRunning) {
-        // Stop any existing layout
-        if (_physicsLayout) { try { _physicsLayout.stop(); } catch(e){} }
-
-        // Start continuous cola simulation — nodes repel, edges spring, live interaction
-        _physicsLayout = cy.layout({
-            name: 'cola',
-            infinite: true,          // continuous simulation — never stops until we stop it
-            fit: false,              // don't auto-fit, let the user pan/zoom freely
-            animate: true,           // animate node movements
-            randomize: false,        // start from current positions
-            nodeSpacing: 25,         // minimum space between nodes (gentle repulsion)
-            edgeLength: 80,          // target edge length (spring rest length)
-            convergenceThreshold: 0.01,
-            gravity: false,          // no gravity — nodes float naturally
-            avoidOverlap: true,      // prevent node overlap
-            handleDisconnected: true,// keep disconnected components from drifting away
-            ungrabifyWhileSimulating: false, // allow dragging nodes while physics runs
-        });
-        _physicsLayout.run();
+        stopPhysics();
     } else {
-        // Stop physics — nodes stay where they are
-        if (_physicsLayout) {
-            try { _physicsLayout.stop(); } catch(e) {}
-            _physicsLayout = null;
-        }
+        startPhysics();
     }
 }
 
