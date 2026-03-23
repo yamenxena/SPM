@@ -1979,12 +1979,21 @@ function renderEvidenceFlow() {
         <span style="color:var(--text-muted)">${atoms.length} atoms</span>
     </div>`;
 
+    // Resolve witness names from FKG
+    const getWitnessName = (ws) => {
+        if (!fkg) return 'Witness';
+        const p = fkg.nodes.find(n => n.type === 'PERSON' && n.sub_type === 'WITNESS' && n.witness_source === ws);
+        return p ? (p.canonical_name || p.id).replace(/_/g, ' ') : 'Witness';
+    };
+    const w1Name = getWitnessName('W1');
+    const w2Name = getWitnessName('W2');
+
     // Dual layout
     html += '<div class="flow-dual">';
 
     // W1 lane
     html += '<div class="flow-lane flow-lane-w1">';
-    html += `<div class="flow-lane-header">W1 — ${escHtml(w1Atoms[0]?.who || 'Witness 1')}</div>`;
+    html += `<div class="flow-lane-header">W1 — ${escHtml(w1Name)}</div>`;
     for (let i = 0; i < w1Phases.length; i++) {
         html += renderPhaseCard(w1Phases[i], `w1-${i}`);
         if (i < w1Phases.length - 1) {
@@ -2015,7 +2024,7 @@ function renderEvidenceFlow() {
 
     // W2 lane
     html += '<div class="flow-lane flow-lane-w2">';
-    html += `<div class="flow-lane-header">W2 — ${escHtml(w2Atoms[0]?.who || 'Witness 2')}</div>`;
+    html += `<div class="flow-lane-header">W2 — ${escHtml(w2Name)}</div>`;
     for (let i = 0; i < w2Phases.length; i++) {
         html += renderPhaseCard(w2Phases[i], `w2-${i}`);
         if (i < w2Phases.length - 1) {
