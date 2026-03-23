@@ -1261,7 +1261,10 @@ function navigateToNode(nodeId, sourceFile, sourceCue, atomId) {
     cy.animate({ fit: { eles: node, padding: 100 } }, { duration: 400 });
     setTimeout(() => {
         node.select();
-        showInspector(node.data('nodeData'));
+        // Only show inspector when no side panel is open (avoids visual clutter)
+        if (!activePanel) {
+            showInspector(node.data('nodeData'));
+        }
         highlightNeighbors(node);
     }, 420);
 }
@@ -2036,6 +2039,84 @@ function renderEvidenceFlow() {
 
     html += '</div>'; // .flow-dual
     container.innerHTML = html;
+    initFlowZoomPan();
+}
+
+// --- Flow Zoom & Pan ---
+let _fzoom = 1, _fpanX = 0, _fpanY = 0;
+function initFlowZoomPan() {
+    const container = document.getElementById('flow-container');
+    const dual = container.querySelector('.flow-dual');
+    if (!dual) return;
+
+    _fzoom = 1; _fpanX = 0; _fpanY = 0;
+    dual.style.transformOrigin = '0 0';
+
+    function applyFT() {
+        dual.style.transform = `translate(${_fpanX}px,${_fpanY}px) scale(${_fzoom})`;
+    }
+
+    // Wheel zoom
+    container.addEventListener('wheel', (e) => {
+        // Don't hijack scroll when not zoomed
+        if (_fzoom === 1 && e.deltaY > 0) return;
+        if (_fzoom <= 0.35 && e.deltaY > 0) return;
+        e.preventDefault();
+        const delta = e.deltaY > 0 ? 0.92 : 1.08;
+        const newZoom = Math.max(0.3, Math.min(3, _fzoom * delta));
+        // Zoom toward cursor
+        const rect = container.getBoundingClientRect();
+        const mx = e.clientX - rect.left;
+        const my = e.clientY - rect.top;
+        _fpanX = mx - (mx - _fpanX) * (newZoom / _fzoom);
+        _fpanY = my - (my - _fpanY) * (newZoom / _fzoom);
+        _fzoom = newZoom;
+        applyFT();
+    }, { passive: false });
+
+    // Drag pan
+    let dragging = false, dragStart = null;
+    container.addEventListener('mousedown', (e) => {
+        if (e.target.closest('.flow-phase, .flow-conv, .flow-atom, .flow-search, .flow-zoom-btn')) return;
+        dragging = true;
+        dragStart = { x: e.clientX - _fpanX, y: e.clientY - _fpanY };
+        container.style.cursor = 'grabbing';
+        e.preventDefault();
+    });
+    container.addEventListener('mousemove', (e) => {
+        if (!dragging) return;
+        _fpanX = e.clientX - dragStart.x;
+        _fpanY = e.clientY - dragStart.y;
+        applyFT();
+    });
+    container.addEventListener('mouseup', () => { dragging = false; container.style.cursor = ''; });
+    container.addEventListener('mouseleave', () => { dragging = false; container.style.cursor = ''; });
+
+    // Add zoom controls
+    const controls = document.createElement('div');
+    controls.className = 'flow-zoom-controls';
+    controls.innerHTML = `
+        <button class="flow-zoom-btn" onclick="flowZoomIn()" title="Zoom In">+</button>
+        <button class="flow-zoom-btn" onclick="flowZoomOut()" title="Zoom Out">−</button>
+        <button class="flow-zoom-btn" onclick="flowZoomReset()" title="Reset">⟳</button>
+    `;
+    container.appendChild(controls);
+}
+
+function flowZoomIn() {
+    _fzoom = Math.min(3, _fzoom * 1.2);
+    const dual = document.querySelector('.flow-dual');
+    if (dual) dual.style.transform = `translate(${_fpanX}px,${_fpanY}px) scale(${_fzoom})`;
+}
+function flowZoomOut() {
+    _fzoom = Math.max(0.3, _fzoom * 0.8);
+    const dual = document.querySelector('.flow-dual');
+    if (dual) dual.style.transform = `translate(${_fpanX}px,${_fpanY}px) scale(${_fzoom})`;
+}
+function flowZoomReset() {
+    _fzoom = 1; _fpanX = 0; _fpanY = 0;
+    const dual = document.querySelector('.flow-dual');
+    if (dual) dual.style.transform = '';
 }
 
 // Search filter for flow cards
