@@ -825,6 +825,24 @@ function closeDossier() {
     const footer = document.getElementById('data-footer');
     if (footer) footer.style.display = '';
 
+    // Restore panel system
+    const panelRight = document.getElementById('panel-right');
+    if (panelRight) panelRight.style.display = '';
+    const inspector = document.getElementById('inspector');
+    if (inspector) inspector.style.display = '';
+    const sourcePanel = document.getElementById('source-panel');
+    if (sourcePanel) sourcePanel.style.display = '';
+
+    // Reset panel state so togglePanel works correctly
+    activePanel = null;
+    const containers = ['flow', 'timeline', 'taxonomy', 'analysis'];
+    containers.forEach(c => {
+        const btn = document.getElementById('btn-' + c);
+        if (btn) btn.classList.remove('active');
+    });
+    const pr = document.getElementById('panel-right');
+    if (pr) pr.classList.add('hidden');
+
     // Restore navbar
     document.getElementById('btn-sidebar').style.display = '';
     document.getElementById('btn-back').style.display = 'none';
