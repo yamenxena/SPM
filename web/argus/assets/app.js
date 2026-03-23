@@ -296,7 +296,8 @@ function initCytoscape() {
         ],
         layout: {
             name: 'cose-bilkent',
-            animate: false, 
+            animate: true, 
+            animationDuration: 1200,
             randomize: true,
             nodeDimensionsIncludeLabels: true,
             idealEdgeLength: 120,
@@ -382,7 +383,7 @@ function initCytoscape() {
         }
         // Auto-start physics after initial layout settles
         startPhysics();
-    }, 500);
+    }, 2000);
 }
 
 // --- Highlight neighbors ---
