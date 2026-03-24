@@ -66,9 +66,11 @@ Every finalized translation must exist in **both** SRT and DOCX format in the ou
     02_..._En.docx
 ```
 
+> ⚠️ **DOCX = exact structural copy of the SRT.** The DOCX must preserve the full SRT structure byte-for-byte: cue numbers, timestamps (`HH:MM:SS,mmm --> HH:MM:SS,mmm`), text lines, and blank separator lines. It is NOT a text-only extract. The DOCX is a verbatim copy of the SRT content in Word format.
+
 | Source Format | Generate | Method |
 |:-------------:|:--------:|--------|
-| SRT only | → DOCX | Extract text lines (no timestamps, no cue numbers), one paragraph per cue → `DOCX/` subfolder |
+| SRT only | → DOCX | Copy the entire SRT content (cue numbers + timestamps + text + blank lines) into a DOCX file, preserving exact structure |
 | DOCX only | → SRT | Match DOCX text to Arabic SRT timestamps via content cross-reference |
 
 **Script:** `scripts/srt_docx_converter.py`
