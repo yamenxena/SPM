@@ -53,7 +53,7 @@ parent: spm_glossary (v1.5, split 2026-03-09)
 
 ### 13.2 Canonical SPM Name Spellings
 
-Muhammad (not Mohammed), Ahmad, Hassan, Hussein, Abdullah, Ismail, Yaqoub, Manhal (not Munhul), Youssef, Laith, Yehya, Jihad, Ayham, Saeed, Muhannad, Mohyeddin, Abu Muhammad al-Jowlani, Abdul Latif, Abdul Wahed, Abu Seif, al-Kheder, Um Muhammad, Um Mousa, Abu Fulan, Younis, Qader, Firas, Dirar Mistou, Muhammad al-Mifalani (not Mohammed)
+Muhammad (not Mohammed), Ahmad, Hassan, Hussein, Abdullah, Ismail, Yaqoub, Manhal (not Munhul), Yousuf (not Youssef, not Yusuf), Laith, Yehya, Jihad, Ayham, Saeed, Muhannad, Mohyeddin, Abu Muhammad al-Jowlani, Abdul Latif, Abdul Wahed, Abu Seif, al-Kheder, Um Muhammad, Um Mousa, Abu Fulan, Younis, Qader, Firas, Dirar Mistou, Muhammad al-Mifalani (not Mohammed)
 
 ---
 
@@ -131,7 +131,7 @@ Muhammad (not Mohammed), Ahmad, Hassan, Hussein, Abdullah, Ismail, Yaqoub, Manha
 | Stadium Prison (Point 11) | ملعب الرقة البلدي (ISIS) |
 | Beit al-Akrad Prison | (ISIS) |
 | Old Criminal Prison (Manbij) | سجن الجنائية القديم في منبج (ISIS) |
-| Burj Prison | First mention: "Burj (Tower) Prison" then "Burj Prison" (not "Al-Burj", not "Bourj") (ISIS) |
+| Bourj Prison | First mention: "Bourj (Tower) Prison" then "Bourj Prison" (not "Burj", not "al-Bourj", not "al-Burj") (ISIS) |
 | Bash Tapia | Castle/Prison (ISIS) |
 | Meydan House | بيت الميدان (ISIS) |
 | Rumaila Prison | (ISIS) |
@@ -142,7 +142,7 @@ Muhammad Saad Eddin, Ismail Saad Eddin, Muhammad Zuheir Kinaan, Muhammad Muneer 
 
 ### 14.4 Key Personnel
 
-ADMSP (Association of Detainees and Missing in Sednaya Prison) | Dr. Lujain | Warrant Officer Mohyeddin | Aws Salloum | Luay Youssef | Brigadier General Talaat Mahfouz | Dirar Mistou
+ADMSP (Association of Detainees and Missing in Sednaya Prison) | Dr. Lujain | Warrant Officer Mohyeddin | Aws Salloum | Luay Yousuf | Brigadier General Talaat Mahfouz | Dirar Mistou
 
 ### 14.5 Iraq — Key Locations
 

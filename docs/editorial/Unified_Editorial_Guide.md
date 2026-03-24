@@ -45,7 +45,7 @@ Transliterate according to **Fus'ha conventions.** Cross-reference with Google M
 | Long **و** → "ou" | Baloum |
 | Apostrophes sparingly, only if common | Qa'im |
 | American English spelling | Neighborhood, Tire |
-| **Once-then-English:** Transliterate on first mention with gloss. Use English equivalent for all subsequent occurrences. | First: *doulab* [tire]. After: tire |
+| **Once-then-English:** Use the English translation on first mention with Arabic transliteration in brackets. Use English equivalent only for all subsequent occurrences. | First: Tire [doulab]. After: Tire |
 | **No quotation marks around names.** Arabic quotes names; English does not. | ✅ Um al-Mauuna Church ❌ "Um al-Mauuna Church" |
 
 ### Canonical Place Spellings
@@ -57,7 +57,7 @@ Sednaya, Raqqa, Rumaila, Tabqa (not "Tabaqa", not "Al-Tabqa"), Nineveh, Turkey (
 
 ### Canonical Name Spellings
 
-Muhammad (not Mohammed), Ahmad, Hassan, Hussein, Abdullah, Ismail, Yaqoub, Manhal (not Munhul), Youssef, Laith, Yehya, Jihad, Ayham, Saeed, Muhannad, Abu Muhammad al-Jowlani, Abdul Latif, Abdul Wahed, Abu Seif, al-Kheder, Um Muhammad, Um Mousa, Abu Fulan, Younis, Qader, Firas, Dirar Mistou, Muhammad al-Mifalani (not Mohammed), Mohyeddin
+Muhammad (not Mohammed), Ahmad, Hassan, Hussein, Abdullah, Ismail, Yaqoub, Manhal (not Munhul), Yousuf (not Youssef, not Yusuf), Laith, Yehya, Jihad, Ayham, Saeed, Muhannad, Abu Muhammad al-Jowlani, Abdul Latif, Abdul Wahed, Abu Seif, al-Kheder, Um Muhammad, Um Mousa, Abu Fulan, Younis, Qader, Firas, Dirar Mistou, Muhammad al-Mifalani (not Mohammed), Mohyeddin
 
 ---
 
@@ -89,7 +89,7 @@ Muhammad Saad Eddin, Ismail Saad Eddin, Muhammad Zuheir Kinaan, Muhammad Muneer 
 
 ### Key Personnel
 
-ADMSP (Association of Detainees and Missing in Sednaya Prison) | Dr. Lujain | Warrant Officer Mohyeddin | Aws Salloum | Luay Youssef | Brigadier General Talaat Mahfouz | Dirar Mistou
+ADMSP (Association of Detainees and Missing in Sednaya Prison) | Dr. Lujain | Warrant Officer Mohyeddin | Aws Salloum | Luay Yousuf | Brigadier General Talaat Mahfouz | Dirar Mistou
 
 ---
 
@@ -165,10 +165,10 @@ ADMSP (Association of Detainees and Missing in Sednaya Prison) | Dr. Lujain | Wa
 | الأناشيد الجهادية | Jihadi chants |
 | التأديبية | disciplinary |
 | محاولة هروب | attempted escape |
-| الدولاب | *doulab* [tire] |
-| الشبح | *shabeh* [suspension] |
-| الفلقة | *falaqa* [whipping] |
-| بساط الريح | *bisat ar-rih* [flying carpet] |
+| الدولاب | Tire [*doulab*] — first mention: "Tire [doulab]", then "Tire" |
+| الشبح | suspension [*shabah*] — first mention: "suspension [shabah]", then "suspension" |
+| الفلقة | whipping [*falaqa*] — first mention: "whipping [falaqa]", then "whipping" |
+| بساط الريح | flying carpet [*bisat al-rih*] — first mention: "flying carpet [bisat al-rih]", then "flying carpet" |
 | Green hose | "Lakhdar Brahimi" (not "al-Akhdar al-Ibrahimi") |
 | الحنتور / الحنتورة | *hantour* / *hantoura* [bed-like contraption] |
 | البالينغو | *balingo* [hoist for suspension] |
@@ -176,7 +176,7 @@ ADMSP (Association of Detainees and Missing in Sednaya Prison) | Dr. Lujain | Wa
 | الكرسي الألماني | the **German chair** (torture device) |
 | إعدام وهمي | **mock execution** |
 | صندوق العجائب | **Wonder Box** |
-| سجن البرج | **Burj (Tower) Prison** (not "Al-Burj", not "Bourj") |
+| سجن البرج | **Bourj (Tower) Prison** (not "Burj", not "al-Bourj", not "al-Burj") |
 | سجن المرايا | **Maraya (Mirror) Prison** |
 | حرمان من النوم | sleep deprivation |
 | حرمان حسي | sensory deprivation |
@@ -241,7 +241,7 @@ ADMSP (Association of Detainees and Missing in Sednaya Prison) | Dr. Lujain | Wa
 | بيت الميدان | Meydan House |
 | كنيسة ماريوسف | (pending translation) |
 | Rumaila Prison | |
-| Burj Prison | First mention: "Burj (Tower) Prison," then "Burj Prison" (not "Al-Burj", not "Bourj") |
+| Bourj Prison | First mention: "Bourj (Tower) Prison," then "Bourj Prison" (not "Burj", not "al-Bourj", not "al-Burj") |
 | Bash Tapia | Castle/Prison |
 | Ahdath (Juvenile) Prison | |
 
@@ -417,7 +417,7 @@ Footnote number goes **after** the comma or full stop. Footnotes end with a peri
 | Rule | Details |
 |------|---------|
 | ⚠️ **Consistent name spelling is legally critical** | If cases go to court, inconsistent name spelling across documents weakens evidence. Lawyers will exploit inconsistencies. |
-| ⚠️ **Youssef** = Y-O-U-S-S-E-F | Never Yousuf, Yusef, or Yusuf. |
+| ⚠️ **Yousuf** = Y-O-U-S-U-F | Never Youssef, Yusef, or Yusuf. |
 | ⚠️ **Master name list** | Always cross-reference the master name list before translating any document with witnesses or named individuals. |
 
 ### Process

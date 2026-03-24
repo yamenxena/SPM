@@ -169,7 +169,7 @@ parent: spm_glossary (v1.5, split 2026-03-09)
 | صندوق العجائب | Wonder Box |
 | التأديبيات (زنازين) | "disciplinary" cells |
 | مجموعة الانفراديات | block of solitary cells |
-| سجن البرج | Burj (Tower) Prison (not "Al-Burj", not "Bourj") |
+| سجن البرج | Bourj (Tower) Prison (not "Burj", not "al-Bourj", not "al-Burj") |
 | سجن المرايا | Maraya (Mirror) Prison |
 | مركز التوبة | repentance center |
 | محتسب | *muhtasib* (market-morals inspector) |
