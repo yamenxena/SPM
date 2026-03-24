@@ -167,7 +167,7 @@ parent: spm_glossary (v1.5, split 2026-03-09)
 | العربية | English |
 |---------|---------|
 | الدولاب | Tire [*doulab*] — first mention: "Tire [doulab]", then "Tire" |
-| الشبح | suspension [*shabah*] — first mention: "suspension [shabah]", then "suspension" |
+| الشبح | suspension [*shabeh*] — first mention: "suspension [shabeh]", then "suspension" |
 | الفلقة | whipping [*falaqa*] — first mention: "whipping [falaqa]", then "whipping" |
 | بساط الريح | flying carpet [*bisat al-rih*] — first mention: "flying carpet [bisat al-rih]", then "flying carpet" |
 | الحنتور / الحنتورة | *hantour* / *hantoura* [bed-like contraption] |

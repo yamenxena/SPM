@@ -145,7 +145,7 @@ python scripts/srt_docx_converter.py scan <output_dir>
 | Arabic | First Mention | Subsequent |
 |--------|--------------|------------|
 | الدولاب | `Tire [<i>doulab</i>]` | Tire |
-| الشبح | `suspension [<i>shabah</i>]` | suspension |
+| الشبح | `suspension [<i>shabeh</i>]` | suspension |
 | بساط الريح | `flying carpet [<i>bisat al-rih</i>]` | flying carpet |
 | سخرة | `<i>sukhra</i> [forced labor]` | forced labor |
 | الحنتور / الحنتورة | `<i>hantour</i>/<i>hantoura</i> [bed-like contraption]` | hantour |

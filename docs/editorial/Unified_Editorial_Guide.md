@@ -166,7 +166,7 @@ ADMSP (Association of Detainees and Missing in Sednaya Prison) | Dr. Lujain | Wa
 | التأديبية | disciplinary |
 | محاولة هروب | attempted escape |
 | الدولاب | Tire [*doulab*] — first mention: "Tire [doulab]", then "Tire" |
-| الشبح | suspension [*shabah*] — first mention: "suspension [shabah]", then "suspension" |
+| الشبح | suspension [*shabeh*] — first mention: "suspension [shabeh]", then "suspension" |
 | الفلقة | whipping [*falaqa*] — first mention: "whipping [falaqa]", then "whipping" |
 | بساط الريح | flying carpet [*bisat al-rih*] — first mention: "flying carpet [bisat al-rih]", then "flying carpet" |
 | Green hose | "Lakhdar Brahimi" (not "al-Akhdar al-Ibrahimi") |

@@ -53,7 +53,7 @@
 | disciplinary cell | التأديبية | disciplinary cell / disciplinary | disciplinary | ✅ |
 | balingo | البالنغو | `<i>balingo</i> [hoist for suspension]` | *balingo* [hoist for suspension] | ✅ |
 | tamasha | الطماشة | `<i>tamasha</i> [blindfold]` | *tamasha* [blindfold] | ✅ |
-| shabeh | الشبح | `<i>shabeh</i> [suspension]` | *shabeh* [suspension] | ✅ |
+| shabeh | الشبح | `suspension [<i>shabeh</i>]` | suspension [shabeh] [suspension] | ✅ |
 | Lakhdar Brahimi | الأخضر الإبراهيمي | Lakhdar Brahimi | Lakhdar Brahimi (not al-Akhdar) | ✅ |
 | group cell | مهجع | group cell | group cell (not dormitory) | ✅ |
 | solitary cell | منفردة | solitary cell | solitary cell | ✅ |

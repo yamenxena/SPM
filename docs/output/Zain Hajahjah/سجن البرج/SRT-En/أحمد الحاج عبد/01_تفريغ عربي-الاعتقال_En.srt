@@ -48,7 +48,7 @@ prison before? Describe this place for us
 
 12
 00:01:10,958 --> 00:01:16,208
-They brought us to Burj Prison. Of course, I knew Burj
+They brought us to Bourj Prison. Of course, I knew Bourj
 Prison before, everyone knows it, it’s a well-known prison
 
 13
@@ -110,7 +110,7 @@ They blindfolded me and took me inside, and they put me in the interrogation roo
 
 26
 00:02:30,166 --> 00:02:35,541
-Interviewer: What changes took place at the entrance of the Burj Prison?
+Interviewer: What changes took place at the entrance of the Bourj Prison?
 
 27
 00:02:35,666 --> 00:02:39,833
@@ -123,4 +123,4 @@ it didn’t have the destruction it has now
 
 29
 00:02:50,083 --> 00:02:57,416
-Now, it’s the most heavily bombed building in Tabqa, the Burj
+Now, it’s the most heavily bombed building in Tabqa, the Bourj

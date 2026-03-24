@@ -32,7 +32,7 @@
 
 | Term | Gloss | Cue |
 |------|-------|:---:|
-| `<i>shabeh</i>` | [suspension] | 151 |
+| `suspension` | [suspension] | 151 |
 | `<i>Lakhdar Brahimi</i>` | (torture hose — described in context) | 230 |
 | `<i>ludaelin</i>` | [dish soap] | 280 |
 | `<i>maqluba</i>` | [upside-down rice dish] | 254 |
@@ -109,7 +109,7 @@ Episode 08 (غرفة التحقيق) contains 35 cues of **unique footage** not 
 - Details about Abboud (fellow prisoner from Tabqa)
 - Physical layout of the interrogation room (carpet, cinder block wall)
 - Torture methods: pistol loading intimidation, hammer strikes, *Lakhdar Brahimi* hose
-- Torture instruments inventory: hammer, *balingo* [hoist], *shabeh* [suspension]
+- Torture instruments inventory: hammer, *balingo* [hoist], suspension [shabeh] [suspension]
 
 All terms conform to existing glossary entries.
 
